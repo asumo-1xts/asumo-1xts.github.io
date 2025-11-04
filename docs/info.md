@@ -29,7 +29,9 @@ lastUpdated: false
 
 ｱｽﾓが主にエフェクターを作るときの屋号です。
 
-製品情報などは[公式サイト](https://1xtelescope.com)まで。
+製品情報などは公式サイトまで。
+
+[1x telescope](@:https://1xtelescope.com/)
 
 ## このサイト
 
