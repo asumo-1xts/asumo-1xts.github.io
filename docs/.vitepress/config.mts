@@ -9,8 +9,8 @@ import {
   groupIconMdPlugin,
   groupIconVitePlugin,
 } from "vitepress-plugin-group-icons";
-import { linkToCardPlugin } from "vitepress-plugin-linkcard";
-import type { LinkToCardPluginOptions } from "vitepress-plugin-linkcard";
+import { linkToCardPlugin } from "vitepress-linkcard";
+import type { LinkToCardPluginOptions } from "vitepress-linkcard";
 
 export default defineConfig({
   lang: "ja",
