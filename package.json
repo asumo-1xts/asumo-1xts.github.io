@@ -25,7 +25,7 @@
     "npm-check-updates": "^19.1.2",
     "sitemap": "^9.0.0",
     "vitepress": "^1.6.4",
-    "vitepress-linkcard": "^1.0.1",
+    "vitepress-linkcard": "^1.1.0",
     "vitepress-plugin-codeblocks-fold": "^1.2.35",
     "vitepress-plugin-group-icons": "^1.6.5",
     "vitepress-plugin-image-viewer": "^1.1.6",
