@@ -58,7 +58,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: "x", link: "https://x.com/asumo_1xts" },
-      { icon: "github", link: "https://github.com/aSumo-1xts" },
+      { icon: "github", link: "https://github.com/asumo-1xts" },
     ],
 
     footer: {
@@ -68,7 +68,7 @@ export default defineConfig({
 
     editLink: {
       pattern:
-        "https://github.com/aSumo-1xts/aSumo-1xts.github.io/blob/main/docs/:path",
+        "https://github.com/asumo-1xts/asumo-1xts.github.io/blob/main/docs/:path",
       text: "GitHubで編集を提案",
     },
 
@@ -138,7 +138,7 @@ export default defineConfig({
     // フォントのプリロード
     const FontFile = assets.find(
       (file) =>
-        /(NotoSansJP-VariableFont_wght|ZenKakuGothicNew-Regular|MoralerspaceNeonHW-Regular)\.\w+\.woff2$/,
+        /(NotoSansJP-VariableFont_wght|ZenKakuGothicNew-Regular|MoralerspaceNeonHW-Regular)\.\w+\.woff2$/
     );
     if (FontFile) {
       head.push([
