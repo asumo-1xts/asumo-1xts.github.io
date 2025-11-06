@@ -116,4 +116,6 @@ When the domain is `github.com`, trimming is performed as shown in the following
 | Before | GitHub - asumo-1xts/vitepress-linkcard: A VitePress plugin to generate a pretty linkcard. | A VitePress plugin to generate a pretty linkcard. Contribute to asumo-1xts/vitepress-linkcard development by creating an account on GitHub. |
 | After | asumo-1xts/vitepress-linkcard | A VitePress plugin to generate a pretty linkcard. |
 
+<br/>
+
 ---
