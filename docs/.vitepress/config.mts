@@ -21,7 +21,9 @@ export default defineConfig({
     math: true,
     lineNumbers: true,
     config: (md) => {
-      md.use(groupIconMdPlugin);
+      md.use(groupIconMdPlugin, {
+        titleBar: { includeSnippet: true },
+      });
       md.use<LinkToCardPluginOptions>(linkToCardPlugin, {
         borderColor: "#68b3af7d",
         bgColor: "#68b3af0d",
