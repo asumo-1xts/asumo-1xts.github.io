@@ -23,5 +23,15 @@
     "title": "DCジャック EIAJ5 基板取付け用(13.5～18V) M05-532A0 マル信無線電機製｜電子部品・半導体通販のマルツ",
     "description": "【M05-532A0】 DCジャック EIAJ5 基板取付け用(13.5～18V) 150.00円 在庫数:70個 納期：本日出荷在庫品 マル信無線電機製|16:00までのご注文を翌日お届け、3,000円以上購入で送料無料。【仕様】・コネクタの形態：EIAJ5ジャック・色：黒・形式：・端子部処理：・材質：プラスチック・備考：基板取付",
     "logo": "https://www.marutsu.co.jp/contents/shop/marutsu/img/goods/020/35627/35627_2.jpg"
+  },
+  "https://github.com/asumo-1xts/vitepress-linkcard": {
+    "title": "GitHub - asumo-1xts/vitepress-linkcard: A Vitepress plugin to generate a pretty linkcard with OGP.",
+    "description": "A Vitepress plugin to generate a pretty linkcard with OGP. - asumo-1xts/vitepress-linkcard",
+    "logo": "https://opengraph.githubassets.com/681f2abe3a0f822812ab03a0d63bf507cc1cb72038352eee199eabfb6268f7c8/asumo-1xts/vitepress-linkcard"
+  },
+  "https://github.com/asumo-1xts/vitepress-linkcard/pkgs/npm/vitepress-linkcard": {
+    "title": "Build software better, together",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+    "logo": "https://github.githubassets.com/assets/github-logo-55c5b9a1fe52.png"
   }
 }
