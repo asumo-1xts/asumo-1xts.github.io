@@ -1237,7 +1237,6 @@ __metadata:
     vitepress-plugin-codeblocks-fold: "npm:^1.2.35"
     vitepress-plugin-group-icons: "npm:^1.6.5"
     vitepress-plugin-image-viewer: "npm:^1.1.6"
-    vitepress-plugin-tabs: "npm:^0.7.3"
     vitepress-sidebar: "npm:^1.33.0"
     vue: "npm:^3.5.22"
   languageName: unknown
@@ -3175,16 +3174,6 @@ __metadata:
   dependencies:
     viewerjs: "npm:^1.11.6"
   checksum: 10c0/c30bb0e0e79f20cf90096850024e5d53daf4c7612430465e4c336200a167e976d227f7a5d03df7d296e92b01719fc6dc36ff4174270fd31a8ddc671fed409b98
-  languageName: node
-  linkType: hard
-
-"vitepress-plugin-tabs@npm:^0.7.3":
-  version: 0.7.3
-  resolution: "vitepress-plugin-tabs@npm:0.7.3"
-  peerDependencies:
-    vitepress: ^1.0.0
-    vue: ^3.5.0
-  checksum: 10c0/5093694529184a1c1f9d4c96108e3b3f3b3201834c5a1d80f2915e0e7997a7cf7066d94564775e76d8e21e14d663deb3ff43fa83ef840ee9d8efa6171dbcc74a
   languageName: node
   linkType: hard
 
