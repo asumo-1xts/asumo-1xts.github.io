@@ -19,7 +19,7 @@ tags:
 hidden: false
 ---
 
-[エフェクター改造](../tags/modpedals) | [PIC](../tags/pic.md) | [C/C++](../tags/ccpp.md)
+[エフェクター改造](../tags/modpedals) | [PIC](../tags/pic) | [C/C++](../tags/ccpp)
 
 # DOD FX-96をトレイルバイパス化
 
