@@ -17,7 +17,7 @@ tags:
 hidden: true
 ---
 
-[トラブルシューティング](../tags/trouble.md)
+[トラブルシューティング](../tags/trouble)
 
 # tiny11builder後のOneDrive導入
 

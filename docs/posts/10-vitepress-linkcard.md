@@ -13,9 +13,10 @@ next: false
 
 tags:
   - webdev
+  - typescript
 ---
 
-[Web開発](../tags/webdev.md)
+[Web開発](../tags/webdev) | [TypeSript](../tags/typescript)
 
 # vitepress-linkcard out now
 
