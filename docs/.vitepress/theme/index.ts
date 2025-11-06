@@ -25,6 +25,6 @@ export default {
     const route = useRoute();
     const { frontmatter } = useData();
     imageViewer(route);
-    codeblocksFold({ route, frontmatter }, true);
+    codeblocksFold({ route, frontmatter }, true, 500);
   },
 };
