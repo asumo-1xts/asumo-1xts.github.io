@@ -3,7 +3,6 @@ import { type DefaultTheme } from "vitepress";
 import { SitemapStream } from "sitemap";
 import { createWriteStream } from "node:fs";
 import { resolve } from "node:path";
-import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 import { generateSidebar } from "vitepress-sidebar";
 import {
   groupIconMdPlugin,
@@ -22,7 +21,6 @@ export default defineConfig({
     math: true,
     lineNumbers: true,
     config: (md) => {
-      md.use(tabsMarkdownPlugin);
       md.use(groupIconMdPlugin);
       md.use<LinkToCardPluginOptions>(linkToCardPlugin, {
         borderColor: "#68b3af7d",
