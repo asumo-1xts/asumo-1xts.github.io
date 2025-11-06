@@ -5,7 +5,7 @@ emoji:
 title: vitepress-linkcard out now
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
-date: 2025-10-24
+date: 2025-11-06
 permalink: "https://asumoranda.com/posts/10-vitepress-linkcard.html"
 
 prev: false
