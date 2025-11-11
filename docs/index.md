@@ -12,6 +12,10 @@ hero:
     alt: aSumoranda
 
 features:
+  - icon: 🎴
+    title: vitepress-linkcard out now
+    details: Web開発 | TypeScript
+    link: ./posts/10-vitepress-linkcard
   - icon: 🔠
     title: MPLAB VScode Extention入門
     details: 環境構築 | PIC | C/C++
@@ -24,6 +28,14 @@ features:
     title: 2025年に読んだもの
     details: 雑記
     link: ./posts/04-books2025
+  - icon: 🏛️
+    title: BibLaTeXで欧文と和文を混ぜる
+    details: LaTeX
+    link: ./posts/03-BibLaTeXJP
+  - icon: 🎛️
+    title: 理想のMIDIコントローラを自作
+    details: その他の工作 | MIDI | Arduino | C/C++
+    link: ./posts/02-HeartLand
 
 permalink: "https://asumoranda.com/"
 ---
