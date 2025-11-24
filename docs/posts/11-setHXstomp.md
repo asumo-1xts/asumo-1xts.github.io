@@ -15,7 +15,7 @@ tags:
   - justnote
 ---
 
-[雑記](../tags/justnote)
+[トラブルシューティング](../tags/trouble.md) | [雑記](../tags/justnote)
 
 # HX Stompの同時押しを無効化
 
