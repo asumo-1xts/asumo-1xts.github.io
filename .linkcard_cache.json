@@ -33,5 +33,25 @@
     "title": "Build software better, together",
     "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
     "logo": "https://github.githubassets.com/assets/github-logo-55c5b9a1fe52.png"
+  },
+  "https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput": {
+    "title": "commentPut&#32;-&#32;Visual&#32;Studio&#32;Marketplace",
+    "description": "Extension&#32;for&#32;Visual&#32;Studio&#32;Code&#32;-&#32;Insert&#32;comment&#32;snippets&#32;based&#32;on&#32;the&#32;current&#32;file&#39;s&#32;language.",
+    "logo": "https://asumo-1xts.gallerycdn.vsassets.io/extensions/asumo-1xts/commentput/0.2.0/1763956964219/Microsoft.VisualStudio.Services.Icons.Default"
+  },
+  "https://github.com/asumo-1xts/vscode-commentput": {
+    "title": "GitHub - asumo-1xts/vscode-commentput: A simple alternative to ctrl+/.",
+    "description": "A simple alternative to ctrl+/. Contribute to asumo-1xts/vscode-commentput development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/52414684b31d74ca4d291aa48c80674046e9a82184075b2f54d0bd1cfa850b99/asumo-1xts/vscode-commentput"
+  },
+  "https://github.com/asumo-1xts/vscode-commentput#README": {
+    "title": "GitHub - asumo-1xts/vscode-commentput: A simple alternative to ctrl+/.",
+    "description": "A simple alternative to ctrl+/. Contribute to asumo-1xts/vscode-commentput development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/52414684b31d74ca4d291aa48c80674046e9a82184075b2f54d0bd1cfa850b99/asumo-1xts/vscode-commentput"
+  },
+  "https://github.com/asumo-1xts/vscode-commentput#": {
+    "title": "GitHub - asumo-1xts/vscode-commentput: A simple alternative to ctrl+/.",
+    "description": "A simple alternative to ctrl+/. Contribute to asumo-1xts/vscode-commentput development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/52414684b31d74ca4d291aa48c80674046e9a82184075b2f54d0bd1cfa850b99/asumo-1xts/vscode-commentput"
   }
 }
