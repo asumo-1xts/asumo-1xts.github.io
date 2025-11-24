@@ -102,6 +102,10 @@ BibLaTeXはBibTeXより新しく便利な部分もあるものの、日本語へ
   type="big"
 />
 
+## おわりに
+
+今のところ良い感じに使えています。不具合などは[Issues](https://github.com/asumo-1xts/asumo-1xts.github.io/issues)までお願いします。
+
 <br/>
 
 ---

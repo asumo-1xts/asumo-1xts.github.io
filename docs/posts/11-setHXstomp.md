@@ -1,11 +1,11 @@
 ---
 layout: doc
 
-emoji: 
+emoji: ⚙️
 title: HX Stompの同時押しを無効化
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
-date: 2025-11-24
+date: 2025-11-23
 permalink: "https://asumoranda.com/posts/11-setHXstomp.html"
 
 prev: false
