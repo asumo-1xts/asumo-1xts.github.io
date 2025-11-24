@@ -35,7 +35,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: "./home.webp",
+    logo: "/home.webp",
     siteTitle: false,
 
     outlineTitle: "目次",
