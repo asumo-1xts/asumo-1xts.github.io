@@ -31,20 +31,25 @@ Since [@asumo-1xts](https://github.com/asumo-1xts) isn't well-versed in web deve
 ### Install
 
 ::: code-group
+
 ```sh [npm]
 npm install -D vitepress-linkcard 
 ```
+
 ```sh [yarn]
 yarn add -D vitepress-linkcard
 ```
+
 ```sh [pnpm]
 pnpm add -D vitepress-linkcard
 ```
+
 :::
 
 ### Usage
 
 ::: code-group
+
 ``` ts [docs/.vitepress/config.ts]
 import { defineConfig } from "vitepress";
 import { linkToCardPlugin } from "vitepress-linkcard";
@@ -65,12 +70,17 @@ export default defineConfig({
   // ...
 });
 ```
+
 :::
 
+Generates a linkcard when `@:` appended.
+
 ::: code-group
+
 ``` md [*.md]
 [example](@:https://example.com)
 ```
+
 :::
 
 ## Supported options
@@ -111,6 +121,7 @@ You can edit it as needed, but ignoring it will increase build time.
 ### Special handling for `github.com`
 
 When the domain is `github.com`, trimming is performed as shown in the following example to avoid duplication of the title and description.
+
 | | Title | Description |
 | - | - | - |
 | Before | GitHub - asumo-1xts/vitepress-linkcard: A VitePress plugin to generate a pretty linkcard. | A VitePress plugin to generate a pretty linkcard. Contribute to asumo-1xts/vitepress-linkcard development by creating an account on GitHub. |
