@@ -16,10 +16,6 @@ tags:
   - typescript
 ---
 
-::: tip
-このたびVitePressにリンクカードを挿入できるプラグインを作成・リリースしました。本記事はその実演版READMEです。
-:::
-
 [Web開発](../tags/webdev) | [TypeSript](../tags/typescript)
 
 # vitepress-linkcard out now
