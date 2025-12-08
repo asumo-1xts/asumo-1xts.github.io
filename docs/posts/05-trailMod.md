@@ -33,7 +33,11 @@ hidden: false
 
 ご依頼を受けてDOD FX96 \[Echo FX\] のトレイルバイパス化を行ったので、その工程を簡単にまとめておきます。
 
+<div align="center">
+
 <iframe width="336" height="189" src="https://www.youtube.com/embed/UQoQh8HNo6M" title="Trail bypass MOD -  DOD FX96 [Echo FX]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
 
 ちょっと動画自体の音が小さいかもしれません。
 
