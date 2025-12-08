@@ -22,7 +22,7 @@ tags:
 
 ## はじめに
 
-"commentPut"というささやかなVScodeの拡張機能をリリースしたので簡単に紹介します。
+commentPutというささやかなVScodeの拡張機能をリリースしたので簡単に紹介します。
 
 [Marketplace](@:https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput)
 

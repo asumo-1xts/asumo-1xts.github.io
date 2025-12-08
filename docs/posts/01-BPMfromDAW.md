@@ -32,6 +32,7 @@ hidden: false
 - Windows 11
 - Arduino IDE 2.3.3
 - Ableton Live 12 Suite
+- Studio One 6 Professional
 
 ## 背景と目的
 

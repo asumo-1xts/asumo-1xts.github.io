@@ -34,7 +34,7 @@ BibLaTeXはBibTeXより新しく便利な部分もあるものの、日本語へ
 
 ## 環境
 
-- Overleaf
+- Overleaf（texlive-fullでも同様に動きました）
 - upLaTeX（LuaLaTeXだともう少し別な方法がありそう…）
 
 ## bibファイル
