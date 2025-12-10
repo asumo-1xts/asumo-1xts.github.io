@@ -22,9 +22,9 @@ tags:
 
 ## Introduction
 
-[GitHub](@:https://github.com/asumo-1xts/vitepress-linkcard)
+As shown below, you can generate a pretty linkcard with OGP in Vitepress.
 
-As shown above, you can generate a pretty linkcard with OGP in Vitepress.
+[GitHub](@:https://github.com/asumo-1xts/vitepress-linkcard)
 
 ## Getting started
 

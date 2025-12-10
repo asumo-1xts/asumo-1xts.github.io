@@ -22,13 +22,13 @@ tags:
 
 ## Introduction
 
-I have released a small VSCode extension called "commentPut", so let me briefly introduce it.
+I have released a small VScode extension called "commentPut", so let me briefly introduce it.
 
 [Marketplace](@:https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput)
 
-## Background and purpose
+## What can it do?
 
-In VSCode, the comment-out shortcut `Ctrl+/` inserts the comment symbol at the beginning of the line, even if it is executed at the end of the line.
+In VScode, the comment-out shortcut `Ctrl+/` inserts the comment symbol at the beginning of the line, even if it is executed at the end of the line.
 
 <ImageGroup
   :sources="[
@@ -36,7 +36,7 @@ In VSCode, the comment-out shortcut `Ctrl+/` inserts the comment symbol at the b
   ]"
 />
 
-At first, this seems convenient, but I often find it intrusive when I just want to insert a comment symbol where the cursor is. To address this, I created the commentPut extension, which is a less intrusive version of the comment-out shortcut and is triggered by `Ctrl+Shift+/`.
+At first, this seems convenient, but I often find it intrusive when I just want to insert a comment symbol where the cursor is. To address this, I created a new extention, which is a less intrusive version of the comment-out shortcut and is triggered by `Ctrl+Shift+/`.
 
 Here’s how it works:
 
@@ -60,4 +60,4 @@ You can also customise key bindings and add support for additional languages. Fo
 
 It has been verified on Windows 11 and Debian 13. However, on a Mac, the `/` key does not seem to work well. You can change the key binding to resolve this issue. As I don't use a Mac for coding, [this issue]((https://github.com/asumo-1xts/vscode-commentput/issues/4)) is currently marked as `wontfix`.
 
-I’m very fond of this extension, but I wonder if other VSCode users have the same need...
+I’m very fond of this extension, but I wonder if other VScode users have the same need...
