@@ -26,7 +26,7 @@ I have released a small VSCode extension called "commentPut", so let me briefly 
 
 [Marketplace](@:https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput)
 
-## Background and Purpose
+## Background and purpose
 
 In VSCode, the comment-out shortcut `Ctrl+/` inserts the comment symbol at the beginning of the line, even if it is executed at the end of the line.
 
@@ -48,7 +48,7 @@ Here’s how it works:
 
 You might ask, "Why not just type the symbol yourself?" That's true, but this extension eliminates the need to pause and think about the comment symbol for languages you don't use often. It's surprisingly useful. I just want to comment out without thinking.
 
-## How to Use
+## How to use
 
 Essentially, all you need to do is install it. It's designed to be used by assigning `Ctrl+Shift+/` to an unused key on your keyboard.
 

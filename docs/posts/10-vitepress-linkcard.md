@@ -20,11 +20,11 @@ tags:
 
 # vitepress-linkcard out now
 
+## Introduction
+
 [GitHub](@:https://github.com/asumo-1xts/vitepress-linkcard)
 
 As shown above, you can generate a pretty linkcard with OGP in Vitepress.
-
-Since [@asumo-1xts](https://github.com/asumo-1xts) isn't well-versed in web development, contributors are always welcome to help implement new features: especially [hover animation](https://github.com/asumo-1xts/vitepress-linkcard/issues/2).
 
 ## Getting started
 
@@ -126,6 +126,12 @@ When the domain is `github.com`, trimming is performed as shown in the following
 | - | - | - |
 | Before | GitHub - asumo-1xts/vitepress-linkcard: A VitePress plugin to generate a pretty linkcard. | A VitePress plugin to generate a pretty linkcard. Contribute to asumo-1xts/vitepress-linkcard development by creating an account on GitHub. |
 | After | asumo-1xts/vitepress-linkcard | A VitePress plugin to generate a pretty linkcard. |
+
+## Finish
+
+Please give it a try if you'd like.
+
+Since [@asumo-1xts](https://github.com/asumo-1xts) isn't well-versed in web development, contributors are always welcome to help implement new features: especially [hover animation](https://github.com/asumo-1xts/vitepress-linkcard/issues/2).
 
 <br/>
 
