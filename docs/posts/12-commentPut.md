@@ -16,19 +16,19 @@ tags:
   - typescript
 ---
 
-[アプリ開発](../tags/appdev) | [TypeSript](../tags/typescript)
+[アプリ開発](../tags/appdev) | [TypeScript](../tags/typescript)
 
 # commentPut out now
 
-## はじめに
+## Introduction
 
-commentPutというささやかなVScodeの拡張機能をリリースしたので簡単に紹介します。
+I have released a small VSCode extension called "commentPut", so let me briefly introduce it.
 
 [Marketplace](@:https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput)
 
-## 背景と目的
+## Background and Purpose
 
-VScodeのコメントアウト`Ctrl+/`では、行末で実行しても行頭に記号が入力されます。
+In VSCode, the comment-out shortcut `Ctrl+/` inserts the comment symbol at the beginning of the line, even if it is executed at the end of the line.
 
 <ImageGroup
   :sources="[
@@ -36,9 +36,9 @@ VScodeのコメントアウト`Ctrl+/`では、行末で実行しても行頭に
   ]"
 />
 
-一見これは便利そうですが、実際のところ個人的には「単純にカーソル位置にコメントアウト用の記号を入力したいだけ」の場合が多くお節介であると感じたため、お節介なしver.のコメントアウト`Ctrl+Shift+/`としてcommentPutという拡張機能を作成しました。
+At first, this seems convenient, but I often find it intrusive when I just want to insert a comment symbol where the cursor is. To address this, I created the commentPut extension, which is a less intrusive version of the comment-out shortcut and is triggered by `Ctrl+Shift+/`.
 
-動作はこうなります。
+Here’s how it works:
 
 <ImageGroup
   :sources="[
@@ -46,18 +46,18 @@ VScodeのコメントアウト`Ctrl+/`では、行末で実行しても行頭に
   ]"
 />
 
-記号（つまりPythonなら`#`）を自分で入力すれば済むのでは？というツッコミに対しては、まあそれはそうなんですが、普段あまり触らない言語でも（あれ、コメントアウト何だっけ…）と立ち止まる時間が無くなるので案外侮れないと思っています。とにかく何も考えずにコメントアウトしたいのです。
+You might ask, "Why not just type the symbol yourself?" That's true, but this extension eliminates the need to pause and think about the comment symbol for languages you don't use often. It's surprisingly useful. I just want to comment out without thinking.
 
-## 使い方
+## How to Use
 
-基本的にはインストールするだけでよく、ただキーボードの余ったキーなどに`Ctrl+Shift+/`を割り当てて使うことを想定しています。
+Essentially, all you need to do is install it. It's designed to be used by assigning `Ctrl+Shift+/` to an unused key on your keyboard.
 
-キーバインディングや言語の追加も可能です。詳しくはREADMEを参照してください。
+You can also customise key bindings and add support for additional languages. For more details, refer to the README.
 
 [Repository](@:https://github.com/asumo-1xts/vscode-commentput)
 
-## おわりに
+## Finish
 
-Windows 11およびDebian 13では動作を確認できていますが、Macだとどうも`/`キーがうまく効かないようです。キーバインディングを適当に変更すると動作します。僕はコーディングに関しては非Macユーザーなので、このIssueは今のところwontfixです。
+It has been verified on Windows 11 and Debian 13. However, on a Mac, the `/` key does not seem to work well. You can change the key binding to resolve this issue. As I don't use a Mac for coding, [this issue]((https://github.com/asumo-1xts/vscode-commentput/issues/4)) is currently marked as `wontfix`.
 
-作者としては非常に気に入っていますが、果たして同じニーズを持つVScodeユーザーが他に存在しているのでしょうか…
+I’m very fond of this extension, but I wonder if other VSCode users have the same need...
