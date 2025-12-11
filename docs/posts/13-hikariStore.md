@@ -12,8 +12,7 @@ prev: false
 next: false
 
 tags:
-  - webdev
-  - typescript
+  - justnote
 ---
 
 [雑記](../tags/justnote)

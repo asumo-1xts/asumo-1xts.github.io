@@ -13,10 +13,9 @@ next: false
 
 tags:
   - trouble
-  - justnote
 ---
 
-[トラブルシューティング](../tags/trouble) | [雑記](../tags/justnote)
+[トラブルシューティング](../tags/trouble)
 
 # HX Stompの同時押しを無効化
 
