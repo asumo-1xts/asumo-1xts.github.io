@@ -13,8 +13,6 @@ next: false
 
 tags:
   - latex
-
-hidden: false
 ---
 
 [LaTeX](../tags/latex)
