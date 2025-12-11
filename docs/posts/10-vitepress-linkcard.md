@@ -77,7 +77,7 @@ export default defineConfig({
 
 :::
 
-URLに`@:`のプレフィクスが付くときにリンクカードを生成します。
+URLに`@:`のプレフィクスを付けるとリンクカードが生成されます。
 
 ::: code-group
 
