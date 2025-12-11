@@ -14,6 +14,8 @@ next: false
 tags:
   - webdev
   - typescript
+
+hidden: true
 ---
 
 [アプリ開発](../tags/appdev) | [TypeScript](../tags/typescript)
