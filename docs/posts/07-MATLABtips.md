@@ -2,7 +2,7 @@
 layout: doc
 
 emoji: 🧮
-title: MATLAB小技集
+title: 私的なMATLABスニペット集
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-10-22
@@ -19,7 +19,7 @@ hidden: true
 
 [MATLAB](../tags/matlab)
 
-# MATLAB小技集
+# 私的なMATLABスニペット集
 
 ## はじめに
 

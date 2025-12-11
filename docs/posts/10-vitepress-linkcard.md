@@ -2,7 +2,7 @@
 layout: doc
 
 emoji: 🎴
-title: vitepress-linkcard out now
+title: VitePressでリンクカードを貼る
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-11-06
@@ -18,17 +18,21 @@ tags:
 
 [Web開発](../tags/webdev) | [TypeSript](../tags/typescript)
 
-# vitepress-linkcard out now
+# VitePressでリンクカードを貼る
 
-## Introduction
+## はじめに
+
+VitePress用のリンクカード生成プラグイン「vitepress-linkcard」をリリースしたので簡単に紹介します。
 
 [GitHub](@:https://github.com/asumo-1xts/vitepress-linkcard)
 
-As shown above, you can generate a pretty linkcard with OGP in Vitepress.
+リンクカードはこんな感じ↑です。後述しますが、カードの枠線や塗りつぶしの色はオプションとして自由に設定できます。
+
+なお、このプラグインは[markdown-it-link-to-card](https://github.com/luckrya/markdown-it-link-to-card)をフォークして作られました。
 
 ## Getting started
 
-### Install
+### インストール
 
 ::: code-group
 
@@ -46,7 +50,7 @@ pnpm add -D vitepress-linkcard
 
 :::
 
-### Usage
+### 使い方
 
 ::: code-group
 
@@ -60,7 +64,7 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use<LinkToCardPluginOptions>(linkToCardPlugin, {
-        // // Supported options:
+        // // オプション
         // target: "_self",
         // borderColor: "#039393",
         // bgColor: "#CB3837"
@@ -73,7 +77,7 @@ export default defineConfig({
 
 :::
 
-Generates a linkcard when `@:` appended.
+URLに`@:`のプレフィクスが付くときにリンクカードを生成します。
 
 ::: code-group
 
@@ -83,11 +87,11 @@ Generates a linkcard when `@:` appended.
 
 :::
 
-## Supported options
+## オプション
 
 ### borderColor
 
-Specifies the border color of linkcards with a color code. For exmaple:
+次のように、リンクカードの枠線の色を指定できます。
 
 - `#7d7d7dff` (default)
 - `rgba(3, 147, 147, 0.39)`
@@ -95,7 +99,7 @@ Specifies the border color of linkcards with a color code. For exmaple:
 
 ### bgColor
 
-Specifies the background color of linkcards with a color code. For exmaple:
+次のように、リンクカードの塗りつぶしの色を指定できます。
 
 - `#7d7d7d00` (default)
 - `rgba(3, 147, 147, 0.39)`
@@ -103,35 +107,31 @@ Specifies the background color of linkcards with a color code. For exmaple:
 
 ### target
 
-Specifies the target window in which to open a link.
+次のように、リンクカードを踏んだときのリンクの開き方を指定できます。
 
 - `_blank` (default)
 - `_self`
 - `_top`
 - `_parent`
 
-## Other specifications
+## その他の仕様
 
 ### `.linkcard_cache.json`
 
-It is generated automatically and cache all the parsed metadata.
+このファイルは自動的に生成され、解析されたメタデータをキャッシュします。必要に応じて編集できますが、gitignoreするとビルド時間が長くなります。
 
-You can edit it as needed, but ignoring it will increase build time.
+### `github.com`ドメインへの特殊な操作
 
-### Special handling for `github.com`
-
-When the domain is `github.com`, trimming is performed as shown in the following example to avoid duplication of the title and description.
+URLのドメインが`github.com`のとき、titleとdescriptionの内容の重複を避けるべく以下に示すようなトリミングが実行されます。
 
 | | Title | Description |
 | - | - | - |
 | Before | GitHub - asumo-1xts/vitepress-linkcard: A VitePress plugin to generate a pretty linkcard. | A VitePress plugin to generate a pretty linkcard. Contribute to asumo-1xts/vitepress-linkcard development by creating an account on GitHub. |
 | After | asumo-1xts/vitepress-linkcard | A VitePress plugin to generate a pretty linkcard. |
 
-## Finish
+## おわりに
 
-Please give it a try if you'd like.
-
-Since [@asumo-1xts](https://github.com/asumo-1xts) isn't well-versed in web development, contributors are always welcome to help implement new features: especially [hover animation](https://github.com/asumo-1xts/vitepress-linkcard/issues/2).
+なかなか良い感じだと思うので、良かったら使ってみてください。あと、ホバーアニメーションを実装してくれる白馬のコントリビューターを[募集中](https://github.com/asumo-1xts/vitepress-linkcard/issues/2)です！
 
 <br/>
 

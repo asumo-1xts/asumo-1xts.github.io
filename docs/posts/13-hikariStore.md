@@ -2,7 +2,7 @@
 layout: doc
 
 emoji: 🌟
-title: 光のお店 in つくば
+title: 光のお店 in つくば 2025
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-12-08
@@ -18,7 +18,7 @@ tags:
 
 [雑記](../tags/justnote.md)
 
-# 光のお店・つくば編
+# 光のお店 in つくば 2025
 
 ## はじめに
 

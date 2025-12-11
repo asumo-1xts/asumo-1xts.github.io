@@ -8,7 +8,7 @@ if (typeof props.tag === "string") {
       .toString()
       .replaceAll(" ", "")
       .toLowerCase()
-      .includes(props.tag),
+      .includes(props.tag)
   );
 } else {
   sortedPosts = posts;
