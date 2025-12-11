@@ -13,7 +13,7 @@ hero:
 
 features:
   - icon: 🎴
-    title: vitepress-linkcard out now
+    title: VitePressでリンクカードを貼る
     details: Web開発 | TypeScript
     link: ./posts/10-vitepress-linkcard
   - icon: 🔠
@@ -25,7 +25,7 @@ features:
     details: エフェクター改造 | PIC | C/C++
     link: ./posts/05-trailMod
   - icon: 📚
-    title: 2025年に読んだもの
+    title: 2025年に読んだものとその感想
     details: 雑記
     link: ./posts/04-books2025
   - icon: 🏛️
