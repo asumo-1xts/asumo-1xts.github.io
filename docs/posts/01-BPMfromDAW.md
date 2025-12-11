@@ -15,8 +15,6 @@ tags:
   - arduino
   - ccpp
   - midi
-
-hidden: false
 ---
 
 [MIDI](../tags/midi) | [Arduino](../tags/arduino) | [C/C++](../tags/ccpp)

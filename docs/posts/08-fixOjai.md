@@ -13,8 +13,6 @@ next: false
 
 tags:
   - fixpedals
-
-hidden: false
 ---
 
 [エフェクター修理](../tags/fixpedals)

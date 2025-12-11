@@ -16,8 +16,6 @@ tags:
   - ccpp
   - midi
   - otherdiy
-
-hidden: false
 ---
 
 [その他の工作](../tags/otherdiy) | [MIDI](../tags/midi) | [Arduino](../tags/arduino) | [C/C++](../tags/ccpp)

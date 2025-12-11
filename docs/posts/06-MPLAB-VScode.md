@@ -15,8 +15,6 @@ tags:
   - environment
   - pic
   - ccpp
-
-hidden: false
 ---
 
 [環境構築](../tags/environment) | [PIC](../tags/pic) | [C/C++](../tags/ccpp)

@@ -16,7 +16,7 @@ tags:
   - typescript
 ---
 
-[雑記](../tags/justnote.md)
+[雑記](../tags/justnote)
 
 # 光のお店 in つくば 2025
 

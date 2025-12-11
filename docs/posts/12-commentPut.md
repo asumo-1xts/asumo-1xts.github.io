@@ -12,7 +12,7 @@ prev: false
 next: false
 
 tags:
-  - webdev
+  - appdev
   - typescript
 ---
 
