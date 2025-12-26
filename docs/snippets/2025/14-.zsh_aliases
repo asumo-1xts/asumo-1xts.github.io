@@ -1,0 +1,44 @@
+# そのものを置き換える
+alias eza='eza --icons --hyperlink --group-directories-first'
+clear
+
+# 設定ファイル
+abbr -S s.z='source ~/.zshrc'
+abbr -S c.z='code ~/.zshrc'
+abbr -S s.za='source ~/.zsh_aliases'
+abbr -S c.za='code ~/.zsh_aliases'
+abbr -S c.sh='code ~/.config/sheldon/plugins.toml'
+abbr -S c.st='code ~/.config/starship.toml'
+abbr -S c.wz='code ~/.config/wezterm/wezterm.lua'
+clear
+
+# ディレクトリ移動
+abbr -S z1x='z ~/Remote/1xtelescope'
+abbr -S zas='z ~/Remote/asumo-1xts.github.io'
+clear
+
+# apt
+abbr -S apa='sudo apt autoremove'
+abbr -S api='sudo apt install'
+abbr -S app='sudo apt purge'
+abbr -S apr='sudo apt remove'
+abbr -S apu='sudo apt update && sudo apt upgrade'
+clear
+
+# Git
+abbr -S gbr='git branch'
+abbr -S gch='git checkout'
+abbr -S gcl='git clone'
+abbr -S gcm='git commit -m'
+abbr -S glg='git log --oneline'
+abbr -S gpl='git pull origin'
+abbr -S gps='git push origin'
+abbr -S gra='git remote add origin'
+abbr -S grs='git reset HEAD^'
+clear
+
+# mise
+abbr -S mi='mise install'
+abbr -S ml='mise list'
+abbr -S mr='mise run'
+clear

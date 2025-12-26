@@ -1,0 +1,71 @@
+format = """
+\n$status\
+$cmd_duration\n
+$directory\
+[](fg:#769ff0 bg:#394260)\
+$git_branch\
+$git_status\
+[ ](fg:#394260)\
+"""
+
+right_format = """
+[](fg:#e3e5e5)\
+$time\
+$os\
+"""
+
+add_newline = false
+continuation_prompt = '[󱇂 ](fg:#769ff0)'
+
+[status]
+disabled = false
+format = '[$symbol ]($style)'
+symbol = "[󰅚](bold red)"
+success_symbol = "[󰗡](bold green)"
+not_executable_symbol = "[](bold red)"
+not_found_symbol = "[](bold red)"
+map_symbol = true
+
+[cmd_duration]
+show_milliseconds = true
+min_time = 100
+format = '[ 󰔛 $duration](bold #e3e5e5)'
+
+[directory]
+style = "fg:#e3e5e5 bg:#769ff0"
+format = "[ $path]($style)"
+truncation_length = 3
+truncation_symbol = "󱉭 "
+
+[directory.substitutions]
+"asumo" = " "
+"Documents" = "󰈙 "
+"downloads" = " "
+"GitHub" = " "
+"GitLab" = " "
+"images" = " "
+"src" = " "
+
+[git_branch]
+symbol = " "
+style = "bg:#394260"
+format = '[[ $symbol$branch ](fg:#769ff0 bg:#394260)]($style)'
+
+[git_status]
+style = "bg:#394260"
+format = '[[($all_status$ahead_behind)](fg:#769ff0 bg:#394260)]($style)'
+
+[time]
+disabled = false
+style = "fg:#394260 bg:#e3e5e5"
+format = '[󰅐 $time ]($style) '
+
+[os]
+disabled = false
+style = "fg:#e3e5e5"
+format = '[$symbol]($style)'
+
+[os.symbols]
+Debian = ""
+Ubuntu = ""
+Windows = ""

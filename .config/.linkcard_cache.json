@@ -1,0 +1,42 @@
+{
+  "https://example.com/": {
+    "description": "Example Website",
+    "logo": "https://example.com/example.png",
+    "title": "Example Title"
+  },
+  "https://1xtelescope.com/": {
+    "title": "Home",
+    "description": "1x telescope",
+    "logo": "https://1xtelescope.com/cover02.png"
+  },
+  "https://github.com/g200kg/kicad-lib-arduino": {
+    "title": "GitHub - g200kg/kicad-lib-arduino",
+    "description": "Contribute to g200kg/kicad-lib-arduino development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/dedcedeb43a4992e488eb59d78bba43c461be76b6e51fc5e95a05e1cb3106411/g200kg/kicad-lib-arduino"
+  },
+  "https://github.com/Alarm-Siren/arduino-kicad-library": {
+    "title": "GitHub - Alarm-Siren/arduino-kicad-library: KiCad Symbol &amp; Footprint Library for Arduino Modules (Shields, Sockets and Tiles)",
+    "description": "KiCad Symbol &amp; Footprint Library for Arduino Modules (Shields, Sockets and Tiles) - Alarm-Siren/arduino-kicad-library",
+    "logo": "https://opengraph.githubassets.com/68acb4d65d4288398f60ad1f8620487e5a26c57773d63de0d12634bed909bbb3/Alarm-Siren/arduino-kicad-library"
+  },
+  "https://www.marutsu.co.jp/pc/i/35627/": {
+    "title": "DCジャック EIAJ5 基板取付け用(13.5～18V) M05-532A0 マル信無線電機製｜電子部品・半導体通販のマルツ",
+    "description": "【M05-532A0】 DCジャック EIAJ5 基板取付け用(13.5～18V) 150.00円 在庫数:50個 納期：明日出荷在庫品 マル信無線電機製|16:00までのご注文を翌日お届け、3,000円以上購入で送料無料。【仕様】・コネクタの形態：EIAJ5ジャック・色：黒・形式：・端子部処理：・材質：プラスチック・備考：基板取付",
+    "logo": "https://www.marutsu.co.jp/contents/shop/marutsu/img/goods/020/35627/35627_2.jpg"
+  },
+  "https://github.com/asumo-1xts/vitepress-linkcard": {
+    "title": "GitHub - asumo-1xts/vitepress-linkcard: A VitePress plugin to generate a pretty linkcard with OGP.",
+    "description": "A VitePress plugin to generate a pretty linkcard with OGP. - asumo-1xts/vitepress-linkcard",
+    "logo": "https://opengraph.githubassets.com/df404a15f7125427f7df5a916ea6be3cb489f5c3f4f80599dae3b350b1a88980/asumo-1xts/vitepress-linkcard"
+  },
+  "https://marketplace.visualstudio.com/items?itemName=asumo-1xts.commentput": {
+    "title": "commentPut&#32;-&#32;Visual&#32;Studio&#32;Marketplace",
+    "description": "Extension&#32;for&#32;Visual&#32;Studio&#32;Code&#32;-&#32;Insert&#32;comment&#32;snippets&#32;based&#32;on&#32;the&#32;current&#32;file&#39;s&#32;language.",
+    "logo": "https://asumo-1xts.gallerycdn.vsassets.io/extensions/asumo-1xts/commentput/0.2.6/1765357367319/Microsoft.VisualStudio.Services.Icons.Default"
+  },
+  "https://github.com/asumo-1xts/vscode-commentput": {
+    "title": "GitHub - asumo-1xts/vscode-commentput: A simple alternative to ctrl+/.",
+    "description": "A simple alternative to ctrl+/. Contribute to asumo-1xts/vscode-commentput development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/6c36ab74db8540e689ed0ba49bc45416a00946cf1239f81365d3c5e49d6b22f0/asumo-1xts/vscode-commentput"
+  }
+}
