@@ -12,10 +12,10 @@ hero:
     alt: aSumoranda
 
 features:
-  - icon: 🪴
-    title: Linux設定ファイル大集合
+  - icon: ⚙️
+    title: HX Stompの同時押しを無効化
     details: 雑記
-    link: ./posts/14-configFiles
+    link: ./posts/11-setHXstomp
   - icon: 🎴
     title: VitePressでリンクカードを貼る
     details: Web開発 | TypeScript
