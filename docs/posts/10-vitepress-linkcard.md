@@ -155,7 +155,7 @@ URLのドメインが`github.com`のとき、titleとdescriptionの内容の重�
 
 ## おわりに
 
-なかなか良い感じだと思うので、良かったら使ってみてください。あと、ホバーアニメーションを実装してくれる白馬のコントリビューターを[募集中](https://github.com/asumo-1xts/vitepress-linkcard/issues/2)です！
+なかなか良い感じだと思うので、良かったら使ってみてください！
 
 <br/>
 
