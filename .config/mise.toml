@@ -13,4 +13,4 @@ alias = "2w"
 usage = '''
 arg "<arg>" default=""
 '''
-description = "Convert png to webp"
+description = "Convert images to webp"
