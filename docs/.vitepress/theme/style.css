@@ -50,3 +50,15 @@ h2 {
 code {
   font-family: "myCodeFont", monospace;
 }
+
+/* Border and Background */
+.vitepress-linkcard-container {
+  border-color: #00000000 !important;
+  background-color: var(--vp-c-bg-soft) !important;
+}
+
+/* When hovered */
+.vitepress-linkcard-container:hover {
+  border-color: var(--vp-c-brand-1) !important;
+  background-color: var(--vp-c-bg-soft) !important;
+}

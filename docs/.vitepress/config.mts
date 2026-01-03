@@ -24,10 +24,7 @@ export default defineConfig({
       md.use(groupIconMdPlugin, {
         titleBar: { includeSnippet: true }
       })
-      md.use<LinkToCardPluginOptions>(linkToCardPlugin, {
-        borderColor: '#68b3af7d',
-        bgColor: '#68b3af0d'
-      })
+      md.use<LinkToCardPluginOptions>(linkToCardPlugin, {})
     }
   },
   vite: {
