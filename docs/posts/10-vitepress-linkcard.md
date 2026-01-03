@@ -26,7 +26,7 @@ VitePress用のリンクカード生成プラグイン「vitepress-linkcard」�
 
 [GitHub](@:https://github.com/asumo-1xts/vitepress-linkcard)
 
-リンクカードはこんな感じ↑です。後述しますが、カードの枠線や塗りつぶしの色はオプションとして自由に設定できます。
+リンクカードはこんな感じ↑です。v2になってホバーアニメーションが実装されました！後述しますが、カードの枠線や背景の色はオプションで自由に設定できます。
 
 なお、このプラグインは[markdown-it-link-to-card](https://github.com/luckrya/markdown-it-link-to-card)をフォークして作られました。
 
@@ -64,13 +64,10 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use<LinkToCardPluginOptions>(linkToCardPlugin, {
-        // // オプション
-        // target: "_self",
-        // borderColor: "#039393",
-        // bgColor: "#CB3837"
+        // target: "_self" // オプション（後述）
       });
     },
-  }
+  },
   // ...
 });
 ```
@@ -89,30 +86,57 @@ URLに`@:`のプレフィクスを付けるとリンクカードが生成され�
 
 ## オプション
 
-### borderColor
+### Target
 
-次のように、リンクカードの枠線の色を指定できます。
-
-- `#7d7d7dff` (default)
-- `rgba(3, 147, 147, 0.39)`
-- ...
-
-### bgColor
-
-次のように、リンクカードの塗りつぶしの色を指定できます。
-
-- `#7d7d7d00` (default)
-- `rgba(3, 147, 147, 0.39)`
-- ...
-
-### target
-
-次のように、リンクカードを踏んだときのリンクの開き方を指定できます。
+[使い方](#使い方)で見たように、リンクカードを踏んだときのリンクの開き方を指定できます。
 
 - `_blank` (default)
 - `_self`
 - `_top`
 - `_parent`
+
+### Color theme
+
+以下のカラーをカスタマイズできます。
+
+- 枠線
+- 背景
+- 枠線（ホバー時）
+- 背景（ホバー時）
+
+デフォルトではすべてVitePress側で定義された`var(--vp-c-bg-soft)`に設定されているので、ホバーアニメーションは起こりません。
+
+::: code-group
+
+```css [docs/.vitepress/theme/custom.css]
+/* homeレイアウトの"Features"に似せた設定 */
+
+.vitepress-linkcard-container {
+  border-color: #00000000 !important;
+  background-color: var(--vp-c-bg-soft) !important;
+}
+
+.vitepress-linkcard-container:hover {
+  border-color: var(--vp-c-brand-1) !important;
+  background-color: var(--vp-c-bg-soft) !important;
+}
+```
+
+``` ts [docs/.vitepress/theme/index.ts]
+import DefaultTheme from 'vitepress/theme-without-fonts'
+import type { Theme as ThemeConfig } from 'vitepress'
+import './custom.css'
+
+const Theme: ThemeConfig = {
+  extends: DefaultTheme
+}
+
+export default {
+  ...Theme
+}
+```
+
+:::
 
 ## その他の仕様
 
