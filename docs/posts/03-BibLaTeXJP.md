@@ -100,9 +100,32 @@ BibLaTeXはBibTeXより新しく便利な部分もあるものの、日本語へ
   type="big"
 />
 
+## 文献番号のスタイルを変更する
+
+ちょっとしたおまけです。論文の提出先によっては、以下のように文献番号を上付きにしたり括弧を変更したりといった変則的なスタイルが求められるかもしれません。
+
+> $\text{Europianらの研究もあれば}^{1)2)}\text{，}\text{和文らの研究もある}^{3)4)}\text{．}$
+
+このようなときはプリアンブルで以下のように追記し、本文中で`\cite`の代わりに`\autocite`を使うと良いです。
+
+::: code-group
+
+```tex [main.tex ~vscode-icons:file-type-tex~]
+\usepackage[
+  autocite = superscript, % \cite -> \autocite [!code ++]
+  backend = biber,
+  style = numeric-comp
+]{biblatex} % BibLaTeXパッケージ読み込み
+
+\DeclareFieldFormat{labelnumber}{#1)} % 本文中での括弧を設定 [!code ++]
+\DeclareFieldFormat{labelnumberwidth}{#1} % 末尾での括弧を設定 [!code ++] 
+```
+
+:::
+
 ## おわりに
 
-今のところ良い感じに使えています。不具合などは[Issues](https://github.com/asumo-1xts/asumo-1xts.github.io/issues)までお願いします。
+今のところ良い感じに使えています。
 
 <br/>
 
