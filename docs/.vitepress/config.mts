@@ -123,6 +123,14 @@ export default defineConfig({
         async: 'true',
         src: 'https://www.googletagmanager.com/gtag/js?id=G-SRVS9XNT7N'
       }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SRVS9XNT7N');`
     ]
   ],
 
