@@ -16,13 +16,10 @@ lastUpdated: false
 # すべての記事
 
 <script lang="ts" setup>
-    import { data as posts } from "./.vitepress/posts.data";
-    import moment from 'moment';
+    import TaggedPostList   from "./.vitepress/components/TaggedPostList.vue"
+    import PostCounter      from "./.vitepress/components/PostCounter.vue"
 </script>
 
-<ul>
-    <li v-for="post of posts">
-        <a :href="`${post.url}`" class="font-semibold text-lg">{{ post.frontmatter.title }}</a>
-        <span class="text-sm">&nbsp;{{ moment(post.frontmatter.date).format('YYYY-MM-DD') }}</span>
-    </li>
-</ul>
+<span class="text-base"><PostCounter tag="post" /></span>件
+
+<TaggedPostList tag="post" />

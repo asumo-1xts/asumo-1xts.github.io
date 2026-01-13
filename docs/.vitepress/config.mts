@@ -103,7 +103,7 @@ export default defineConfig({
   // メタタグの設定
   // ページごとに設定したいものは、ここに書かないこと！（なぜかオーバーライドされない）
   head: [
-    ['link', { rel: 'icon', href: './favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { property: 'og:author', content: 'aSumo' }],
     [
       'meta',

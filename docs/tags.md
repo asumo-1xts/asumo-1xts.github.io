@@ -16,14 +16,14 @@ lastUpdated: false
 # すべてのタグ
 
 <script lang="ts" setup>
-import { data as tags } from "./.vitepress/tags.data"
-import PostCounter from "./.vitepress/components/PostCounter.vue"
+    import { data as tags } from "./.vitepress/tags.data"
+    import PostCounter from "./.vitepress/components/PostCounter.vue"
 </script>
 
-<ul>
+<ul style="list-style: none;">
     <li v-for="tagpage of tags">
-        <a :href="`${tagpage.url}`" class="font-semibold text-lg">{{ tagpage.frontmatter.title.replace('Tags/', '') }}
-            <span class="text-sm"> (<PostCounter :tag="tagpage.url.replace('/tags/', '').replace('.html', '')" />)</span>
+        <a :href="`${tagpage.url}`" class="font-semibold text-lg">{{ tagpage.frontmatter.title }}
+            <span class="text-sm">(<PostCounter :tag="tagpage.url.replace('/tags/', '').replace('.html', '')" />)</span>
         </a>
     </li>
 </ul>

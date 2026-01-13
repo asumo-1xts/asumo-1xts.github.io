@@ -12,6 +12,7 @@ prev: false
 next: false
 
 tags:
+  - post
   - modpedals
   - pic
   - ccpp
