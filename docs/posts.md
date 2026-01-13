@@ -20,9 +20,9 @@ lastUpdated: false
     import moment from 'moment';
 </script>
 
-<ul>
+<ul style="list-style: none;">
     <li v-for="post of posts">
-        <a :href="`${post.url}`" class="font-semibold text-lg">{{ post.frontmatter.title }}</a>
-        <span class="text-sm">&nbsp;{{ moment(post.frontmatter.date).format('YYYY-MM-DD') }}</span>
+        <span class="text-sm">{{ moment(post.frontmatter.date).format('YYYY-MM-DD') }}&emsp;</span>
+        <a :href="`${post.url}`">{{ post.frontmatter.title }}</a>
     </li>
 </ul>
