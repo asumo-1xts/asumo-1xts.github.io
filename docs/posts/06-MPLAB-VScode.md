@@ -17,9 +17,11 @@ tags:
   - ccpp
 ---
 
-[環境構築](../tags/environment) | [PIC](../tags/pic) | [C/C++](../tags/ccpp)
-
 # MPLAB VScode Extention入門
+
+[<Badge type="tag" text="環境構築" />](../tags/environment)
+[<Badge type="tag" text="PIC" />](../tags/pic)
+[<Badge type="tag" text="C/C++" />](../tags/ccpp)
 
 ## はじめに
 

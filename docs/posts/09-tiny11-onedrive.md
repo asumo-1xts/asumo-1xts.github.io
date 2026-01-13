@@ -17,9 +17,9 @@ tags:
 hidden: true
 ---
 
-[トラブルシューティング](../tags/trouble)
-
 # tiny11builder後のOneDrive導入
+
+[<Badge type="tag" text="トラブルシューティング" />](../tags/trouble)
 
 ## はじめに
 

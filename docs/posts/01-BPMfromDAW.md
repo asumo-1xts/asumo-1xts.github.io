@@ -17,9 +17,11 @@ tags:
   - midi
 ---
 
-[MIDI](../tags/midi) | [Arduino](../tags/arduino) | [C/C++](../tags/ccpp)
-
 # ArduinoでDAWからBPMを取得
+
+[<Badge type="tag" text="MIDI" />](../tags/midi)
+[<Badge type="tag" text="Arduino" />](../tags/arduino)
+[<Badge type="tag" text="C/C++" />](../tags/ccpp)
 
 ## はじめに
 

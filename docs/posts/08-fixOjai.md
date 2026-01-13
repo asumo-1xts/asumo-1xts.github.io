@@ -15,9 +15,9 @@ tags:
   - fixpedals
 ---
 
-[エフェクター修理](../tags/fixpedals)
-
 # Strymon Ojaiの端子折れを修理
+
+[<Badge type="tag" text="エフェクター修理" />](../tags/fixpedals)
 
 ::: warning
 正しい情報を記載するよう努めていますが、それはそれとして当方は一切の責任を負いかねます。
