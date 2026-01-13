@@ -24,3 +24,7 @@ lastUpdated: false
 <span class="text-base"><PostCounter tag="justnote" /></span>件
 
 <TaggedPostList tag="justnote" />
+
+---
+
+[すべてのタグ](../tags)

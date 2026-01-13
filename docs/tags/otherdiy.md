@@ -24,3 +24,7 @@ lastUpdated: false
 <span class="text-base"><PostCounter tag="otherdiy" /></span>件
 
 <TaggedPostList tag="otherdiy" />
+
+---
+
+[すべてのタグ](../tags)

@@ -26,3 +26,7 @@ hidden: true
 <span class="text-base"><PostCounter tag="midi" /></span>件
 
 <TaggedPostList tag="midi" />
+
+---
+
+[すべてのタグ](../tags)

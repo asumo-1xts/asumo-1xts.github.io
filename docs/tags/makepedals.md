@@ -24,3 +24,7 @@ lastUpdated: false
 <span class="text-base"><PostCounter tag="makepedals" /></span>件
 
 <TaggedPostList tag="makepedals" />
+
+---
+
+[すべてのタグ](../tags)

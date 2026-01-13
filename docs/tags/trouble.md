@@ -24,3 +24,7 @@ lastUpdated: false
 <span class="text-base"><PostCounter tag="trouble" /></span>件
 
 <TaggedPostList tag="trouble" />
+
+---
+
+[すべてのタグ](../tags)

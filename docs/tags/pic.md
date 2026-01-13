@@ -26,3 +26,7 @@ hidden: true
 <span class="text-base"><PostCounter tag="pic" /></span>件
 
 <TaggedPostList tag="pic" />
+
+---
+
+[すべてのタグ](../tags)
