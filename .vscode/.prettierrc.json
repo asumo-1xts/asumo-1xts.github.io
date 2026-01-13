@@ -1,15 +1,30 @@
 {
+  "endOfLine": "auto",
   "overrides": [
     {
-      "files": ["*.json", "*.jsonc"],
+      "files": [
+        "*.json",
+        "*.jsonc"
+      ],
       "options": {
         "parser": "jsonc"
       }
     },
     {
-      "files": ["*.yml", "*.yaml"],
+      "files": [
+        "*.yml",
+        "*.yaml"
+      ],
       "options": {
         "parser": "yaml"
+      }
+    },
+    {
+      "files": [
+        "*.vue"
+      ],
+      "options": {
+        "parser": "vue"
       }
     }
   ],
@@ -18,5 +33,7 @@
   "semi": false,
   "singleQuote": true,
   "tabWidth": 2,
-  "trailingComma": "none"
+  "trailingComma": "none",
+  "vueIndentScriptAndStyle": true,
+  "withNodeModules": true
 }

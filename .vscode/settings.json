@@ -3,7 +3,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -11,9 +11,10 @@
     "[yaml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "editor.formatOnSave": true,
     "extensions.ignoreRecommendations": false,
-    "prettier.configPath": ".vscode/.prettierrc.json",
-    "prettier.endOfLine": "auto",
-    "prettier.withNodeModules": true
+    "prettier.configPath": ".vscode/.prettierrc.json"
 }
