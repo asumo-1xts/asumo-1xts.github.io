@@ -12,6 +12,7 @@ prev: false
 next: false
 
 tags:
+  - post
   - environment
   - pic
   - ccpp

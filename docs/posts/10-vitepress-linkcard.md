@@ -12,6 +12,7 @@ prev: false
 next: false
 
 tags:
+  - post
   - webdev
   - typescript
 ---
@@ -19,6 +20,9 @@ tags:
 [Web開発](../tags/webdev) | [TypeSript](../tags/typescript)
 
 # VitePressでリンクカードを貼る
+
+[<Badge type="warning" text="Web開発" />](../tags/webdev)
+[<Badge type="warning" text="TypeScript" />](../tags/typescript)
 
 ## はじめに
 

@@ -12,14 +12,14 @@ let taggedPosts = posts.filter((page) =>
 </script>
 
 <template>
-  <ul>
+  <ul style="list-style: none;">
     <li v-for="post of taggedPosts">
+      <span class="text-sm">
+        {{ moment(post.frontmatter.date).format("YYYY-MM-DD") }}
+      &emsp;</span>
       <a :href="`${post.url}`" class="font-semibold text-lg">{{
         post.frontmatter.title
       }}</a>
-      <span class="text-sm">
-        - {{ moment(post.frontmatter.date).format("YYYY-MM-DD") }}</span
-      >
     </li>
   </ul>
 </template>
