@@ -17,12 +17,10 @@ tags:
   - typescript
 ---
 
-[Web開発](../tags/webdev) | [TypeSript](../tags/typescript)
-
 # VitePressでリンクカードを貼る
 
-[<Badge type="warning" text="Web開発" />](../tags/webdev)
-[<Badge type="warning" text="TypeScript" />](../tags/typescript)
+[<Badge type="tag" text="Web開発" />](../tags/webdev)
+[<Badge type="tag" text="TypeScript" />](../tags/typescript)
 
 ## はじめに
 

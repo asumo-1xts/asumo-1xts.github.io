@@ -16,9 +16,9 @@ tags:
   - trouble
 ---
 
-[トラブルシューティング](../tags/trouble)
-
 # HX Stompの同時押しを無効化
+
+[<Badge type="tag" text="トラブルシューティング" />](../tags/trouble)
 
 ## はじめに
 
@@ -47,8 +47,8 @@ tags:
   type="double"
 />
 
-3. `Command Center`に入って上段ノブでStomp1を選択
-4. `Command`を`Snpsht`に、そして`Press`を`SNAP1`に設定
+1. `Command Center`に入って上段ノブでStomp1を選択
+2. `Command`を`Snpsht`に、そして`Press`を`SNAP1`に設定
 
 <ImageGroup
   :sources="[
@@ -58,7 +58,7 @@ tags:
   type="double"
 />
 
-5. 必要に応じてSNAP2、SNAP3も同様に設定
+1. 必要に応じてSNAP2、SNAP3も同様に設定
 
 <ImageGroup
   :sources="[
@@ -68,7 +68,7 @@ tags:
   type="double"
 />
 
-6. 完了
+1. 完了
 
 <ImageGroup
   :sources="[

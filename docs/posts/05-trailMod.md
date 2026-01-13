@@ -18,9 +18,11 @@ tags:
   - ccpp
 ---
 
-[エフェクター改造](../tags/modpedals) | [PIC](../tags/pic) | [C/C++](../tags/ccpp)
-
 # DOD FX-96をトレイルバイパス化
+
+[<Badge type="tag" text="エフェクター改造" />](../tags/modpedals)
+[<Badge type="tag" text="PIC" />](../tags/pic)
+[<Badge type="tag" text="C/C++" />](../tags/ccpp)
 
 ::: warning
 正しい情報を記載するよう努めていますが、それはそれとして当方は一切の責任を負いかねます。

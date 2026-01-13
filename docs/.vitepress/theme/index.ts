@@ -10,6 +10,7 @@ import 'viewerjs/dist/viewer.min.css'
 import 'vitepress-plugin-codeblocks-fold/style/index.css'
 import 'virtual:group-icons.css'
 import '@miletorix/vitepress-image-group/style.css'
+import CustomBadge from '../components/CustomBadge.vue'
 
 const Theme: ThemeConfig = {
   extends: DefaultTheme
@@ -20,6 +21,7 @@ export default {
   enhanceApp: (ctx) => {
     ctx.app.component('vImageViewer', vImageViewer)
     ctx.app.component('ImageGroup', ImageGroup)
+    ctx.app.component('CustomBadge', CustomBadge)
   },
   setup() {
     const route = useRoute()

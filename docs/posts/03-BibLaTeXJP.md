@@ -16,9 +16,9 @@ tags:
   - latex
 ---
 
-[LaTeX](../tags/latex)
-
 # BibLaTeXで欧文と和文を混ぜる
+
+[<Badge type="tag" text="LaTeX" />](../tags/latex)
 
 ## はじめに
 

@@ -19,9 +19,12 @@ tags:
   - otherdiy
 ---
 
-[その他の工作](../tags/otherdiy) | [MIDI](../tags/midi) | [Arduino](../tags/arduino) | [C/C++](../tags/ccpp)
-
 # 理想のMIDIコントローラを自作
+
+[<Badge type="tag" text="その他の工作" />](../tags/otherdiy)
+[<Badge type="tag" text="MIDI" />](../tags/midi)
+[<Badge type="tag" text="Arduino" />](../tags/arduino)
+[<Badge type="tag" text="C/C++" />](../tags/ccpp)
 
 ::: warning
 正しい情報を記載するよう努めていますが、それはそれとして当方は一切の責任を負いかねます。
