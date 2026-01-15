@@ -12,7 +12,7 @@
 </script>
 
 <template>
-  <ul style="list-style: none">
+  <ul style="list-style: none; padding-left: 0">
     <li v-for="post of taggedPosts">
       <span class="text-sm">
         {{ moment(post.frontmatter.date).format('YYYY-MM-DD') }}

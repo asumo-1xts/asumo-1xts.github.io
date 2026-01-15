@@ -22,7 +22,7 @@ lastUpdated: false
 
 <br/>
 
-<ul style="list-style: none;">
+<ul style="list-style: none; padding-left: 0;">
     <li v-for="tagpage of tags">
         <a :href="`${tagpage.url}`" class="font-semibold text-lg">
             <Badge type="tag" :text="tagpage.frontmatter.title" />
