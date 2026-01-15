@@ -16,7 +16,6 @@ export default defineConfig({
   base: '/',
   title: 'aSumoranda',
   description: 'ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ',
-
   markdown: {
     math: true,
     lineNumbers: true,
@@ -97,7 +96,7 @@ export default defineConfig({
     pages.forEach((page) => sitemap.write(page.frontmatter.permalink))
     sitemap.end()
 
-    await new Promise((r) => writeStream.on('finish', r))
+    await new Promise((r) => writeStream.on('finish', () => r(undefined)))
   },
 
   // メタタグの設定
