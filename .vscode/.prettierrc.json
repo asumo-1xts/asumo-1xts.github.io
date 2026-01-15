@@ -2,27 +2,19 @@
   "endOfLine": "auto",
   "overrides": [
     {
-      "files": [
-        "*.json",
-        "*.jsonc"
-      ],
+      "files": ["*.json", "*.jsonc"],
       "options": {
         "parser": "jsonc"
       }
     },
     {
-      "files": [
-        "*.yml",
-        "*.yaml"
-      ],
+      "files": ["*.yml", "*.yaml"],
       "options": {
         "parser": "yaml"
       }
     },
     {
-      "files": [
-        "*.vue"
-      ],
+      "files": ["*.vue"],
       "options": {
         "parser": "vue"
       }
