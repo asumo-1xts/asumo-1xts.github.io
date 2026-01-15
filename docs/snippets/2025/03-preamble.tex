@@ -25,15 +25,15 @@
 \DefineBibliographyStrings{english}{andothers={\textit{et al.}}} % 斜体にする
 
 \AtEveryBibitem{ % bibファイルの文献を走査してゆく
-  \iffieldequalstr{langid}{Japanese}{ % if: langid=Japaneseとした文献のみピックアップ
-    \selectlanguage{british} % 言語をbritishにすることでandothers={他}が適用される
-    \DeclareDelimFormat{finalnamedelim}{ % 区切り文字の設定
-      \ifnumgreater{\value{liststop}}{2}{\finalandcomma}{} % 「and」を使わせない
+  \iffieldequalstr{langid}{Japanese}{ % if: langid=Japaneseとした文献のみ取得
+    \selectlanguage{british} % 言語をbritishに設定
+    \DeclareDelimFormat{finalnamedelim}{ % 連名の最後に「and」を使わせない
+      \ifnumgreater{\value{liststop}}{2}{\finalandcomma}{}
     \addspace\multinamedelim }
-    \DeclareFieldFormat{title}{\textrm{「#1」}} % 論文のタイトルを普通の字体で鍵括弧囲み
-    \DeclareFieldFormat[book]{title}{\textrm{『#1』}} % 書籍なら二重鍵括弧
-    \DeclareFieldFormat{journaltitle}{\textrm{#1}} % 雑誌のタイトルも忘れず斜体解除
-    \DeclareFieldFormat{booktitle}{\textrm{#1}} % 書籍のタイトルも忘れず斜体解除
+    \DeclareFieldFormat{title}{\textrm{「#1」}} % 論文タイトルを鍵括弧
+    \DeclareFieldFormat[book]{title}{\textrm{『#1』}} % 書籍タイトルを二重鍵括弧
+    \DeclareFieldFormat{journaltitle}{\textrm{#1}} % 雑誌タイトルを斜体解除
+    \DeclareFieldFormat{booktitle}{\textrm{#1}} % 書籍タイトルを斜体解除
     \renewbibmacro{in:}{} % ジャーナル名の前の「In:」を除去
   }{% ここまでが和文の文献に限った処理
   \selectlanguage{english}} % else: 欧文の文献はデフォルト（english）の処理で良い

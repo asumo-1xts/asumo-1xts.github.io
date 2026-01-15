@@ -26,10 +26,10 @@ BibLaTeXはBibTeXより新しく便利な部分もあるものの、日本語へ
 
 | 列1 | 欧文の文献 | 和文の文献 |
 |-----|-----|-----|
-| 連名著者の省略 | *et al.* | 他 |
-| 連名著者の区切り | hoge, fuga, and piyo. | hoge, fuga, piyo. |
-| 文献のタイトル | ``Title'' | 「タイトル」 |
-| 会議・ジャーナル名の区切り | In: Hoge Conference | 何とか会議（In: 無し） |
+| 連名著者の省略 | $\textit{et al.}$ | $\textrm{他}$ |
+| 連名著者の区切り | $\textrm{hoge, fuga, and piyo.}$ | $\textrm{hoge，fuga，piyo.}$ |
+| 文献のタイトル | “$\textrm{Title}$” | $\textrm{「タイトル」}$ |
+| 会議・ジャーナル名の区切り | $\textrm{In: Hoge Conference}$ | $\textrm{何とか会議}$（In: 無し） |
 
 ## 環境
 
