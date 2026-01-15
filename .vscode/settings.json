@@ -14,7 +14,6 @@
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "extensions.ignoreRecommendations": false,
   "prettier.configPath": ".vscode/.prettierrc.json",
   "prettier.prettierPath": "./node_modules/prettier"
 }
