@@ -42,15 +42,43 @@ export default defineConfig({
       { text: '各種ご案内', link: '/info' },
       {
         text: '1x telescope',
-        link: 'https://1xtelescope.com',
+        link: 'https://1xtelescope.com/',
         target: '_blank',
         rel: 'sponsored'
       }
     ],
 
-    sidebar: {
-      '/': { base: '', items: mySidebar() }
-    },
+    sidebar: [
+      {
+        text: 'For Mobile📱',
+        collapsed: true,
+        items: [
+          { text: 'Home', link: '/' },
+          { text: 'すべての記事', link: '/posts' },
+          { text: 'すべてのタグ', link: '/tags' },
+          { text: '各種ご案内', link: '/info' },
+          {
+            text: '1x telescope',
+            link: 'https://1xtelescope.com/',
+            target: '_blank',
+            rel: 'sponsored'
+          },
+          {
+            text: 'X',
+            link: 'https://x.com/asumo_1xts',
+            target: '_blank',
+            rel: 'noopener'
+          },
+          {
+            text: 'GitHub',
+            link: 'https://github.com/asumo-1xts',
+            target: '_blank',
+            rel: 'noopener'
+          }
+        ]
+      },
+      ...mySidebar()
+    ],
 
     socialLinks: [
       { icon: 'x', link: 'https://x.com/asumo_1xts' },
