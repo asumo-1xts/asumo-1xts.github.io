@@ -1,7 +1,6 @@
 <script setup lang="ts">
   interface Props {
     text?: string
-    link?: string
     type?: 'tag'
   }
   withDefaults(defineProps<Props>(), {
