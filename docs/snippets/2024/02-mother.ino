@@ -67,8 +67,9 @@ uint8_t ppqn = 0;        //!< 24 Pulses Per Quarter Note
 uint32_t startTime = 0;  //!< カウント開始時刻
 /**
  * @brief
- * なんかよく解らんけどsetHandleClockの代わり！使用中はシリアルモニタを絶対に開かないこと
- * @param rt    これも謎パラメータ
+ * なんかよく解らんけどsetHandleClockの代わり！
+ * 使用中はシリアルモニタを絶対に開かないこと
+ * @param rt  これも謎パラメータ
  */
 bool realTimeMessageCallback(RealTimeMessage rt) {
   float preBPM = 0;  // 一旦の計算結果としてのBPM
@@ -77,17 +78,17 @@ bool realTimeMessageCallback(RealTimeMessage rt) {
     startTime = micros();
     analogWrite(LEDpin[0], minPWM);
   }
-  ppqn++;  // カウントアップ
+  ppqn++; // カウントアップ
 
   if (ppqn > 24) {  // 24回＝1拍
     preBPM = 6.0e+07 / float(micros() - startTime);
 
     if (20 <= preBPM && preBPM <= 999) {
       BPM = preBPM;
-    }  // preBPMが有効な数字であるならば、BPMとして採用
+    } // preBPMが有効な数字であるならば、BPMとして採用
 
     analogWrite(LEDpin[0], maxPWM);
-    ppqn = 0;  // カウントリセット
+    ppqn = 0; // カウントリセット
   }
 
   return true;
