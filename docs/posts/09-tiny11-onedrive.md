@@ -2,7 +2,7 @@
 layout: doc
 
 emoji: ☁️
-title: tiny11builder後のOneDrive導入
+title: tiny11build後のOneDrive導入
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-10-24
@@ -18,7 +18,7 @@ tags:
 hidden: true
 ---
 
-# tiny11builder後のOneDrive導入
+# tiny11build後のOneDrive導入
 
 [<Badge type="tag" text="トラブルシューティング" />](../tags/trouble)
 
