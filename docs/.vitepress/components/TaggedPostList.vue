@@ -16,8 +16,8 @@
     <li v-for="post of taggedPosts">
       <span class="text-sm">
         {{ moment(post.frontmatter.date).format('YYYY-MM-DD') }}
-        &emsp;
-      </span>
+        {{ post.frontmatter.emoji }}&nbsp;</span
+      >
       <a :href="`${post.url}`" class="font-semibold text-lg"
         >{{ post.frontmatter.title }}
       </a>
