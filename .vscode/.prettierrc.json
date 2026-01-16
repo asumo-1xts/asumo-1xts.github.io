@@ -18,6 +18,12 @@
       "options": {
         "parser": "vue"
       }
+    },
+    {
+      "files": ["*.css"],
+      "options": {
+        "parser": "css"
+      }
     }
   ],
   "parser": "typescript",
