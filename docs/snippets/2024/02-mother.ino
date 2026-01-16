@@ -28,60 +28,21 @@ uint8_t maxPWM = 255;       //!< LED最明値
 uint8_t LEDpin[2] = {3, 5};  //!< indicator
 
 CCButton sw[] = {
-    {
-        10,
-        {1, Channel::createChannel(ch[1])},
-    },  // Solo01
-    {
-        14,
-        {2, Channel::createChannel(ch[1])},
-    },  // Solo02
-
-    {
-        15,
-        {1, Channel::createChannel(ch[2])},
-    },  // Solo03
-    {
-        16,
-        {2, Channel::createChannel(ch[2])},
-    },  // Solo04
+    { 10, {1, Channel::createChannel(ch[1])} },  // Solo01
+    { 14, {2, Channel::createChannel(ch[1])} },  // Solo02
+    { 15, {1, Channel::createChannel(ch[2])} },  // Solo03
+    { 16, {2, Channel::createChannel(ch[2])} },  // Solo04
 };
 
 CCPotentiometer pot[] = {
-    {
-        A8,
-        {1, Channel::createChannel(ch[0])},
-    },  // A x B
-    {
-        A9,
-        {2, Channel::createChannel(ch[0])},
-    },  // Master
-
-    {
-        A0,
-        {3, Channel::createChannel(ch[1])},
-    },  // Vol01
-    {
-        A1,
-        {4, Channel::createChannel(ch[1])},
-    },  // Vol02
-    {
-        A6,
-        {5, Channel::createChannel(ch[1])},
-    },  // FX_A
-
-    {
-        A2,
-        {3, Channel::createChannel(ch[2])},
-    },  // Vol03
-    {
-        A3,
-        {4, Channel::createChannel(ch[2])},
-    },  // Vol04
-    {
-        A7,
-        {5, Channel::createChannel(ch[2])},
-    },  // FX_B
+    { A8, {1, Channel::createChannel(ch[0])} },  // A x B
+    { A9, {2, Channel::createChannel(ch[0])} },  // Master
+    { A0, {3, Channel::createChannel(ch[1])} },  // Vol01
+    { A1, {4, Channel::createChannel(ch[1])} },  // Vol02
+    { A6, {5, Channel::createChannel(ch[1])} },  // FX_A
+    { A2, {3, Channel::createChannel(ch[2])} },  // Vol03
+    { A3, {4, Channel::createChannel(ch[2])} },  // Vol04
+    { A7, {5, Channel::createChannel(ch[2])} },  // FX_B
 };
 
 //! @brief setup関数
