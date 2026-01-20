@@ -1,8 +1,8 @@
 ---
 layout: doc
 
-title: トラブルシューティング
-description: 「トラブルシューティング」のタグが付いた記事
+title: トラブルシュート
+description: 「トラブルシュート」のタグが付いた記事
 
 order: 5
 permalink: 'https://asumoranda.com/tags/pic.html'
@@ -19,7 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「トラブルシューティング」のタグが付いた記事
+# 「トラブルシュート」のタグが付いた記事
 
 <span class="text-base"><PostCounter tag="trouble" /></span>件
 

@@ -9,5 +9,6 @@ export default createContentLoader('tags/*.md', {
         (a, b) =>
           +new Number(a.frontmatter.order) - +new Number(b.frontmatter.order)
       )
+      .filter((page) => page.frontmatter.order >= 10)
   }
 })

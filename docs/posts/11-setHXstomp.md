@@ -18,7 +18,7 @@ tags:
 
 # HX Stompの同時押しを無効化
 
-[<Badge type="tag" text="トラブルシューティング" />](../tags/trouble)
+[<Badge type="tag" text="トラブルシュート" />](../tags/trouble)
 
 ## はじめに
 
