@@ -28,7 +28,7 @@ hidden: true
 
 ## 環境
 
-- Windows11 25H2
+- Windows 11 25H2
 - tiny11builder September 2025 release
 
 ## 状況
