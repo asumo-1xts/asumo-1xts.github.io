@@ -51,7 +51,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'For Mobile📱',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Home', link: '/' },
           { text: 'すべての記事', link: '/posts' },
@@ -206,18 +206,6 @@ function mySidebar(): DefaultTheme.SidebarItem[] {
         useTitleFromFrontmatter: true,
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
-        excludeFilesByFrontmatterFieldName: 'hidden'
-      }) as any
-    },
-    {
-      text: '主なタグ',
-      base: '/tags/',
-      collapsed: false,
-      items: generateSidebar({
-        documentRootPath: 'docs',
-        scanStartPath: 'tags',
-        useTitleFromFrontmatter: true,
-        sortMenusByFrontmatterOrder: true,
         excludeFilesByFrontmatterFieldName: 'hidden'
       }) as any
     }
