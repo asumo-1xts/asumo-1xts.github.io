@@ -20,7 +20,7 @@ hidden: true
 
 # tiny11build後のOneDrive導入
 
-[<Badge type="tag" text="トラブルシューティング" />](../tags/trouble)
+[<Badge type="tag" text="トラブルシュート" />](../tags/trouble)
 
 ## はじめに
 

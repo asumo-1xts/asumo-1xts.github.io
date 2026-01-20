@@ -20,7 +20,7 @@ hidden: true
 
 # Oxc+VScode 導入トラブル解決
 
-[<Badge type="tag" text="トラブルシューティング" />](../tags/trouble)
+[<Badge type="tag" text="トラブルシュート" />](../tags/trouble)
 
 ## はじめに
 
