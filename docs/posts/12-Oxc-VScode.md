@@ -2,7 +2,7 @@
 layout: doc
 
 emoji: ⚓
-title: Oxc+VScode導入トラブル解決
+title: Oxc+VScode 導入トラブル解決
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2026-01-21
@@ -16,7 +16,7 @@ tags:
   - trouble
 ---
 
-# Oxc+VScode導入トラブル解決
+# Oxc+VScode 導入トラブル解決
 
 [<Badge type="tag" text="トラブルシューティング" />](../tags/trouble)
 
