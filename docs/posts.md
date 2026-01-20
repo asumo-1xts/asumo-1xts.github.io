@@ -20,6 +20,6 @@ lastUpdated: false
     import PostCounter      from "./.vitepress/components/PostCounter.vue"
 </script>
 
-<span class="text-base"><PostCounter tag="post" /></span>件
+<span class="text-base"><PostCounter tag="" /></span>件
 
-<TaggedPostList tag="post" />
+<TaggedPostList tag="" />

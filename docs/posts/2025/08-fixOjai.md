@@ -12,7 +12,6 @@ prev: false
 next: false
 
 tags:
-  - post
   - fixpedals
 ---
 
