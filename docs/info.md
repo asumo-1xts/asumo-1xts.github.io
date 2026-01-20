@@ -4,7 +4,7 @@ layout: doc
 title: 各種ご案内
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
-permalink: "https://asumoranda.com/info.html"
+permalink: 'https://asumoranda.com/info.html'
 
 prev: false
 next: false

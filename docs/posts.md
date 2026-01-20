@@ -4,7 +4,7 @@ layout: doc
 title: すべての記事
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
-permalink: "https://asumoranda.com/posts.html"
+permalink: 'https://asumoranda.com/posts.html'
 
 prev: false
 next: false

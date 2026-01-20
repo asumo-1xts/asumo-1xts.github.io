@@ -6,7 +6,7 @@ title: 理想のMIDIコントローラを自作
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2024-08-18
-permalink: "https://asumoranda.com/posts/02-HeartLand.html"
+permalink: 'https://asumoranda.com/posts/02-HeartLand.html'
 
 prev: false
 next: false

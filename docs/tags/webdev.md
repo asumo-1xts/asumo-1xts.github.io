@@ -5,7 +5,7 @@ title: Web開発
 description: 「Web開発」のタグが付いた記事
 
 order: 8
-permalink: "https://asumoranda.com/tags/webdev.html"
+permalink: 'https://asumoranda.com/tags/webdev.html'
 
 prev: false
 next: false

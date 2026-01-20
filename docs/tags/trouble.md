@@ -5,7 +5,7 @@ title: トラブルシューティング
 description: 「トラブルシューティング」のタグが付いた記事
 
 order: 5
-permalink: "https://asumoranda.com/tags/pic.html"
+permalink: 'https://asumoranda.com/tags/pic.html'
 
 prev: false
 next: false

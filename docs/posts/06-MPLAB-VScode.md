@@ -6,7 +6,7 @@ title: MPLAB VScode Extention入門
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-09-28
-permalink: "https://asumoranda.com/posts/06-MPLAB-VScode.html"
+permalink: 'https://asumoranda.com/posts/06-MPLAB-VScode.html'
 
 prev: false
 next: false
@@ -262,7 +262,7 @@ NormalTrueBypass.
 
 マイコン間で共通の処理は`common.c`に括りだして、マイコンごとに書き方が異なる部分を`PIC12F1822/`や`PIC12F6XX/`で吸収しています。ここで先述の通り`.vscode/*.mplab.json`をそれぞれ編集しておけば、コンパイル時にそのマイコンに必要なソースファイルだけを取捨選択できます。例として、上記リポジトリの`.vscode/PIC12F1822.mplab.json`は以下のようになっています。
 
-``` json [NormalTrueBypass/.vscode/PIC12F1822.mplab.json]
+```json [NormalTrueBypass/.vscode/PIC12F1822.mplab.json]
 ...
     "fileSets": [
         {

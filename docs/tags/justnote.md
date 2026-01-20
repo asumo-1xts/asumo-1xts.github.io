@@ -5,7 +5,7 @@ title: 雑記
 description: 「雑記」のタグが付いた記事
 
 order: 10
-permalink: "https://asumoranda.com/tags/justnote.html"
+permalink: 'https://asumoranda.com/tags/justnote.html'
 
 prev: false
 next: false

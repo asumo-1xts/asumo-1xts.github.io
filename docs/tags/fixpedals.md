@@ -5,7 +5,7 @@ title: エフェクター修理
 description: 「エフェクター修理」のタグが付いた記事
 
 order: 3
-permalink: "https://asumoranda.com/tags/fixpedals.html"
+permalink: 'https://asumoranda.com/tags/fixpedals.html'
 
 prev: false
 next: false

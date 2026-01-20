@@ -6,7 +6,7 @@ title: BibLaTeXで欧文と和文を混ぜる
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-06-10
-permalink: "https://asumoranda.com/posts/03-BibLaTeXJP.html"
+permalink: 'https://asumoranda.com/posts/03-BibLaTeXJP.html'
 
 prev: false
 next: false
@@ -24,12 +24,12 @@ tags:
 
 BibLaTeXはBibTeXより新しく便利な部分もあるものの、日本語への対応状況が芳しくありません。先人が[こういうもの](https://github.com/kmaed/biblatex-japanese.git)を残したりしていますが、残念ながら手元であんまり上手く動かなかったので、半ばごり押しで以下の項目を実装します。
 
-| 列1 | 欧文の文献 | 和文の文献 |
-|-----|-----|-----|
-| 連名著者の省略 | $\textit{et al.}$ | $\textrm{他}$ |
-| 連名著者の区切り | $\textrm{hoge, fuga, and piyo.}$ | $\textrm{hoge，fuga，piyo.}$ |
-| 文献のタイトル | “$\textrm{Title}$” | $\textrm{「タイトル」}$ |
-| 会議・ジャーナル名の区切り | $\textrm{In: Hoge Conference}$ | $\textrm{何とか会議}$（In: 無し） |
+| 列1                        | 欧文の文献                       | 和文の文献                        |
+| -------------------------- | -------------------------------- | --------------------------------- |
+| 連名著者の省略             | $\textit{et al.}$                | $\textrm{他}$                     |
+| 連名著者の区切り           | $\textrm{hoge, fuga, and piyo.}$ | $\textrm{hoge，fuga，piyo.}$      |
+| 文献のタイトル             | “$\textrm{Title}$”               | $\textrm{「タイトル」}$           |
+| 会議・ジャーナル名の区切り | $\textrm{In: Hoge Conference}$   | $\textrm{何とか会議}$（In: 無し） |
 
 ## 環境
 
@@ -119,7 +119,7 @@ BibLaTeXはBibTeXより新しく便利な部分もあるものの、日本語へ
 ]{biblatex} % BibLaTeXパッケージ読み込み
 
 \DeclareFieldFormat{labelnumber}{#1)} % 本文中での括弧を設定 [!code ++]
-\DeclareFieldFormat{labelnumberwidth}{#1} % 末尾での括弧を設定 [!code ++] 
+\DeclareFieldFormat{labelnumberwidth}{#1} % 末尾での括弧を設定 [!code ++]
 ```
 
 :::

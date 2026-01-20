@@ -5,8 +5,8 @@ title: aSumoranda
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 hero:
-  name: "aSumoranda"
-  tagline: "ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ"
+  name: 'aSumoranda'
+  tagline: 'ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ'
   image:
     src: cover01.webp
     alt: aSumoranda
@@ -37,5 +37,5 @@ features:
     details: その他の工作 | MIDI | Arduino | C/C++
     link: ./posts/02-HeartLand
 
-permalink: "https://asumoranda.com/"
+permalink: 'https://asumoranda.com/'
 ---

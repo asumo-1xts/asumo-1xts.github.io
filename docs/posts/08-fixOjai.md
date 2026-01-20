@@ -6,7 +6,7 @@ title: Strymon Ojaiの端子折れを修理
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-10-23
-permalink: "https://asumoranda.com/posts/08-fixOjai.html"
+permalink: 'https://asumoranda.com/posts/08-fixOjai.html'
 
 prev: false
 next: false

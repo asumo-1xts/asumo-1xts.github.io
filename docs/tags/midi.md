@@ -5,7 +5,7 @@ title: MIDI
 description: 「MIDI」のタグが付いた記事
 
 order: 11
-permalink: "https://asumoranda.com/tags/midi.html"
+permalink: 'https://asumoranda.com/tags/midi.html'
 
 prev: false
 next: false

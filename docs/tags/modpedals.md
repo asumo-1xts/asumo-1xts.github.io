@@ -5,7 +5,7 @@ title: エフェクター改造
 description: 「エフェクター改造」のタグが付いた記事
 
 order: 2
-permalink: "https://asumoranda.com/tags/modpedals.html"
+permalink: 'https://asumoranda.com/tags/modpedals.html'
 
 prev: false
 next: false

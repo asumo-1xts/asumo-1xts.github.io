@@ -6,7 +6,7 @@ title: VitePressでリンクカードを貼る
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-11-06
-permalink: "https://asumoranda.com/posts/10-vitepress-linkcard.html"
+permalink: 'https://asumoranda.com/posts/10-vitepress-linkcard.html'
 
 prev: false
 next: false
@@ -39,7 +39,7 @@ VitePress用のリンクカード生成プラグイン「vitepress-linkcard」�
 ::: code-group
 
 ```sh [npm]
-npm install -D vitepress-linkcard 
+npm install -D vitepress-linkcard
 ```
 
 ```sh [yarn]
@@ -56,10 +56,10 @@ pnpm add -D vitepress-linkcard
 
 ::: code-group
 
-``` ts [docs/.vitepress/config.ts]
-import { defineConfig } from "vitepress";
-import { linkToCardPlugin } from "vitepress-linkcard";
-import type { LinkToCardPluginOptions } from "vitepress-linkcard";
+```ts [docs/.vitepress/config.ts]
+import { defineConfig } from 'vitepress'
+import { linkToCardPlugin } from 'vitepress-linkcard'
+import type { LinkToCardPluginOptions } from 'vitepress-linkcard'
 
 export default defineConfig({
   // ...
@@ -67,11 +67,11 @@ export default defineConfig({
     config: (md) => {
       md.use<LinkToCardPluginOptions>(linkToCardPlugin, {
         // target: "_self" // オプション（後述）
-      });
-    },
-  },
+      })
+    }
+  }
   // ...
-});
+})
 ```
 
 :::
@@ -80,7 +80,7 @@ URLに`@:`のプレフィクスを付けるとリンクカードが生成され�
 
 ::: code-group
 
-``` md [*.md]
+```md [*.md]
 [example](@:https://example.com)
 ```
 
@@ -124,7 +124,7 @@ URLに`@:`のプレフィクスを付けるとリンクカードが生成され�
 }
 ```
 
-``` ts [docs/.vitepress/theme/index.ts]
+```ts [docs/.vitepress/theme/index.ts]
 import DefaultTheme from 'vitepress/theme-without-fonts'
 import type { Theme as ThemeConfig } from 'vitepress'
 import './custom.css'
@@ -150,10 +150,10 @@ export default {
 
 URLのドメインが`github.com`のとき、titleとdescriptionの内容の重複を避けるべく以下に示すようなトリミングが実行されます。
 
-| | Title | Description |
-| - | - | - |
+|        | Title                                                                                     | Description                                                                                                                                 |
+| ------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | Before | GitHub - asumo-1xts/vitepress-linkcard: A VitePress plugin to generate a pretty linkcard. | A VitePress plugin to generate a pretty linkcard. Contribute to asumo-1xts/vitepress-linkcard development by creating an account on GitHub. |
-| After | asumo-1xts/vitepress-linkcard | A VitePress plugin to generate a pretty linkcard. |
+| After  | asumo-1xts/vitepress-linkcard                                                             | A VitePress plugin to generate a pretty linkcard.                                                                                           |
 
 ## おわりに
 

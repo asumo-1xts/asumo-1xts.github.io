@@ -5,7 +5,7 @@ title: TypeScript
 description: 「TypeScript」のタグが付いた記事
 
 order: 35
-permalink: "https://asumoranda.com/tags/typescript.html"
+permalink: 'https://asumoranda.com/tags/typescript.html'
 
 prev: false
 next: false

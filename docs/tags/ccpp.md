@@ -5,7 +5,7 @@ title: C/C++
 description: 「C/C++」のタグが付いた記事
 
 order: 31
-permalink: "https://asumoranda.com/tags/ccpp.html"
+permalink: 'https://asumoranda.com/tags/ccpp.html'
 
 prev: false
 next: false

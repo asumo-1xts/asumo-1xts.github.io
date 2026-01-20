@@ -6,7 +6,7 @@ title: Oxc+VScode 導入トラブル解決
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2026-01-21
-permalink: "https://asumoranda.com/posts/12-Oxc-VScode.html"
+permalink: 'https://asumoranda.com/posts/12-Oxc-VScode.html'
 
 prev: false
 next: false
@@ -35,7 +35,7 @@ tags:
 
 ## 状況
 
-公式のチュートリアル通りに初期設定を終えたところ、VScodeの再起動のたびに「ソース: Oxc」から10件ほどのエラー（一番上のエラーメッセージは「*oxc client: couldn't create connection to server.*」）が通知されました。
+公式のチュートリアル通りに初期設定を終えたところ、VScodeの再起動のたびに「ソース: Oxc」から10件ほどのエラー（一番上のエラーメッセージは「_oxc client: couldn't create connection to server._」）が通知されました。
 
 出力を見てみると
 
@@ -51,7 +51,7 @@ tags:
 
 どうやらOxcは`/usr/`内からNodeJSを探しているらしく、miseでNodeJSを管理している私の環境では
 
-``` shell
+```shell
 > which node
 ~/.local/share/mise/installs/node/25.4.0/bin/node
 ```
