@@ -1,14 +1,14 @@
 <script lang="ts" setup>
-  import { data as posts } from '../posts.data'
-  import moment from 'moment'
-  const props = defineProps(['tag'])
-  let taggedPosts = posts.filter((page) =>
-    page.frontmatter.tags
-      .toString()
-      .replaceAll(' ', '')
-      .toLowerCase()
-      .includes(props.tag)
-  )
+import { data as posts } from '../posts.data'
+import moment from 'moment'
+const props = defineProps(['tag'])
+let taggedPosts = posts.filter((page) =>
+  page.frontmatter.tags
+    .toString()
+    .replaceAll(' ', '')
+    .toLowerCase()
+    .includes(props.tag)
+)
 </script>
 
 <template>

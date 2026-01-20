@@ -5,7 +5,7 @@ title: LaTeX
 description: 「LaTeX」のタグが付いた記事
 
 order: 39
-permalink: "https://asumoranda.com/tags/latex.html"
+permalink: 'https://asumoranda.com/tags/latex.html'
 
 prev: false
 next: false

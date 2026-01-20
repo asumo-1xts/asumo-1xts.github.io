@@ -5,7 +5,7 @@ title: アプリ開発
 description: 「アプリ開発」のタグが付いた記事
 
 order: 7
-permalink: "https://asumoranda.com/tags/appdev.html"
+permalink: 'https://asumoranda.com/tags/appdev.html'
 
 prev: false
 next: false

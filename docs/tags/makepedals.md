@@ -5,7 +5,7 @@ title: エフェクター製作
 description: 「エフェクター製作」のタグが付いた記事
 
 order: 1
-permalink: "https://asumoranda.com/tags/makepedals.html"
+permalink: 'https://asumoranda.com/tags/makepedals.html'
 
 prev: false
 next: false

@@ -6,7 +6,7 @@ title: HX Stompの同時押しを無効化
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-11-23
-permalink: "https://asumoranda.com/posts/11-setHXstomp.html"
+permalink: 'https://asumoranda.com/posts/11-setHXstomp.html'
 
 prev: false
 next: false

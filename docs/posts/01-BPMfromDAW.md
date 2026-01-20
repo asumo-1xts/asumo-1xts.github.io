@@ -6,7 +6,7 @@ title: ArduinoでDAWからBPMを取得
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2024-08-12
-permalink: "https://asumoranda.com/posts/01-BPMfromDAW.html"
+permalink: 'https://asumoranda.com/posts/01-BPMfromDAW.html'
 
 prev: false
 next: false
@@ -39,7 +39,7 @@ tags:
 
 ArduinoでAbleton LiveからBPMを取得したいです。適当に検索をかけるとArduino側をMIDIクロックジェネレータとして運用する方法が多くヒットしますが、実際の演奏場面を考えるとクロックの主導権はLive側に握らせた方が安心です。
 
-DAWによってはMIDIタイムコードという内部データ的なものを吐き出してくれるんですが、Ableton Liveは[公式のヘルプページ](https://help.ableton.com/hc/ja/articles/209071149-MIDI%E3%81%A7Live%E3%82%92%E5%90%8C%E6%9C%9F%E3%81%99%E3%82%8B "MIDIでLiveを同期する")曰く
+DAWによってはMIDIタイムコードという内部データ的なものを吐き出してくれるんですが、Ableton Liveは[公式のヘルプページ](https://help.ableton.com/hc/ja/articles/209071149-MIDI%E3%81%A7Live%E3%82%92%E5%90%8C%E6%9C%9F%E3%81%99%E3%82%8B 'MIDIでLiveを同期する')曰く
 
 > MIDIタイムコード（MTC）の出力：Liveは受信するMIDIタイムコードと同期することができますが、Liveだけでは、MIDI タイムコードを送信することができません。ただし、MIDIタイムコードを出力するMaxのデバイス を利用することができます（Max Runtimeが必要です）。
 
@@ -54,7 +54,7 @@ DAWによってはMIDIタイムコードという内部データ的なものを�
 
 ## スケッチ
 
-実は[MIDIUSBライブラリ](https://github.com/arduino-libraries/MIDIUSB.git "MIDIUSB Library for Arduino")の`example`ディレクトリに、本記事と全く同じ目的で書かれた`MIDIUSB_clock.ino`なるスケッチが存在します。これを下敷きにしつつ、[フォーラム](https://forum.arduino.cc/t/missing-midi-in-messages-with-midiusb-library-and-arduino-micro/453585 "Missing Midi In messages with MIDIUSB library and Arduino Micro")なども参考にしました。
+実は[MIDIUSBライブラリ](https://github.com/arduino-libraries/MIDIUSB.git 'MIDIUSB Library for Arduino')の`example`ディレクトリに、本記事と全く同じ目的で書かれた`MIDIUSB_clock.ino`なるスケッチが存在します。これを下敷きにしつつ、[フォーラム](https://forum.arduino.cc/t/missing-midi-in-messages-with-midiusb-library-and-arduino-micro/453585 'Missing Midi In messages with MIDIUSB library and Arduino Micro')なども参考にしました。
 
 ### ベーシック ver
 
@@ -66,7 +66,7 @@ DAWによってはMIDIタイムコードという内部データ的なものを�
 
 特に`getSerialMIDI`関数の`0xF8`なる定数、こいつが構造体`midiEventPacket_t`の先頭として飛び込んできたら「クロックが来たぞ！」の合図になるようです。
 
-ほとんど同じ仕組みで、MIDIUSBライブラリじゃなく[Control Surfaceライブラリ](https://github.com/tttapa/Control-Surface.git "Control Surface")を使って書くこともできました。Control Surfaceはめちゃくちゃ便利な神ライブラリです。
+ほとんど同じ仕組みで、MIDIUSBライブラリじゃなく[Control Surfaceライブラリ](https://github.com/tttapa/Control-Surface.git 'Control Surface')を使って書くこともできました。Control Surfaceはめちゃくちゃ便利な神ライブラリです。
 
 ::: code-group
 <<< @/snippets/2024/01-MIDIUSB.ino{cpp} [MIDIUSB ver. ~vscode-icons:file-type-arduino~]

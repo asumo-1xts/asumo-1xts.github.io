@@ -5,7 +5,7 @@ title: Arduino
 description: 「Arduino」のタグが付いた記事
 
 order: 21
-permalink: "https://asumoranda.com/tags/arduino.html"
+permalink: 'https://asumoranda.com/tags/arduino.html'
 
 prev: false
 next: false

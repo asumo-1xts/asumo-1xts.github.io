@@ -5,7 +5,7 @@ title: その他の工作
 description: 「その他の工作」のタグが付いた記事
 
 order: 4
-permalink: "https://asumoranda.com/tags/otherdiy.html"
+permalink: 'https://asumoranda.com/tags/otherdiy.html'
 
 prev: false
 next: false
