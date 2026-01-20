@@ -14,6 +14,8 @@ next: false
 tags:
   - post2026
   - trouble
+
+hidden: true
 ---
 
 # Oxc+VScode 導入トラブル解決
@@ -58,7 +60,7 @@ tags:
 
 ご覧の通りなので見つかるはずがありません。
 
-本来のバイナリフォルダにシンボリックリンクを張ると問題なく動くようになりました。
+本来のバイナリフォルダにシンボリックリンクを貼ると問題なく動くようになりました。
 
 ```shell
 sudo ln -s $(which node) /usr/local/bin/node
