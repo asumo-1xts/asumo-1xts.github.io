@@ -12,7 +12,7 @@ prev: false
 next: false
 
 tags:
-  - post
+  - post2025
   - fixpedals
 ---
 
