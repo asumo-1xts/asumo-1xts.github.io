@@ -32,7 +32,8 @@ lastUpdated: false
 </style>
 
 <script lang="ts" setup>
-    import { data as tags } from "./.vitepress/tags.data"
+    import { data as tags1 } from "./.vitepress/tags1.data"
+    import { data as tags2 } from "./.vitepress/tags2.data"
     import PostCounter from "./.vitepress/components/PostCounter.vue"
 </script>
 
@@ -43,7 +44,7 @@ lastUpdated: false
 <div class="column-left">
 
 <ul style="list-style: none; padding-left: 0;">
-    <li v-for="tagpage of tags">
+    <li v-for="tagpage of tags1">
         <a :href="`${tagpage.url}`" class="font-semibold text-lg">
             <Badge type="tag" :text="tagpage.frontmatter.title" />
         </a>
@@ -60,7 +61,7 @@ lastUpdated: false
 </div>
 
 <ul style="list-style: none; padding-left: 0;">
-    <li v-for="tagpage of tags">
+    <li v-for="tagpage of tags2">
         <a :href="`${tagpage.url}`" class="font-semibold text-lg">
             <Badge type="tag" :text="tagpage.frontmatter.title" />
         </a>
