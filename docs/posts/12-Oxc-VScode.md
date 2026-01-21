@@ -24,7 +24,7 @@ hidden: true
 
 ## はじめに
 
-速いと噂の[Oxfmt](https://oxc.rs/docs/guide/usage/formatter)を使ってみるべく[VScode拡張機能](https://marketplace.visualstudio.com/items?itemName=oxc.oxc-vscode)を導入しようとして躓きました。
+速いと噂の[Oxfmt](https://oxc.rs/docs/guide/usage/formatter)を使ってみるべく[OxcのVScode拡張機能](https://marketplace.visualstudio.com/items?itemName=oxc.oxc-vscode)を導入しようとして躓きました。
 
 直接の原因は[mise](https://mise.jdx.dev/)でNodeJSのバージョンを管理していることだったので、同様の状況で沼っている人（そんな人いるのか？）を救うべく顛末を記しておきます。
 
@@ -32,7 +32,7 @@ hidden: true
 
 - Debian 13 on WSL2
 - NodeJS v25.4.0 by mise 2026.1.5
-- Oxfmt v11.7.0
+- Oxfmt v0.26.0
 - Oxc（VScode拡張機能） v1.39.0
 
 ## 状況
