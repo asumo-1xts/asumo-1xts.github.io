@@ -14,6 +14,7 @@ next: false
 tags:
   - post2026
   - trouble
+  - typescript
 
 hidden: true
 ---
@@ -21,6 +22,7 @@ hidden: true
 # Oxc+VScode 導入トラブル解決
 
 [<Badge type="tag" text="トラブルシュート" />](../tags/trouble)
+[<Badge type="tag" text="TypeScript" />](../tags/typescript)
 
 ## はじめに
 
