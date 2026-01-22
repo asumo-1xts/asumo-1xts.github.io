@@ -1,19 +1,17 @@
 ---
 layout: doc
 
-title: MIDI
-description: 「MIDI」のタグが付いた記事
+title: Python
+description: 「Python」のタグが付いた記事
 
-order: 15
-permalink: 'https://asumoranda.com/tags/midi.html'
+order: 33
+permalink: 'https://asumoranda.com/tags/python.html'
 
 prev: false
 next: false
 
 editLink: false
 lastUpdated: false
-
-hidden: true
 ---
 
 <script lang="ts" setup>
@@ -21,11 +19,11 @@ hidden: true
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「MIDI」のタグが付いた記事
+# 「Python」のタグが付いた記事
 
-<span class="text-base"><PostCounter tag="midi" /></span>件
+<span class="text-base"><PostCounter tag="python" /></span>件
 
-<TaggedPostList tag="midi" />
+<TaggedPostList tag="python" />
 
 ---
 

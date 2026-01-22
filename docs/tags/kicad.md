@@ -1,11 +1,11 @@
 ---
 layout: doc
 
-title: MIDI
-description: 「MIDI」のタグが付いた記事
+title: KiCad
+description: 「KiCad」のタグが付いた記事
 
-order: 15
-permalink: 'https://asumoranda.com/tags/midi.html'
+order: 11
+permalink: 'https://asumoranda.com/tags/kicad.html'
 
 prev: false
 next: false
@@ -21,11 +21,11 @@ hidden: true
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「MIDI」のタグが付いた記事
+# 「KiCad」のタグが付いた記事
 
-<span class="text-base"><PostCounter tag="midi" /></span>件
+<span class="text-base"><PostCounter tag="kicad" /></span>件
 
-<TaggedPostList tag="midi" />
+<TaggedPostList tag="kicad" />
 
 ---
 
