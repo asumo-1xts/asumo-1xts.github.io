@@ -1402,7 +1402,6 @@ __metadata:
     "@miletorix/vitepress-image-group": "npm:^1.1.3"
     markdown-it-mathjax3: "npm:^4.0.0"
     moment: "npm:^2.30.1"
-    npm-check-updates: "npm:^19.2.0"
     oxfmt: "npm:^0.26.0"
     sitemap: "npm:^9.0.0"
     vitepress: "npm:^1.6.4"
@@ -2601,16 +2600,6 @@ __metadata:
   bin:
     nopt: bin/nopt.js
   checksum: 10c0/62e9ea70c7a3eb91d162d2c706b6606c041e4e7b547cbbb48f8b3695af457dd6479904d7ace600856bf923dd8d1ed0696f06195c8c20f02ac87c1da0e1d315ef
-  languageName: node
-  linkType: hard
-
-"npm-check-updates@npm:^19.2.0":
-  version: 19.2.0
-  resolution: "npm-check-updates@npm:19.2.0"
-  bin:
-    ncu: build/cli.js
-    npm-check-updates: build/cli.js
-  checksum: 10c0/d086894ed867279e8bcada7afd18d6006fafcfcdb367fbb188a7e25d1eeba8696b774eee680996e12de529610f2e365ab6fc80ea1537b9e12c8cc18a0e6ee97e
   languageName: node
   linkType: hard
 
