@@ -13,7 +13,7 @@ hero:
 
 features:
   - icon: 🕰️
-    title: KiCadで偽のタイムラプスを生成
+    title: KiCadで偽タイムラプスを生成
     details: KiCad | Python
     link: ./posts/13-KiCad-timelapse
   - icon: 🎴

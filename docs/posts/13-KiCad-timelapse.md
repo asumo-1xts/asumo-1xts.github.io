@@ -2,7 +2,7 @@
 layout: doc
 
 emoji: 🕰️
-title: KiCadで偽のタイムラプスを生成
+title: KiCadで偽タイムラプスを生成
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2026-01-23
@@ -17,7 +17,7 @@ tags:
   - python
 ---
 
-# KiCadで偽のタイムラプスを生成
+# KiCadで偽タイムラプスを生成
 
 [<Badge type="tag" text="KiCad" />](../tags/kicad)
 [<Badge type="tag" text="Python" />](../tags/python)
