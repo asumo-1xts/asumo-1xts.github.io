@@ -24,16 +24,12 @@ hidden: true
 
 ## はじめに
 
-[tiny11builder](https://github.com/ntdevlabs/tiny11builder)を使ってシンプルなWindows11を手に入れたまでは良かったのですが、OneDriveはやっぱり欲しいな…と思って自分でインストールしたところ躓きました。ことの顛末を記しておきます。
+[tiny11builder](https://github.com/ntdevlabs/tiny11builder)を使ってシンプルなWindows11を手に入れたまでは良かったのですが、OneDriveはやっぱり欲しいな…と思って自分でインストールしたところ同期が始まらず、どうもインターネットと接続される気配がありません。wingetから入れてもインストーラから入れてもダメでした。
 
 ## 環境
 
 - Windows 11 25H2
 - tiny11builder September 2025 release
-
-## 状況
-
-OneDriveをインストールして実行してみても同期が始まらず、どうもインターネットと接続される気配がありません。wingetから入れてもインストーラから入れてもダメでした。
 
 ## 解決
 

@@ -26,17 +26,6 @@ tags:
 
 ## はじめに
 
-[ぼくがかんがえたさいきょうの MIDIコントローラー](./02-HeartLand)を作る過程で副産物が少しばかり生まれたので、可能な範囲で書き起こします。諸々の前提知識をすっ飛ばしますのでご了承ください。
-
-## 環境
-
-- Windows 11
-- Arduino IDE 2.3.3
-- Ableton Live 12 Suite
-- Studio One 6 Professional
-
-## 背景と目的
-
 ArduinoでAbleton LiveからBPMを取得したいです。適当に検索をかけるとArduino側をMIDIクロックジェネレータとして運用する方法が多くヒットしますが、実際の演奏場面を考えるとクロックの主導権はLive側に握らせた方が安心です。
 
 DAWによってはMIDIタイムコードという内部データ的なものを吐き出してくれるんですが、Ableton Liveは[公式のヘルプページ](https://help.ableton.com/hc/ja/articles/209071149-MIDI%E3%81%A7Live%E3%82%92%E5%90%8C%E6%9C%9F%E3%81%99%E3%82%8B 'MIDIでLiveを同期する')曰く
@@ -50,7 +39,14 @@ DAWによってはMIDIタイムコードという内部データ的なものを�
 
 の方向性で行くことにしました。
 
-もっともPushシリーズは普通にBPMの読み書きが可能なので、**タイムコードの機能自体は備わっていて我々に解放されていないだけなんじゃないかと疑っていますが…**
+もっともPushシリーズは普通にBPMの読み書きが可能なので、タイムコードの機能自体は備わっていて我々に解放されていないだけなんじゃないかと疑っていますが…
+
+## 環境
+
+- Windows 11
+- Arduino IDE 2.3.3
+- Ableton Live 12 Suite
+- Studio One 6 Professional
 
 ## スケッチ
 
