@@ -17,8 +17,8 @@ def main():
     print("\nkicad-logue: PCB timelapse generator")
     print("=" * 40)
 
-    # --- Step 0: 初期化 ---
-    print("\n[Step 0: Initialization]")
+    # --- 初期化 ---
+    print("\n[Initialization]")
     layer = sys.argv[1] if len(sys.argv) > 1 else "F_Cu"
     input_file = sys.argv[2] if len(sys.argv) > 2 else "example.kicad_pcb"
     out_base = sys.argv[3] if len(sys.argv) > 3 else input_file
@@ -28,8 +28,8 @@ def main():
         for f in glob.glob(os.path.join(out_dir, "*")):
             os.remove(f)
 
-    # --- Step 1: ボードの読み込みとSVG生成 ---
-    print("\n[Step 1: Generating SVGs from PCB]")
+    # --- ボードの読み込みとSVG生成 ---
+    print("\n[Generating SVGs from PCB]")
     bp = BoardProcessor(input_file, out_dir, layer)
     items_dict = bp.get_all_items()
     print(f"\nBoard   : {board_name}")
@@ -48,12 +48,12 @@ def main():
                 bp.remove_item(item)
         global_idx += 1
 
-    # --- Step 2: SVGをPNGに変換 ---
-    print("\n[Step 2: Converting SVGs to PNGs]")
+    # --- SVGをPNGに変換 ---
+    print("\n[Converting SVGs to PNGs]")
     svg_to_png(out_dir, DPI)
 
-    # --- Step 3: FFmpeg用リスト作成 ---
-    print("\n[Step 3: Preparing FFmpeg file list]")
+    # --- FFmpeg用リスト作成 ---
+    print("\n[Preparing FFmpeg file list]")
     print(f"Total PNG files : {len(glob.glob(os.path.join(out_dir, '*.png')))}")
     print(f"FPS             : {FPS}")
     # PNG群はreverseして組み立て順にする
@@ -65,8 +65,8 @@ def main():
         # 最終フレームで2秒間停止
         f.write(f"file '{os.path.abspath(png_files[-1])}'\nduration 2.0\n")
 
-    # --- Step 4: FFmpegで動画に合成 ---
-    print("\n[Step 4: Compiling Video with FFmpeg]")
+    # --- FFmpegで動画に合成 ---
+    print("\n[Compiling Video with FFmpeg]")
     compile_video(board_name, layer, list_file, FPS, WIDTH, CRF)
     print("\n" + "=" * 40)
     print("COMPLETED!")

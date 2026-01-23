@@ -24,7 +24,9 @@ tags:
 
 ## はじめに
 
-ソースコードの歴史をコミット履歴に沿ってタイムラプス風に再生するOSS「[gitlogue](https://github.com/unhappychoice/gitlogue)」を見かけて、KiCadの基板データでタイムラプスを作れたら映えるだろうな～と思いやってみました。
+ソースコードの書かれた過程をタイムラプス風に再生するOSS「[gitlogue](https://github.com/unhappychoice/gitlogue)」を見かけて、KiCadの基板データで似たようなことをやりたくなりました。「kicad timelapse」でググったところマサチューセッツ大学の先生が[既にやっていた](https://blog.krastanov.org/2020/02/17/pcb-layout-timelapse/)のですが、彼の公開してくれているソースコードが（おそらくKiCadのバージョン違いなどもあり）うまく動かなかったため、私の方でもそれなりに頑張りました。
+
+先に成果物↓を貼っておきます。
 
 <ImageGroup
   :sources="[
@@ -33,8 +35,6 @@ tags:
   type="big"
   caption="言うまでもなく、Arduino UNOの表側です"
 />
-
-「kicad timelapse」でググったところマサチューセッツ大学の先生が[既にやっていた](https://blog.krastanov.org/2020/02/17/pcb-layout-timelapse/)のですが、彼の公開してくれているソースコードが（おそらくKiCadのバージョン違い等の理由により）手元でうまく動かなかったため、私の方でもそれなりに頑張りました。
 
 ## 環境
 
@@ -48,35 +48,27 @@ tags:
 
 早めに断っておきますが、本記事の方法では**実際の作業工程に基づいたタイムラプスは生成できません**。冒頭でgitlogueを紹介してしまいましたがGitも関係ありません。代わりに、一切の迷いなく図面を完成させた世界線の、**偽りのタイムラプスを捏造します**。
 
-具体的には、KiCadには内部のC++をPythonでラップしたAPIが同梱されているので、これを叩いて`.kicad_pcb`ファイル内を走査しつつ図面を出力していきます。
+具体的には、KiCadには内部のC++をPythonでラップしたAPIが`pcbnew.py`として同梱されているので、これを叩いて任意の`.kicad_pcb`ファイル内を走査しつつ図面を出力していきます。
 
-### 処理の概要
+::: tip
+むしろこの`pcbnew.py`をGUI化したものがKiCadのPCBエディターなのかも…？
 
-1. `.kicad_pcb`ファイルを読み込む（このあと色々されますが変更は保存されません）
+Debian 13からaptでインストールした場合は`/usr/lib/python3/dist-packages/pnbnew.py`に、Windows 11からwingetでインストールした場合は`C:\Users\asumo\AppData\Local\Programs\KiCad\9.0\bin\Lib\site-packages\pcbnew.py`に入っています。
+:::
+
+### ワークフロー
+
+1. `.kicad_pcb`ファイルを入力（このあと色々されますが変更は保存されないので無事です）
 2. 塗りつぶし領域を一つ消去したうえで、基板をSVG画像にプロット
 3. 塗りつぶし領域が無くなるまで2を繰り返す
-4. 配線についても2~3を行う
-5. マーカーについても2~3を行う
-6. フットプリントについても2~3を行う
+4. 配線についても同様に2~3を行う
+5. フットプリントについても同様に2~3を行う
+6. 輪郭線についても同様に2~3を行う
 7. ImageMagickでSVG画像をPNG画像に変換
-8. PNG画像をFFmpegでつなぎ合わせて動画にする
+8. PNG画像をFFmpegで逆順につなぎ合わせて出力
 9. 適宜トリミングして完成
 
 ## 実行
-
-### コマンドの準備
-
-```shell
-apt install kicad imagemagick ffmpeg
-```
-
-KiCadを他のルートでインストールする場合は、同梱されるAPI（Pythonファイル）の場所が変わってくるかもしれませんのでご注意ください。
-
-加えて、`python3`コマンドが有効であることも要確認です。
-
-```shell
-python3 --version
-```
 
 ### スクリプト
 
@@ -86,4 +78,38 @@ python3 --version
 <<< @/snippets/2026/13-external_tools.py{python} [external_tools.py ~vscode-icons:file-type-python~]
 :::
 
-（ちなみにWindows 11では`C:\Users\asumo\AppData\Local\Programs\KiCad\9.0\bin\Lib\site-packages\pcbnew.py`）
+[ワークフロー](#ワークフロー)のうち2~6を`board_process.py`の関数が、また7と8を`external_tools.py`の関数がそれぞれ担っています。
+
+`main.py`の期待する引数は以下の通りです。
+
+| 引数    | 説明                             | デフォルト         |
+| ------- | -------------------------------- | ------------------ |
+| 第1引数 | レイヤー選択（`F_Cu` or `B_Cu`） | `F_Cu`             |
+| 第2引数 | 入力ファイルへの相対パス         | `sample.kicad_pcb` |
+| 第3引数 | 出力する動画ファイルの名前部分   | `sample`           |
+
+### シェルコマンドの一例
+
+```shell
+apt install kicad imagemagick ffmpeg
+
+python3 main.py B_Cu awesome.kicad_pcb awesome_timelapse
+```
+
+::: tip
+実行の可否に関わらず、以下のような警告が大量に出力されると予想されます。
+
+> swig/python detected a memory leak of type 'PCB_TRACK \*', no destructor found.
+
+ターミナルでは最後にまとめて出力されるかもしれませんが、これは実際には`board_process.py`内の`remove_item()`で逐一発生しており、itemをremoveすることによって内部のC++からitemへのポインタがnullになってしまうことが原因です。今回は単発のスクリプト内での事象なので危険視せず放置してしまっています。
+
+なお正攻法としてはitemをUser1など無関係なレイヤーに逃がすという手があるのですが、これを試してみると一部のitemがプロット上に残ってしまう（最終的に何も無い状態にならない）という謎の不具合が代わりに生じてしまったため、採用していません。
+:::
+
+::: tip
+当然ですが、基板の規模によっては（特にSVG→PNGの処理に）膨大なリソースと時間を要します。筆者の割と強いデスクトップPCでも冒頭のArduino UNOの処理に8分ほどかかっているので、お手元の計算機の性能には十分に留意してください。
+:::
+
+## おわりに
+
+無事にMP4動画とGIF画像が出力されたでしょうか？そのままだと空白部分が大きすぎるのでクロップしたいところですが、GIF画像をアニメーションのままクロップする方法は意外と限られていて少し不便です。私は[EZgif](https://ezgif.com/)を利用しました。
