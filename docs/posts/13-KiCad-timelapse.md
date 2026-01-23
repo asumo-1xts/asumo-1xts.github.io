@@ -53,7 +53,7 @@ tags:
 ::: tip
 むしろこの`pcbnew.py`をGUI化したものがKiCadのPCBエディターなのかも…？
 
-Debian 13からaptでインストールした場合は`/usr/lib/python3/dist-packages/pnbnew.py`に、Windows 11からwingetでインストールした場合は`C:\Users\asumo\AppData\Local\Programs\KiCad\9.0\bin\Lib\site-packages\pcbnew.py`に入っています。
+Debian 13からaptでインストールした場合は`/usr/lib/python3/dist-packages/pnbnew.py`に、Windows 11からwingetでインストールした場合は`C:\Users\username\AppData\Local\Programs\KiCad\9.0\bin\Lib\site-packages\pcbnew.py`に入っています。
 :::
 
 ### ワークフロー
