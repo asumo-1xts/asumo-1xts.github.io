@@ -1406,7 +1406,7 @@ __metadata:
     oxfmt: "npm:^0.26.0"
     sitemap: "npm:^9.0.0"
     vitepress: "npm:^1.6.4"
-    vitepress-linkcard: "npm:^2.0.1"
+    vitepress-linkcard: "npm:^2.2.0"
     vitepress-plugin-codeblocks-fold: "npm:^1.2.35"
     vitepress-plugin-group-icons: "npm:^1.6.5"
     vitepress-plugin-image-viewer: "npm:^1.1.6"
@@ -3419,10 +3419,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitepress-linkcard@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "vitepress-linkcard@npm:2.0.1"
-  checksum: 10c0/349f6744edb4416e857df0ec1f16ff54aa46b309a3bf1a7a61041259783e56c7b56b47de987c63269ab9c4033c6efaee56454128d71dae25fc1257a3b7ef587b
+"vitepress-linkcard@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "vitepress-linkcard@npm:2.2.0"
+  checksum: 10c0/c90995455b5c37c5100769c3031212ea35624ef7f5195d48405e2d2ceeae233775be21d621562c6bacbe91b38c24d21180d95655357a21f09f23d107f5666ed4
   languageName: node
   linkType: hard
 

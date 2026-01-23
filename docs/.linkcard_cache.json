@@ -1,0 +1,32 @@
+{
+  "https://example.com/": {
+    "description": "Example Website",
+    "logo": "https://example.com/example.png",
+    "title": "Example Title"
+  },
+  "https://github.com/g200kg/kicad-lib-arduino": {
+    "title": "GitHub - g200kg/kicad-lib-arduino",
+    "description": "Contribute to g200kg/kicad-lib-arduino development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/9e6c519e0dc5f524adcb6f1e9d96c3602b740676ba3b2d771825a9ad5a0e64b4/g200kg/kicad-lib-arduino"
+  },
+  "https://github.com/Alarm-Siren/arduino-kicad-library": {
+    "title": "GitHub - Alarm-Siren/arduino-kicad-library: KiCad Symbol &amp; Footprint Library for Arduino Modules (Shields, Sockets and Tiles)",
+    "description": "KiCad Symbol &amp; Footprint Library for Arduino Modules (Shields, Sockets and Tiles) - Alarm-Siren/arduino-kicad-library",
+    "logo": "https://opengraph.githubassets.com/cb0f2be254346f2094e26159cac9e4f0d31027f4a39d23b416ea232867c63d3f/Alarm-Siren/arduino-kicad-library"
+  },
+  "https://www.marutsu.co.jp/pc/i/35627/": {
+    "title": "DCジャック EIAJ5 基板取付け用(13.5～18V) M05-532A0 マル信無線電機製｜電子部品・半導体通販のマルツ",
+    "description": "【M05-532A0】 DCジャック EIAJ5 基板取付け用(13.5～18V) 150.00円 在庫数:35個 納期：本日出荷在庫品 マル信無線電機製|16:00までのご注文を翌日お届け、3,000円以上購入で送料無料。【仕様】・コネクタの形態：EIAJ5ジャック・色：黒・形式：・端子部処理：・材質：プラスチック・備考：基板取付",
+    "logo": "https://www.marutsu.co.jp/contents/shop/marutsu/img/goods/020/35627/35627_2.jpg"
+  },
+  "https://github.com/asumo-1xts/vitepress-linkcard": {
+    "title": "GitHub - asumo-1xts/vitepress-linkcard: A VitePress plugin to generate a pretty linkcard with OGP.",
+    "description": "A VitePress plugin to generate a pretty linkcard with OGP. - asumo-1xts/vitepress-linkcard",
+    "logo": "https://opengraph.githubassets.com/a9b9eecdc22adb95dc3893f55f7733234ae4cd7c55d6e122dfa5a82ed9f0081d/asumo-1xts/vitepress-linkcard"
+  },
+  "https://1xtelescope.com/": {
+    "title": "Home",
+    "description": "1x telescope",
+    "logo": "https://1xtelescope.com/cover02.png"
+  }
+}
