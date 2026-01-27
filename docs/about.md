@@ -2,7 +2,7 @@
 layout: doc
 
 title: About
-description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
+description: aSumoranda
 
 permalink: 'https://asumoranda.com/about.html'
 

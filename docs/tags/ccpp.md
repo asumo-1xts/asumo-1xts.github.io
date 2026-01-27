@@ -2,7 +2,7 @@
 layout: doc
 
 title: C/C++
-description: 「C/C++」のタグが付いた記事
+description: aSumoranda
 
 order: 31
 permalink: 'https://asumoranda.com/tags/ccpp.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「C/C++」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="ccpp" /></span>件
+# C/C++ (<span class="text-base"><PostCounter tag="ccpp" /></span>)
 
 <TaggedPostList tag="ccpp" />
 

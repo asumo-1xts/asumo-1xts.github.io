@@ -2,7 +2,7 @@
 layout: doc
 
 title: All posts
-description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
+description: aSumoranda
 
 permalink: 'https://asumoranda.com/posts.html'
 

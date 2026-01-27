@@ -2,7 +2,7 @@
 layout: doc
 
 title: 雑記
-description: 「雑記」のタグが付いた記事
+description: aSumoranda
 
 order: 10
 permalink: 'https://asumoranda.com/tags/justnote.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「雑記」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="justnote" /></span>件
+# 雑記 (<span class="text-base"><PostCounter tag="justnote" /></span>)
 
 <TaggedPostList tag="justnote" />
 

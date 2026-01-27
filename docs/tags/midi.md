@@ -2,7 +2,7 @@
 layout: doc
 
 title: MIDI
-description: 「MIDI」のタグが付いた記事
+description: aSumoranda
 
 order: 15
 permalink: 'https://asumoranda.com/tags/midi.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「MIDI」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="midi" /></span>件
+# MIDI (<span class="text-base"><PostCounter tag="midi" /></span>)
 
 <TaggedPostList tag="midi" />
 

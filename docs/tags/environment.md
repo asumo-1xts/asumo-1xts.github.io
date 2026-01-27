@@ -2,7 +2,7 @@
 layout: doc
 
 title: 環境構築
-description: 「環境構築」のタグが付いた記事
+description: aSumoranda
 
 order: 6
 permalink: 'https://asumoranda.com/tags/environment.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「環境構築」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="environment" /></span>件
+# 環境構築 (<span class="text-base"><PostCounter tag="environment" /></span>)
 
 <TaggedPostList tag="environment" />
 

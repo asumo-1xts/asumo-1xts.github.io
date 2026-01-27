@@ -2,7 +2,7 @@
 layout: doc
 
 title: All tags
-description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
+description: aSumoranda
 
 permalink: 'https://asumoranda.com/tags.html'
 

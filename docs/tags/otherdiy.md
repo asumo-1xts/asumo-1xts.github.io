@@ -2,7 +2,7 @@
 layout: doc
 
 title: その他の工作
-description: 「その他の工作」のタグが付いた記事
+description: aSumoranda
 
 order: 4
 permalink: 'https://asumoranda.com/tags/otherdiy.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「その他の工作」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="otherdiy" /></span>件
+# その他の工作 (<span class="text-base"><PostCounter tag="otherdiy" /></span>)
 
 <TaggedPostList tag="otherdiy" />
 

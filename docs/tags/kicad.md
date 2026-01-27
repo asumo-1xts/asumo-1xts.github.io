@@ -2,7 +2,7 @@
 layout: doc
 
 title: KiCad
-description: 「KiCad」のタグが付いた記事
+description: aSumoranda
 
 order: 11
 permalink: 'https://asumoranda.com/tags/kicad.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「KiCad」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="kicad" /></span>件
+# KiCad (<span class="text-base"><PostCounter tag="kicad" /></span>)
 
 <TaggedPostList tag="kicad" />
 

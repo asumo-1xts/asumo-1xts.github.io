@@ -2,7 +2,7 @@
 layout: doc
 
 title: アプリ開発
-description: 「アプリ開発」のタグが付いた記事
+description: aSumoranda
 
 order: 7
 permalink: 'https://asumoranda.com/tags/appdev.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「アプリ開発」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="appdev" /></span>件
+# アプリ開発 (<span class="text-base"><PostCounter tag="appdev" /></span>)
 
 <TaggedPostList tag="appdev" />
 

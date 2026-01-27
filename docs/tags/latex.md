@@ -2,7 +2,7 @@
 layout: doc
 
 title: LaTeX
-description: 「LaTeX」のタグが付いた記事
+description: aSumoranda
 
 order: 39
 permalink: 'https://asumoranda.com/tags/latex.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「LaTeX」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="latex" /></span>件
+# LaTeX (<span class="text-base"><PostCounter tag="latex" /></span>)
 
 <TaggedPostList tag="latex" />
 

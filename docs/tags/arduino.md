@@ -2,7 +2,7 @@
 layout: doc
 
 title: Arduino
-description: 「Arduino」のタグが付いた記事
+description: aSumoranda
 
 order: 21
 permalink: 'https://asumoranda.com/tags/arduino.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「Arduino」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="arduino" /></span>件
+# Arduino (<span class="text-base"><PostCounter tag="arduino" /></span>)
 
 <TaggedPostList tag="arduino" />
 

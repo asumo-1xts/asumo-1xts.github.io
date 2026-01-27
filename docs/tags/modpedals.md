@@ -2,7 +2,7 @@
 layout: doc
 
 title: エフェクター改造
-description: 「エフェクター改造」のタグが付いた記事
+description: aSumoranda
 
 order: 2
 permalink: 'https://asumoranda.com/tags/modpedals.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「エフェクター改造」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="modpedals" /></span>件
+# エフェクター改造 (<span class="text-base"><PostCounter tag="modpedals" /></span>)
 
 <TaggedPostList tag="modpedals" />
 

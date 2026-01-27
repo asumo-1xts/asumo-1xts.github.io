@@ -2,7 +2,7 @@
 layout: doc
 
 title: Python
-description: 「Python」のタグが付いた記事
+description: aSumoranda
 
 order: 33
 permalink: 'https://asumoranda.com/tags/python.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「Python」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="python" /></span>件
+# Python (<span class="text-base"><PostCounter tag="python" /></span>)
 
 <TaggedPostList tag="python" />
 

@@ -2,7 +2,7 @@
 layout: doc
 
 title: エフェクター修理
-description: 「エフェクター修理」のタグが付いた記事
+description: aSumoranda
 
 order: 3
 permalink: 'https://asumoranda.com/tags/fixpedals.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「エフェクター修理」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="fixpedals" /></span>件
+# エフェクター修理 (<span class="text-base"><PostCounter tag="fixpedals" /></span>)
 
 <TaggedPostList tag="fixpedals" />
 

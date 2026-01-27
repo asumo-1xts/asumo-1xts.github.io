@@ -2,8 +2,7 @@
 layout: doc
 
 title: PIC
-description: 「PIC」のタグが付いた記事
-
+description: aSumoranda
 order: 22
 permalink: 'https://asumoranda.com/tags/pic.html'
 
@@ -19,9 +18,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「PIC」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="pic" /></span>件
+# PIC (<span class="text-base"><PostCounter tag="pic" /></span>)
 
 <TaggedPostList tag="pic" />
 

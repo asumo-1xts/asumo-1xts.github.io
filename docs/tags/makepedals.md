@@ -2,7 +2,7 @@
 layout: doc
 
 title: エフェクター製作
-description: 「エフェクター製作」のタグが付いた記事
+description: aSumoranda
 
 order: 1
 permalink: 'https://asumoranda.com/tags/makepedals.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「エフェクター製作」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="makepedals" /></span>件
+# エフェクター製作 (<span class="text-base"><PostCounter tag="makepedals" /></span>)
 
 <TaggedPostList tag="makepedals" />
 

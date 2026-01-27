@@ -2,7 +2,7 @@
 layout: doc
 
 title: TypeScript
-description: 「TypeScript」のタグが付いた記事
+description: aSumoranda
 
 order: 35
 permalink: 'https://asumoranda.com/tags/typescript.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「TypeScript」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="typescript" /></span>件
+# TypeScript (<span class="text-base"><PostCounter tag="typescript" /></span>)
 
 <TaggedPostList tag="typescript" />
 

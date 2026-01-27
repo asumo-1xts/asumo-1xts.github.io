@@ -2,7 +2,7 @@
 layout: doc
 
 title: Web開発
-description: 「Web開発」のタグが付いた記事
+description: aSumoranda
 
 order: 8
 permalink: 'https://asumoranda.com/tags/webdev.html'
@@ -19,9 +19,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# 「Web開発」のタグが付いた記事
-
-<span class="text-base"><PostCounter tag="webdev" /></span>件
+# Web開発 (<span class="text-base"><PostCounter tag="webdev" /></span>)
 
 <TaggedPostList tag="webdev" />
 
