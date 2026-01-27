@@ -1,10 +1,10 @@
 ---
 layout: doc
 
-title: 各種ご案内
+title: About
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
-permalink: 'https://asumoranda.com/info.html'
+permalink: 'https://asumoranda.com/about.html'
 
 prev: false
 next: false
@@ -13,7 +13,7 @@ editLink: false
 lastUpdated: false
 ---
 
-# 各種ご案内
+# About
 
 ## ｱｽﾓ（管理人）
 

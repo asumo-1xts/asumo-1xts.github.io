@@ -1,7 +1,7 @@
 ---
 layout: doc
 
-title: すべての記事
+title: All posts
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 permalink: 'https://asumoranda.com/posts.html'
@@ -13,7 +13,7 @@ editLink: false
 lastUpdated: false
 ---
 
-# すべての記事
+# All posts
 
 <script lang="ts" setup>
     import TaggedPostList   from "./.vitepress/components/TaggedPostList.vue"

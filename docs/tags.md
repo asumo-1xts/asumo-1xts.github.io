@@ -1,7 +1,7 @@
 ---
 layout: doc
 
-title: すべてのタグ
+title: All tags
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 permalink: 'https://asumoranda.com/tags.html'
@@ -37,7 +37,7 @@ lastUpdated: false
     import PostCounter from "./.vitepress/components/PostCounter.vue"
 </script>
 
-# すべてのタグ
+# All tags
 
 <br/>
 

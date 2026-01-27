@@ -37,9 +37,9 @@ export default defineConfig({
     outlineTitle: '目次',
 
     nav: [
-      { text: 'すべての記事', link: '/posts' },
-      { text: 'すべてのタグ', link: '/tags' },
-      { text: '各種ご案内', link: '/info' },
+      { text: 'All posts', link: '/posts' },
+      { text: 'All tags', link: '/tags' },
+      { text: 'About', link: '/about' },
       {
         text: '1x telescope',
         link: 'https://1xtelescope.com/',
@@ -54,9 +54,9 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Home', link: '/' },
-          { text: 'すべての記事', link: '/posts' },
-          { text: 'すべてのタグ', link: '/tags' },
-          { text: '各種ご案内', link: '/info' },
+          { text: 'All posts', link: '/posts' },
+          { text: 'All tags', link: '/tags' },
+          { text: 'About', link: '/about' },
           {
             text: '1x telescope',
             link: 'https://1xtelescope.com/',
