@@ -15,25 +15,7 @@ lastUpdated: false
 
 # About
 
-## ｱｽﾓ（管理人）
-
-つくば市で大学院生をやっています。
-
-ご連絡は以下のいずれかからお願いします。
-
-**Email**: 1xtelescope@gmail.com
-
-**Discord**: @asumo_1xts
-
-## 1x telescope
-
-ｱｽﾓが主にエフェクターを作るときの屋号です。
-
-製品情報などは公式サイトまで。
-
-[1x telescope](@:https://1xtelescope.com/)
-
-## このサイト
+## このサイトについて
 
 ｱｽﾓが自由にものを書くための場所です。
 
@@ -44,3 +26,25 @@ lastUpdated: false
 - サービス終了によって失われない
 
 今のところ、校正を含め本文にAIは使っていません。
+
+特別に記述が無い限り、コンテンツには[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)を付与します。
+
+## ｱｽﾓ（管理人）
+
+つくば市で大学院生をやっています。
+
+| 各種SNS等                                | `ID` / 備考                               |
+| ---------------------------------------- | ----------------------------------------- |
+| Email                                    | `1xtelescope@gmail.com`                   |
+| Discord                                  | `@asumo_1xts`                             |
+| [X](https://x.com/asumo_1xts)            | `@asumo_1xts` <br/> DMあまり気付けません  |
+| [mixi2](https://mixi.social/@asumo_1xts) | `@asumo_1xts` <br/> 実質的にXのサブ垢です |
+| [GitHub](https://github.com/asumo-1xts)  | `@asumo-1xts` <br/> ハイフンにご注意！    |
+
+## 1x telescope
+
+ｱｽﾓが何かを作るときの屋号です。
+
+現在は主にエフェクターを作っています。
+
+[1x telescope](@:https://1xtelescope.com/)
