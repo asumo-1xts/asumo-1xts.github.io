@@ -1,7 +1,7 @@
 ---
 layout: doc
 
-emoji: ⚙️
+emoji: 👟
 title: HX Stompの同時押しを無効化
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 

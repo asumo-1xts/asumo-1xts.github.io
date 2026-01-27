@@ -28,7 +28,7 @@ features:
     title: 2025年に読んだものとその感想
     details: 雑記
     link: ./posts/04-books2025
-  - icon: 🏛️
+  - icon: 📇
     title: BibLaTeXで欧文と和文を混ぜる
     details: LaTeX
     link: ./posts/03-BibLaTeXJP

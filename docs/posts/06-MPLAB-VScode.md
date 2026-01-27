@@ -1,7 +1,7 @@
 ---
 layout: doc
 
-emoji: 🔠
+emoji: 🔤
 title: MPLAB VScode Extention入門
 description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
