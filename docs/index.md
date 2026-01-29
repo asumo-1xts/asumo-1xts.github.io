@@ -6,7 +6,7 @@ description: aSumoranda
 
 hero:
   name: aSumoranda
-  text: 'ｱｽﾓﾗﾝﾀﾞ'
+  text: ｱｽﾓﾗﾝﾀﾞ
   image:
     src: cover01.webp
     alt: aSumoranda
