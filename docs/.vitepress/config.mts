@@ -15,7 +15,8 @@ export default defineConfig({
   lang: 'ja',
   base: '/',
   title: 'aSumoranda',
-  description: 'ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ',
+  description: 'ｱｽﾓﾗﾝﾀﾞ',
+
   markdown: {
     math: true,
     lineNumbers: true,
