@@ -1,12 +1,12 @@
 ---
 layout: home
 
-title: aSumoranda
-description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
+title: Home
+description: aSumoranda
 
 hero:
-  name: 'aSumoranda'
-  tagline: 'ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ'
+  name: aSumoranda
+  tagline: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
   image:
     src: cover01.webp
     alt: aSumoranda
