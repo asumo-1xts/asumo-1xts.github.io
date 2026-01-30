@@ -2,7 +2,6 @@
 layout: doc
 
 title: About
-description: aSumoranda
 
 permalink: 'https://asumoranda.com/about.html'
 

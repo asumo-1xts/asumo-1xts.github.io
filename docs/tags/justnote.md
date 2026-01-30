@@ -2,7 +2,6 @@
 layout: doc
 
 title: 雑記
-description: aSumoranda
 
 order: 10
 permalink: 'https://asumoranda.com/tags/justnote.html'

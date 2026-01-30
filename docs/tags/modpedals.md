@@ -2,7 +2,6 @@
 layout: doc
 
 title: エフェクター改造
-description: aSumoranda
 
 order: 2
 permalink: 'https://asumoranda.com/tags/modpedals.html'

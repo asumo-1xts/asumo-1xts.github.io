@@ -2,7 +2,6 @@
 layout: doc
 
 title: KiCad
-description: aSumoranda
 
 order: 11
 permalink: 'https://asumoranda.com/tags/kicad.html'

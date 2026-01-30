@@ -2,7 +2,6 @@
 layout: doc
 
 title: アプリ開発
-description: aSumoranda
 
 order: 7
 permalink: 'https://asumoranda.com/tags/appdev.html'

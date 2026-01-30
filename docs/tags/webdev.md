@@ -2,7 +2,6 @@
 layout: doc
 
 title: Web開発
-description: aSumoranda
 
 order: 8
 permalink: 'https://asumoranda.com/tags/webdev.html'

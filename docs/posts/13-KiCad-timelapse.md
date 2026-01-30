@@ -3,7 +3,6 @@ layout: doc
 
 emoji: 🕰️
 title: KiCadで偽タイムラプスを生成
-description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2026-01-23
 permalink: 'https://asumoranda.com/posts/13-KiCad-timelapse.html'

@@ -2,7 +2,6 @@
 layout: doc
 
 title: Python
-description: aSumoranda
 
 order: 33
 permalink: 'https://asumoranda.com/tags/python.html'

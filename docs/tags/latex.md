@@ -2,7 +2,6 @@
 layout: doc
 
 title: LaTeX
-description: aSumoranda
 
 order: 39
 permalink: 'https://asumoranda.com/tags/latex.html'

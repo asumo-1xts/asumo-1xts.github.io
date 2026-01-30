@@ -2,7 +2,6 @@
 layout: doc
 
 title: All posts
-description: aSumoranda
 
 permalink: 'https://asumoranda.com/posts.html'
 

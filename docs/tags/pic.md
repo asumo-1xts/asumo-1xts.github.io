@@ -2,7 +2,7 @@
 layout: doc
 
 title: PIC
-description: aSumoranda
+
 order: 22
 permalink: 'https://asumoranda.com/tags/pic.html'
 

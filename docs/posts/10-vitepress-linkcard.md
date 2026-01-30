@@ -3,7 +3,6 @@ layout: doc
 
 emoji: 🎴
 title: VitePressでリンクカードを貼る
-description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-11-06
 permalink: 'https://asumoranda.com/posts/10-vitepress-linkcard.html'

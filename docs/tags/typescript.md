@@ -2,7 +2,6 @@
 layout: doc
 
 title: TypeScript
-description: aSumoranda
 
 order: 35
 permalink: 'https://asumoranda.com/tags/typescript.html'

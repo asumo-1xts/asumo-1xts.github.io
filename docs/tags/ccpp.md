@@ -2,7 +2,6 @@
 layout: doc
 
 title: C/C++
-description: aSumoranda
 
 order: 31
 permalink: 'https://asumoranda.com/tags/ccpp.html'

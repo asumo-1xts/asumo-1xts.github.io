@@ -3,7 +3,6 @@ layout: doc
 
 emoji: 📇
 title: BibLaTeXで欧文と和文を混ぜる
-description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-06-10
 permalink: 'https://asumoranda.com/posts/03-BibLaTeXJP.html'

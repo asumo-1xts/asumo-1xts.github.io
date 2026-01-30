@@ -2,7 +2,6 @@
 layout: doc
 
 title: その他の工作
-description: aSumoranda
 
 order: 4
 permalink: 'https://asumoranda.com/tags/otherdiy.html'

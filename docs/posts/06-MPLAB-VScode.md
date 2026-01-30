@@ -3,7 +3,6 @@ layout: doc
 
 emoji: 🔤
 title: MPLAB VScode Extention入門
-description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-09-28
 permalink: 'https://asumoranda.com/posts/06-MPLAB-VScode.html'

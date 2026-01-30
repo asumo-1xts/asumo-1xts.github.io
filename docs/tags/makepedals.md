@@ -2,7 +2,6 @@
 layout: doc
 
 title: エフェクター製作
-description: aSumoranda
 
 order: 1
 permalink: 'https://asumoranda.com/tags/makepedals.html'

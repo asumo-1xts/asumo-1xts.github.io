@@ -3,7 +3,6 @@ layout: doc
 
 emoji: ☁️
 title: tiny11build後のOneDrive導入
-description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2025-10-24
 permalink: 'https://asumoranda.com/posts/09-tiny11-onedrive.html'

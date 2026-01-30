@@ -2,7 +2,6 @@
 layout: doc
 
 title: Arduino
-description: aSumoranda
 
 order: 21
 permalink: 'https://asumoranda.com/tags/arduino.html'

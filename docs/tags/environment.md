@@ -2,7 +2,6 @@
 layout: doc
 
 title: 環境構築
-description: aSumoranda
 
 order: 6
 permalink: 'https://asumoranda.com/tags/environment.html'

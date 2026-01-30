@@ -3,7 +3,6 @@ layout: doc
 
 emoji: 🎵
 title: ArduinoでDAWからBPMを取得
-description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2024-08-12
 permalink: 'https://asumoranda.com/posts/01-BPMfromDAW.html'

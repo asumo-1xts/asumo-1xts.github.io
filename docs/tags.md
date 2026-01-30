@@ -2,7 +2,6 @@
 layout: doc
 
 title: All tags
-description: aSumoranda
 
 permalink: 'https://asumoranda.com/tags.html'
 

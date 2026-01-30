@@ -3,7 +3,6 @@ layout: doc
 
 emoji: ⚓
 title: Oxc+VScode 導入トラブル解決
-description: ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ
 
 date: 2026-01-21
 permalink: 'https://asumoranda.com/posts/12-Oxc-VScode.html'

@@ -2,7 +2,6 @@
 layout: doc
 
 title: MIDI
-description: aSumoranda
 
 order: 15
 permalink: 'https://asumoranda.com/tags/midi.html'

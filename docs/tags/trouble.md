@@ -2,7 +2,7 @@
 layout: doc
 
 title: トラブルシュート
-description: aSumoranda
+
 order: 5
 permalink: 'https://asumoranda.com/tags/pic.html'
 

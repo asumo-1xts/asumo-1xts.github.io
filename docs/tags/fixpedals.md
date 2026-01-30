@@ -2,7 +2,6 @@
 layout: doc
 
 title: エフェクター修理
-description: aSumoranda
 
 order: 3
 permalink: 'https://asumoranda.com/tags/fixpedals.html'
