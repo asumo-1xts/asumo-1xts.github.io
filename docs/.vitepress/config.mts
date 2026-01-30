@@ -182,10 +182,12 @@ export default defineConfig({
     // 動的なメタタグの設定
     const title = pageData.frontmatter.title || 'aSumoranda'
     const description = pageData.frontmatter.description || 'ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ'
+    const author = pageData.frontmatter.author || 'aSumo'
     const url = pageData.frontmatter.permalink || 'https://asumoranda.com/'
     const canonicalUrl = url
     head.push(['meta', { property: 'og:title', content: title }])
     head.push(['meta', { property: 'og:description', content: description }])
+    head.push(['meta', { property: 'og:author', content: author }])
     head.push(['meta', { property: 'og:url', content: url }])
     head.push(['link', { rel: 'canonical', href: canonicalUrl }])
 
