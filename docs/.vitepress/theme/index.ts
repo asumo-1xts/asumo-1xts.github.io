@@ -12,13 +12,11 @@ import 'vitepress-plugin-codeblocks-fold/style/index.css'
 import 'virtual:group-icons.css'
 import '@miletorix/vitepress-image-group/style.css'
 import CustomBadge from '../components/CustomBadge.vue'
+import Custom404 from './404.vue'
 
-const Theme: ThemeConfig = {
-  extends: DefaultTheme
-}
-
-export default {
-  ...Theme,
+const CustomTheme: ThemeConfig = {
+  extends: DefaultTheme,
+  Layout: Custom404,
   enhanceApp: (ctx) => {
     ctx.app.component('vImageViewer', vImageViewer)
     ctx.app.component('ImageGroup', ImageGroup)
@@ -31,3 +29,5 @@ export default {
     codeblocksFold({ route, frontmatter }, true, 500)
   }
 }
+
+export default CustomTheme

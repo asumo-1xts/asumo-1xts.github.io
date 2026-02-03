@@ -106,6 +106,13 @@ export default defineConfig({
 
     search: {
       provider: 'local'
+    },
+
+    notFound: {
+      title: 'Page Not Found',
+      quote: 'ページが見つかりません。',
+      linkText: 'Go to Home',
+      code: '404'
     }
   },
 
