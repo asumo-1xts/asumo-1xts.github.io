@@ -11,7 +11,7 @@ const { Layout } = DefaultTheme
           <img src="/meow.webp" alt="404" />
         </div>
         <h1 class="code">󱄁 404</h1>
-        <p class="message">Page Not Found. <a href="/">Go to Home</a></p>
+        <p class="message">Page Not Found.&emsp;<a href="/">Home</a></p>
       </div>
     </template>
   </Layout>
