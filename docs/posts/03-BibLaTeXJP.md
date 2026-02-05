@@ -11,7 +11,7 @@ prev: false
 next: false
 
 tags:
-  - post2024
+  - post2025
   - latex
 ---
 
