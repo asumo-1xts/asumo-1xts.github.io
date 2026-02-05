@@ -206,7 +206,7 @@ export default defineConfig({
 function mySidebar(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: '主な記事',
+      text: 'Recommended Posts',
       base: '/posts/',
       collapsed: false,
       items: generateSidebar({
