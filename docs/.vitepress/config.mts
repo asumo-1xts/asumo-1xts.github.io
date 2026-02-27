@@ -12,7 +12,7 @@ import { linkToCardPlugin } from 'vitepress-linkcard'
 import type { LinkToCardPluginOptions } from 'vitepress-linkcard'
 
 export default defineConfig({
-  lang: 'ja',
+  lang: 'ja-JP',
   base: '/',
   title: 'aSumoranda',
   description: 'ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ',
