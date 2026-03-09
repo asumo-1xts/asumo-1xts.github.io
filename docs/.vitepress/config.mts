@@ -93,7 +93,7 @@ export default defineConfig({
     editLink: {
       pattern:
         'https://github.com/asumo-1xts/asumo-1xts.github.io/blob/main/docs/:path',
-      text: 'GitHubで編集を提案'
+      text: 'GitHubで修正を提案'
     },
 
     lastUpdated: {
