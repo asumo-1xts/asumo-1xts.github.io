@@ -1,4 +1,4 @@
-import { createContentLoader, defineConfig } from 'vitepress'
+import { createContentLoader, defineConfigWithTheme } from 'vitepress'
 import { type DefaultTheme } from 'vitepress'
 import { SitemapStream } from 'sitemap'
 import { createWriteStream } from 'node:fs'
@@ -11,8 +11,10 @@ import {
 import { linkToCardPlugin } from 'vitepress-linkcard'
 import type { LinkToCardPluginOptions } from 'vitepress-linkcard'
 import footnote from 'markdown-it-footnote'
+import { ThumbnailHashImages } from '@nolebase/vitepress-plugin-thumbnail-hash/vite'
+import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
 
-export default defineConfig({
+export default defineConfigWithTheme({
   lang: 'ja-JP',
   base: '/',
   title: 'aSumoranda',
@@ -26,15 +28,25 @@ export default defineConfig({
       })
       md.use<LinkToCardPluginOptions>(linkToCardPlugin, {})
       md.use(footnote)
+      md.use(UnlazyImages(), {
+        imgElementTag: 'NolebaseUnlazyImg'
+      })
     }
   },
   vite: {
-    plugins: [groupIconVitePlugin()],
+    plugins: [groupIconVitePlugin(), ThumbnailHashImages()],
     ssr: {
       noExternal: [
         // If there are other packages that need to be processed by Vite, you can add them here.
         '@nolebase/vitepress-plugin-highlight-targeted-heading'
       ]
+    }
+  },
+  vue: {
+    template: {
+      transformAssetUrls: {
+        NolebaseUnlazyImg: ['src']
+      }
     }
   },
 

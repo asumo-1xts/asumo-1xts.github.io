@@ -15,6 +15,9 @@ import '@miletorix/vitepress-image-group/style.css'
 import CustomBadge from '../components/CustomBadge.vue'
 import Custom404 from './404.vue'
 import { NolebaseHighlightTargetedHeading } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
+import { NolebaseUnlazyImg } from '@nolebase/vitepress-plugin-thumbnail-hash/client'
+
+import '@nolebase/vitepress-plugin-thumbnail-hash/client/style.css'
 
 import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css' //*
 
@@ -31,6 +34,7 @@ const CustomTheme: ThemeConfig = {
     ctx.app.component('vImageViewer', vImageViewer)
     ctx.app.component('ImageGroup', ImageGroup)
     ctx.app.component('CustomBadge', CustomBadge)
+    ctx.app.component('NolebaseUnlazyImg', NolebaseUnlazyImg)
   },
   setup() {
     const route = useRoute()
