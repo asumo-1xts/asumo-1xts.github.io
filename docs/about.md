@@ -39,6 +39,25 @@ lastUpdated: false
 | [X](https://x.com/asumo_1xts)           | `@asumo_1xts` <br/> DMあまり気付けません |
 | [GitHub](https://github.com/asumo-1xts) | `@asumo-1xts` <br/> ハイフンにご注意！   |
 
+::: details 「私を構成する〇つの××」集
+
+<ImageGroup
+  :sources="[
+    '/images/9koma_music.webp'
+  ]"
+  type="big"
+/>
+
+<ImageGroup
+  :sources="[
+    '/images/9koma_book.webp',
+    '/images/9koma_student.webp'
+  ]"
+  type="double"
+/>
+
+:::
+
 ## 1x telescope
 
 ｱｽﾓが何かを作るときの屋号です。
