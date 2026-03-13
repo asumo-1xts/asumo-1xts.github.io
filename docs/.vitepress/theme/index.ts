@@ -19,6 +19,8 @@ import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
 import { NolebaseUnlazyImg } from '@nolebase/vitepress-plugin-thumbnail-hash/client'
 import '@nolebase/vitepress-plugin-thumbnail-hash/client/style.css'
 
+import '@nolebase/vitepress-plugin-enhanced-mark/client/style.css'
+
 import './fonts.css'
 import './colors.css'
 import 'viewerjs/dist/viewer.min.css'

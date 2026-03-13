@@ -758,6 +758,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nolebase/vitepress-plugin-enhanced-mark@npm:^2.18.2":
+  version: 2.18.2
+  resolution: "@nolebase/vitepress-plugin-enhanced-mark@npm:2.18.2"
+  dependencies:
+    less: "npm:^4.4.0"
+  peerDependencies:
+    vitepress: ^1.5.0 || ^2.0.0-alpha.1
+  checksum: 10c0/23d7900e8ceecb79016cb35ab245596af2baa6dce4c01325ac5c0f25a584528cb9e051c40d70741f355a5106b9d0b362e9eae275b94d7af5fd71c9e2333e1cf8
+  languageName: node
+  linkType: hard
+
 "@nolebase/vitepress-plugin-highlight-targeted-heading@npm:^2.18.2":
   version: 2.18.2
   resolution: "@nolebase/vitepress-plugin-highlight-targeted-heading@npm:2.18.2"
@@ -1845,6 +1856,7 @@ __metadata:
   dependencies:
     "@miletorix/vitepress-image-group": "npm:^1.1.3"
     "@nolebase/markdown-it-unlazy-img": "npm:^2.18.2"
+    "@nolebase/vitepress-plugin-enhanced-mark": "npm:^2.18.2"
     "@nolebase/vitepress-plugin-highlight-targeted-heading": "npm:^2.18.2"
     "@nolebase/vitepress-plugin-thumbnail-hash": "npm:^2.18.2"
     markdown-it-footnote: "npm:^4.0.0"
