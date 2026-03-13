@@ -39,7 +39,10 @@ export default defineConfigWithTheme({
   vite: {
     plugins: [groupIconVitePlugin(), ThumbnailHashImages()],
     ssr: {
-      noExternal: ['@nolebase/vitepress-plugin-highlight-targeted-heading']
+      noExternal: [
+        '@unlazy/vue',
+        '@nolebase/vitepress-plugin-highlight-targeted-heading'
+      ]
     }
   },
   vue: {
