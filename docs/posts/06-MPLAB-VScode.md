@@ -40,7 +40,7 @@ tags:
 
 ### MPLAB X
 
-既にPICKIT4 or 5をお持ちのブルジョワの皆様は、普通に最新版をインストールしてください。そうでない方は、PICKIT3（安い！あとで登場します）に対応している最後のバージョンであるv6.20のインストールをおすすめします。[ここ](https://www.microchip.com/en-us/tools-resources/archives/mplab-ecosystem)から過去のバージョンのインストーラをダウンロードできます。
+既にPICKIT4 or 5をお持ちのブルジョワの皆様は、普通に最新版をインストールしてください。そうでない方は、PICKIT3（安い！[あと](#pickit3)で登場します）に対応している最後のバージョンであるv6.20のインストールをおすすめします。[ここ](https://www.microchip.com/en-us/tools-resources/archives/mplab-ecosystem)から過去のバージョンのインストーラをダウンロードできます。
 
 なお今回の主役は拡張機能とコンパイラなのでIDE（Integrated Development Environment）は不要で、コンパイルされたhexファイルをマイコンに書き込むために最低限IPE（Integrated Programming Environment）が必要です。これら二つのインストーラは共通ですが、実行後のセットアップ画面で「IDEをインストールしない」という選択をすることができます。もっともPCのストレージに余裕があれば、何も考えずに「Next」を連打しても構いません。
 
