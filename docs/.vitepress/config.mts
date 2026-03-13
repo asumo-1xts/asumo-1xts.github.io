@@ -1,9 +1,11 @@
-import { createContentLoader, defineConfigWithTheme } from 'vitepress'
-import { type DefaultTheme } from 'vitepress'
-import { SitemapStream } from 'sitemap'
 import { createWriteStream } from 'node:fs'
 import { resolve } from 'node:path'
+
+import { SitemapStream } from 'sitemap'
+import { createContentLoader, defineConfigWithTheme } from 'vitepress'
+import { type DefaultTheme } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
+
 import {
   groupIconMdPlugin,
   groupIconVitePlugin
@@ -11,6 +13,7 @@ import {
 import { linkToCardPlugin } from 'vitepress-linkcard'
 import type { LinkToCardPluginOptions } from 'vitepress-linkcard'
 import footnote from 'markdown-it-footnote'
+
 import { ThumbnailHashImages } from '@nolebase/vitepress-plugin-thumbnail-hash/vite'
 import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
 
@@ -36,10 +39,7 @@ export default defineConfigWithTheme({
   vite: {
     plugins: [groupIconVitePlugin(), ThumbnailHashImages()],
     ssr: {
-      noExternal: [
-        // If there are other packages that need to be processed by Vite, you can add them here.
-        '@nolebase/vitepress-plugin-highlight-targeted-heading'
-      ]
+      noExternal: ['@nolebase/vitepress-plugin-highlight-targeted-heading']
     }
   },
   vue: {

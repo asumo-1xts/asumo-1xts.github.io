@@ -2,24 +2,28 @@ import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme-without-fonts'
 import type { Theme as ThemeConfig } from 'vitepress'
 import { useData, useRoute } from 'vitepress'
-import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue'
-import { ImageGroup } from '@miletorix/vitepress-image-group'
-import imageViewer from 'vitepress-plugin-image-viewer'
+
 import codeblocksFold from 'vitepress-plugin-codeblocks-fold'
+import imageViewer from 'vitepress-plugin-image-viewer'
+import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue'
+
+import { ImageGroup } from '@miletorix/vitepress-image-group'
+import '@miletorix/vitepress-image-group/style.css'
+
+import CustomBadge from '../components/CustomBadge.vue'
+import Custom404 from './404.vue'
+
+import { NolebaseHighlightTargetedHeading } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
+import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
+
+import { NolebaseUnlazyImg } from '@nolebase/vitepress-plugin-thumbnail-hash/client'
+import '@nolebase/vitepress-plugin-thumbnail-hash/client/style.css'
+
 import './fonts.css'
 import './colors.css'
 import 'viewerjs/dist/viewer.min.css'
 import 'vitepress-plugin-codeblocks-fold/style/index.css'
 import 'virtual:group-icons.css'
-import '@miletorix/vitepress-image-group/style.css'
-import CustomBadge from '../components/CustomBadge.vue'
-import Custom404 from './404.vue'
-import { NolebaseHighlightTargetedHeading } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
-import { NolebaseUnlazyImg } from '@nolebase/vitepress-plugin-thumbnail-hash/client'
-
-import '@nolebase/vitepress-plugin-thumbnail-hash/client/style.css'
-
-import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css' //*
 
 const CustomTheme: ThemeConfig = {
   extends: DefaultTheme,
