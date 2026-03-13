@@ -25,7 +25,7 @@ hidden: true
 
 ## はじめに
 
-速いと噂の[Oxfmt](https://oxc.rs/docs/guide/usage/formatter)を使ってみるべく[OxcのVScode拡張機能](https://marketplace.visualstudio.com/items?itemName=oxc.oxc-vscode)を導入したところ、VScodeの再起動のたびに「ソース: Oxc」から10件ほどのエラー（一番上のエラーメッセージは「_oxc client: couldn't create connection to server._」）が通知されてしまいました。
+速いと噂の[Oxfmt](https://oxc.rs/docs/guide/usage/formatter 'Oxfmt')を使ってみるべくOxcの[VScode拡張機能](https://marketplace.visualstudio.com/items?itemName=oxc.oxc-vscode 'Oxc')を導入したところ、VScodeの再起動のたびに「ソース: Oxc」から10件ほどのエラー（一番上のエラーメッセージは「_oxc client: couldn't create connection to server._」）が通知されてしまいました。
 
 出力を見てみると
 
@@ -35,7 +35,7 @@ hidden: true
 
 とのことで、OxcがNodeJSを認識する必要があるのにしていないようです。
 
-なおターミナルからOxfmtの実行は可能です。
+なおターミナルからのOxfmtの実行は可能です。
 
 ## 環境
 
@@ -67,6 +67,4 @@ sudo ln -s $(which node) /usr/local/bin/node
 
 Prettierの拡張機能はそもそもスタンドアロンで動いてくれるので、今回はその分だけ迷走してしまった感があります。
 
-晴れて現在このブログも逐一Oxfmtされており、速いのは勿論のこと、追加設定なしでMarkdownやVueに効いてくれる上に`package.json`のソートまでしてくれて至れり尽くせりです。
-
-ぜんぜん関係ないのですが、Oxcを開発しているVoidZero社のメンバーを眺めていたら日本人の方がいて凄～となりました。ブログを読む限りでは琵琶湖の畔からフルリモートらしく、夢がある…。
+晴れて現在このブログも逐一Oxfmtされており、速いのは勿論のこと、追加設定なしでMarkdownやVueに効いてくれる上に`package.json`のソートまでしてくれて至れり尽くせりで大変気に入っています。

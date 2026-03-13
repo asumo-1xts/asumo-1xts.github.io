@@ -31,7 +31,7 @@ tags:
   caption="爪先の尖った靴を履いていないギタリスト・ベーシストはそれなりに多い"
 />
 
-直接的な無効化の方法はありませんが、既に[Redditなどでも言及されている通り](https://www.reddit.com/r/Line6Helix/comments/11gcxtz/comment/jaovxpk/?tl=ja&utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)コマンドセンターからゴリ押せば実質的に無効化された状態にすることができます。
+直接的な無効化の方法はありませんが、既にRedditなどでも[言及されている通り](https://www.reddit.com/r/Line6Helix/comments/11gcxtz/comment/jaovxpk/?tl=ja&utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button 'ダブルボタンプレス機能を無効にする')コマンドセンターからゴリ押せば実質的に無効化された状態にすることができます。
 
 ## 方法
 

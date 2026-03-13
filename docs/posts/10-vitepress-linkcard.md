@@ -23,13 +23,13 @@ tags:
 
 ## はじめに
 
-VitePress用のリンクカード生成プラグイン「vitepress-linkcard」をリリースしたので簡単に紹介します。
+VitePress用のリンクカード生成プラグインをリリースしたので簡単に紹介します。
 
 [GitHub](@:https://github.com/asumo-1xts/vitepress-linkcard)
 
 リンクカードはこんな感じ↑です。v2になってホバーアニメーションが実装されました！後述しますが、カードの枠線や背景の色はオプションで自由に設定できます。
 
-なお、このプラグインは[markdown-it-link-to-card](https://github.com/luckrya/markdown-it-link-to-card)をフォークして作られました。
+なお、このプラグインは[markdown-it-link-to-card](https://github.com/luckrya/markdown-it-link-to-card '@luckrya/markdown-it-link-to-card')をフォークして作られました。
 
 ## Getting started
 

@@ -23,7 +23,7 @@ tags:
 
 ## はじめに
 
-ソースコードの書かれた過程をタイムラプス風に再生するOSS「[gitlogue](https://github.com/unhappychoice/gitlogue)」を見かけて、KiCadの基板データで似たようなことをやりたくなりました。「kicad timelapse」でググったところマサチューセッツ大学の先生が[既にやっていた](https://blog.krastanov.org/2020/02/17/pcb-layout-timelapse/)のですが、彼の公開してくれているソースコードが（おそらくKiCadのバージョン違いなどもあり）うまく動かなかったため、私の方でもそれなりに頑張りました。
+ソースコードの書かれた過程をタイムラプス風に再生するOSS『[gitlogue](https://github.com/unhappychoice/gitlogue 'gitlogue')』を見かけて、KiCadの基板データで似たようなことをやりたくなりました。「kicad timelapse」でググったところマサチューセッツ大学の先生が[既にやっていた](https://blog.krastanov.org/2020/02/17/pcb-layout-timelapse/ 'Making a Timelapse of the Creation of a Printed Circuit Board in KiCad')のですが、彼の公開してくれているソースコードが（おそらくKiCadのバージョン違いなどもあり）うまく動かなかったため、私の方でもそれなりに頑張りました。
 
 先に成果物↓を貼っておきます。
 
@@ -113,4 +113,4 @@ python3 main.py B_Cu awesome.kicad_pcb awesome_timelapse
 
 無事にMP4動画とGIF画像が出力されたでしょうか？
 
-そのままだと空白部分が大きすぎるのでクロップしたいところですが、GIF画像をアニメーションのままクロップする方法は意外と限られていて少し不便です。私は[EZgif](https://ezgif.com/)を利用しました。
+そのままだと空白部分が大きすぎるのでクロップしたいところですが、GIF画像をアニメーションのままクロップする方法は意外と限られていて少し不便です。私は[EZgif](https://ezgif.com/ 'EZgif')を利用しました。

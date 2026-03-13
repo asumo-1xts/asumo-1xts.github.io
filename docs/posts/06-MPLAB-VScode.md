@@ -25,7 +25,7 @@ tags:
 
 ## はじめに
 
-今年に入って[MPLABの公式なVScode拡張機能](https://www.microchip.com/en-us/tools-resources/develop/mplab-extensions-vs-code)がリリースされ、触ってみたところかなり良いと感じたのでチュートリアル的な何かを残すことにしました。人によって評価が分かれる可能性があり、とりあえず以下の項目いずれかに当てはまる方に向けて書くことにします。
+今年に入って[MPLABの公式なVScode拡張機能](https://www.microchip.com/en-us/tools-resources/develop/mplab-extensions-vs-code 'MPLAB® for VS Code®')がリリースされ、触ってみたところかなり良いと感じたのでチュートリアル的な何かを残すことにしました。人によって評価が分かれる可能性があり、とりあえず以下の項目いずれかに当てはまる方に向けて書くことにします。
 
 - これからPICマイコンを始める
 - VScodeを好んでいる・使い慣れている
@@ -40,7 +40,7 @@ tags:
 
 ### MPLAB X
 
-既にPICKIT4 or 5をお持ちのブルジョワの皆様は、普通に最新版をインストールしてください。そうでない方は、PICKIT3（安い！[あと](#pickit3)で登場します）に対応している最後のバージョンであるv6.20のインストールをおすすめします。[ここ](https://www.microchip.com/en-us/tools-resources/archives/mplab-ecosystem)から過去のバージョンのインストーラをダウンロードできます。
+既にPICKIT4 or 5をお持ちのブルジョワの皆様は、普通に最新版をインストールしてください。そうでない方は、PICKIT3（安い！[あと](#pickit3)で登場します）に対応している最後のバージョンであるv6.20のインストールをおすすめします。[ここ](https://www.microchip.com/en-us/tools-resources/archives/mplab-ecosystem 'MPLAB® Development Ecosystem Downloads Archive')から過去のバージョンのインストーラをダウンロードできます。
 
 なお今回の主役は拡張機能とコンパイラなのでIDE（Integrated Development Environment）は不要で、コンパイルされたhexファイルをマイコンに書き込むために最低限IPE（Integrated Programming Environment）が必要です。これら二つのインストーラは共通ですが、実行後のセットアップ画面で「IDEをインストールしない」という選択をすることができます。もっともPCのストレージに余裕があれば、何も考えずに「Next」を連打しても構いません。
 
@@ -54,7 +54,7 @@ tags:
 
 ### コンパイラ
 
-今回の記事では8ビットマイコンを扱うので、XC8をインストールします。[ここ](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8#downloads)から最新版のインストーラをダウンロードします。
+今回の記事では8ビットマイコンを扱うので、XC8をインストールします。[ここ](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8#downloads 'MPLAB XC8 Compiler Downloads')から最新版のインストーラをダウンロードします。
 
 ### VScode
 
@@ -233,7 +233,7 @@ Lchika. # （元「Lchika_12F675」）
 ...
 ```
 
-お察しの通り、マイコン間で共通の関数は括りだして一元的な管理をしようという魂胆です。例として、筆者の[とあるリポジトリ](https://github.com/aSumo-1xts/NormalTrueBypass_PIC)では以下のような構成になっています。
+お察しの通り、マイコン間で共通の関数は括りだして一元的な管理をしようという魂胆です。例として、筆者の[とあるリポジトリ](https://github.com/aSumo-1xts/NormalTrueBypass_PIC 'NormalTrueBypass_PIC')では以下のような構成になっています。
 
 ```powershell
 NormalTrueBypass.
