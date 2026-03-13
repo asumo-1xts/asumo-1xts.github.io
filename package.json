@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@miletorix/vitepress-image-group": "^1.1.3",
+    "markdown-it-footnote": "^4.0.0",
     "markdown-it-mathjax3": "^4.0.0",
     "moment": "^2.30.1",
     "oxfmt": "^0.26.0",

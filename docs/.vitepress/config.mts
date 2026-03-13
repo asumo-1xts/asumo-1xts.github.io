@@ -10,6 +10,7 @@ import {
 } from 'vitepress-plugin-group-icons'
 import { linkToCardPlugin } from 'vitepress-linkcard'
 import type { LinkToCardPluginOptions } from 'vitepress-linkcard'
+import footnote from 'markdown-it-footnote'
 
 export default defineConfig({
   lang: 'ja-JP',
@@ -24,6 +25,7 @@ export default defineConfig({
         titleBar: { includeSnippet: true }
       })
       md.use<LinkToCardPluginOptions>(linkToCardPlugin, {})
+      md.use(footnote)
     }
   },
   vite: {
