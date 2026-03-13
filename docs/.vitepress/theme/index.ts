@@ -1,3 +1,4 @@
+import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme-without-fonts'
 import type { Theme as ThemeConfig } from 'vitepress'
 import { useData, useRoute } from 'vitepress'
@@ -13,10 +14,19 @@ import 'virtual:group-icons.css'
 import '@miletorix/vitepress-image-group/style.css'
 import CustomBadge from '../components/CustomBadge.vue'
 import Custom404 from './404.vue'
+import { NolebaseHighlightTargetedHeading } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
+
+import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css' //*
 
 const CustomTheme: ThemeConfig = {
   extends: DefaultTheme,
-  Layout: Custom404,
+  Layout: () => {
+    return h(DefaultTheme.Layout, null, {
+      // other configurations...
+      'layout-top': () => [h(NolebaseHighlightTargetedHeading)],
+      'not-found': () => h(Custom404)
+    })
+  },
   enhanceApp: (ctx) => {
     ctx.app.component('vImageViewer', vImageViewer)
     ctx.app.component('ImageGroup', ImageGroup)
