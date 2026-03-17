@@ -31,8 +31,7 @@ const CustomTheme: ThemeConfig = {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      // other configurations...
-      'layout-top': () => [h(NolebaseHighlightTargetedHeading)],
+      'layout-top': () => h(NolebaseHighlightTargetedHeading),
       'not-found': () => h(Custom404)
     })
   },

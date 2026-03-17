@@ -22,6 +22,8 @@ export default defineConfigWithTheme({
   base: '/',
   title: 'aSumoranda',
   description: 'ｱｽﾓのﾒﾓﾗﾝﾀﾞ、ｱｽﾓﾗﾝﾀﾞ',
+  appearance: 'force-dark', // ダークモードのみ
+
   markdown: {
     math: true,
     lineNumbers: true,
@@ -36,6 +38,7 @@ export default defineConfigWithTheme({
       })
     }
   },
+
   vite: {
     plugins: [groupIconVitePlugin(), ThumbnailHashImages()],
     ssr: {
@@ -45,6 +48,7 @@ export default defineConfigWithTheme({
       ]
     }
   },
+
   vue: {
     template: {
       transformAssetUrls: {
@@ -56,7 +60,6 @@ export default defineConfigWithTheme({
   themeConfig: {
     logo: '/home.webp',
     siteTitle: false,
-
     outlineTitle: '目次',
 
     nav: [
@@ -138,8 +141,6 @@ export default defineConfigWithTheme({
       code: '404'
     }
   },
-
-  appearance: 'force-dark', // ダークモードのみ
 
   // サイトマップの生成
   buildEnd: async ({ outDir }) => {
