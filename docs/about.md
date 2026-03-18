@@ -39,7 +39,7 @@ lastUpdated: false
 | [X](https://x.com/asumo_1xts)           | `@asumo_1xts` <br/> DMあまり気付けません |
 | [GitHub](https://github.com/asumo-1xts) | `@asumo-1xts` <br/> ハイフンにご注意！   |
 
-::: details 「私を構成する〇つの××」集
+::: details さらなる自己開示
 
 <ImageGroup
   :sources="[
