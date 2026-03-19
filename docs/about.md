@@ -32,12 +32,12 @@ lastUpdated: false
 
 つくば市で大学院生をやっています。
 
-| 各種SNS等                               | `ID` / 備考                              |
-| --------------------------------------- | ---------------------------------------- |
-| Email                                   | `1xtelescope@gmail.com`                  |
-| Discord                                 | `@asumo_1xts` <br/> お気軽にどうぞ       |
-| [X](https://x.com/asumo_1xts)           | `@asumo_1xts` <br/> DMあまり気付けません |
-| [GitHub](https://github.com/asumo-1xts) | `@asumo-1xts` <br/> ハイフンにご注意！   |
+| SNS等                                   | `ID` / 備考                      |
+| --------------------------------------- | -------------------------------- |
+| Email                                   | `1xtelescope@gmail.com`          |
+| Discord                                 | `@asumo_1xts` お気軽にどうぞ     |
+| [X](https://x.com/asumo_1xts)           | `@asumo_1xts` DMは気付かないかも |
+| [GitHub](https://github.com/asumo-1xts) | `@asumo-1xts` ハイフンにご注意！ |
 
 ::: details さらなる自己開示
 
