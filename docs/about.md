@@ -58,7 +58,7 @@ lastUpdated: false
 
 :::
 
-## 1x telescope
+## 1x telescope（ﾄｳﾊﾞｲﾃﾚｽｺｰﾌﾟ）
 
 ｱｽﾓが何かを作るときの屋号です。
 
