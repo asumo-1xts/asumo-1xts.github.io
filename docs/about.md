@@ -43,14 +43,7 @@ lastUpdated: false
 
 <ImageGroup
   :sources="[
-    '/images/9koma_music.webp'
-  ]"
-  type="big"
-/>
-
-<ImageGroup
-  :sources="[
-    '/images/9koma_book.webp',
+    '/images/9koma_music.webp',
     '/images/9koma_student.webp'
   ]"
   type="double"
