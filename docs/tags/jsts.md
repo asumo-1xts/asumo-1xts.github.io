@@ -1,10 +1,10 @@
 ---
 layout: doc
 
-title: TypeScript
+title: JS/TS
 
 order: 35
-permalink: 'https://asumoranda.com/tags/typescript.html'
+permalink: 'https://asumoranda.com/tags/jsts.html'
 
 prev: false
 next: false
@@ -18,9 +18,9 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# TypeScript (<span class="text-base"><PostCounter tag="typescript" /></span>)
+# JS/TS (<span class="text-base"><PostCounter tag="jsts" /></span>)
 
-<TaggedPostList tag="typescript" />
+<TaggedPostList tag="jsts" />
 
 ---
 

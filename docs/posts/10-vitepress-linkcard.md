@@ -13,13 +13,13 @@ next: false
 tags:
   - post2025
   - webdev
-  - typescript
+  - jsts
 ---
 
 # VitePressでリンクカードを貼る
 
 [<Badge type="tag" text="Web開発" />](../tags/webdev)
-[<Badge type="tag" text="TypeScript" />](../tags/typescript)
+[<Badge type="tag" text="JS/TS" />](../tags/jsts)
 
 ## はじめに
 
