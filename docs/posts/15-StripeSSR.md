@@ -57,7 +57,7 @@ tags:
 
 ## 環境
 
-- Netlifyの静的ホスティングサービスにサーバーサイドレンダリングなサイトをデプロイしている[^2]
+- Netlifyの静的ホスティングサービスに[^2]、サーバーサイドレンダリングなサイトをGitHub経由でデプロイしている
 
 ## 構想
 
@@ -69,29 +69,29 @@ tags:
 
 #### 送信先を追加する
 
-Stripeのダッシュボードから「設定」「Payments」と進んで、ページの一番下の「次のステップ」にある「Webhookを設定」クリックします。するとワークベンチとやらが下からニュッと現れるので、「＋送信先を追加する」して以下のように設定します。
+Stripeのダッシュボードから「設定」「Payments」と進んで、ページの一番下の「次のステップ」にある「Webhookを設定」クリックします。するとワークベンチとやらが下からニュッと現れるので、「＋送信先を追加する」をクリックして以下のように設定します。
 
-| 設定項目             | 値                                                      |
+| 項目                 | 値                                                      |
 | -------------------- | ------------------------------------------------------- |
 | イベントのリッスン先 | 「お客様のアカウント」                                  |
 | APIバージョン        | （デフォルト）                                          |
 | イベント             | `checkout.session.completed`                            |
 | 送信先のタイプ       | 「Webhookエンドポイント」[^4]                           |
-| 送信先名             | （任意に決めてOK）                                      |
+| 送信先名             | （任意に決める）                                        |
 | エンドポイントURL    | `https://example.com/.netlify/functions/stripe-webhook` |
 
 #### 署名シークレット
 
 ここで「署名シークレット」なる`whsec_***...`みたいな秘密鍵が発行されるので、手元に控えておきます。
 
-#### APIキーの発行
+### APIキーの発行
 
 ダッシュボードに戻って、「開発者」「APIキー」「APIキーの管理」と進んで「制限付きのキー」を発行します。このとき権限は以下のように設定します。
 
-| 設定項目                                    | 値                                                      |
+| 項目                                        | 値                                                      |
 | ------------------------------------------- | ------------------------------------------------------- |
 | このAPIキーの使用方法                       | 「このキーを別のウェブサイトに提供」                    |
-| 名前                                        | （任意に決めてOK）                                      |
+| 名前                                        | （任意に決める）                                        |
 | URL                                         | `https://example.com/.netlify/functions/stripe-webhook` |
 | このキーに対する権限を<br/>カスタマイズする | ☑                                                       |
 
@@ -103,29 +103,63 @@ Stripeのダッシュボードから「設定」「Payments」と進んで、ペ
 
 ## Netlify Functions
 
-### 環境変数の登録
+### サーバーレス関数
 
-#### GitHub PAT
-
-プロジェクトの「Environment Variables」に以下を登録します。
-
-| 変数名                  | 中身                                                            |
-| ----------------------- | --------------------------------------------------------------- |
-| `GITHUB_TOKEN`          | 当該リポジトリのActionsを読み書きできるPersonal access token    |
-| `STRIPE_WEBHOOK_SECRET` | [さっき](#署名シークレット)の署名シークレット（`whsec_***...`） |
-| `STRIPE_KEY_SECRET`     | [さっき](#apiキーの発行)のAPIキー                               |
+GitHubリポジトリの`netlify/functions/`ディレクトリに以下のファイルを入れておきます。心得のある人はPythonやC#で書いても良いみたいです。
 
 ::: code-group
 <<< @/snippets/2026/15-stripe-webhook.js{javascript} [netlify/functions/stripe-webhook.js]
 :::
 
+コメントアウトから察せられるかと思いますが、Stripe上で決済が完了したとき
+
+- 売れた商品の情報
+- 購入者のメールアドレス
+
+といった情報を受け取ってGitHub Actionsに投げる、中継所のような役割を担っています。
+
+### GitHub PAT
+
+GitHubのアカウントメニューから「Settings」「Developer settings」と進んで、Personal access token: PATを発行します。
+
+| 項目              | 値                                             |
+| ----------------- | ---------------------------------------------- |
+| 種類              | Fine-grained tokens                            |
+| Token name        | （任意に決める）                               |
+| ...               | ...                                            |
+| Repository access | Only select repository（当該リポジトリを選択） |
+| Permissions       | ☑ Actions (Read and write)                     |
+
+### 環境変数の登録
+
+Netlifyにログインして、プロジェクトの「Environment Variables」に諸々の秘密鍵を登録します。
+
+| 変数名                  | 中身                                          |
+| ----------------------- | --------------------------------------------- |
+| `GITHUB_TOKEN`          | [先ほど](#github-pat)のPAT                    |
+| `STRIPE_WEBHOOK_SECRET` | [先ほど](#署名シークレット)の署名シークレット |
+| `STRIPE_API_SECRET`     | [先ほど](#apiキーの発行)のAPIキー             |
+
 ## GitHub Actions
 
-## 購入者にメールを自動送信する
+ここまでで全部のサービスの連携が完了しました。あとはGitHub Actionsを`repository_dispatch`で発火させて、好きな動作をさせるだけです。
 
-おまけ
+一例として、1x telescopeでは
+
+- 在庫数の更新
+- 購入者へのメール送信
+
+をPythonスクリプトで実行しています。
+
+::: code-group
+<<< @/snippets/2026/15-stripe-webhook.yml{yaml} [.github/workflows/stripe-webhook.yml]
+<<< @/snippets/2026/15-update_stock.py{python} [update_stock.py]
+<<< @/snippets/2026/15-send_email.py{python} [send_email.py]
+:::
 
 ## おわりに
+
+説明することが多くて随分と駆け足になってしまいましたが、何らかのお役に立てば幸いです。
 
 ## 参考
 

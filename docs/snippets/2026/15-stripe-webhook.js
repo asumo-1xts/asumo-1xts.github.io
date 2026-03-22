@@ -1,6 +1,6 @@
-const stripe = require('stripe')(process.env.STRIPE_KEY_SECRET)
-const GITHUB_OWNER = 'your-github-username' // GitHubのユーザー名を指定
-const GITHUB_REPO = 'your-repo-name' // GitHubの当該リポジトリ名を指定
+const stripe = require('stripe')(process.env.STRIPE_API_SECRET)
+const GITHUB_OWNER = 'your-github-username' // GitHubのユーザー名
+const GITHUB_REPO = 'your-repo-name' // GitHubの当該リポジトリ名
 
 exports.handler = async (event) => {
   // POSTメソッド以外は拒否
@@ -29,7 +29,7 @@ exports.handler = async (event) => {
     const session = stripeEvent.data.object
 
     try {
-      // STRIPE_KEY_SECRETの権限で、決済時の情報を取得
+      // STRIPE_API_SECRETの権限で、決済時の情報を取得
       const lineItems = await stripe.checkout.sessions.listLineItems(session.id)
 
       const itemsPurchased = lineItems.data.map((item) => ({
