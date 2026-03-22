@@ -72,9 +72,9 @@ Debian 13からaptでインストールした場合は`/usr/lib/python3/dist-pac
 ### スクリプト
 
 ::: code-group
-<<< @/snippets/2026/13-main.py{python} [main.py ~vscode-icons:file-type-python~]
-<<< @/snippets/2026/13-board_process.py{python} [board_process.py ~vscode-icons:file-type-python~]
-<<< @/snippets/2026/13-external_tools.py{python} [external_tools.py ~vscode-icons:file-type-python~]
+<<< @/snippets/2026/13-main.py{python} [main.py]
+<<< @/snippets/2026/13-board_process.py{python} [board_process.py]
+<<< @/snippets/2026/13-external_tools.py{python} [external_tools.py]
 :::
 
 [ワークフロー](#ワークフロー)のうち2~6を`board_process.py`の関数が、また7と8を`external_tools.py`の関数がそれぞれ担っています。
