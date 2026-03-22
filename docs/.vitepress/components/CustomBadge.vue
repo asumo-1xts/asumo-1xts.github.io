@@ -23,7 +23,7 @@ withDefaults(defineProps<Props>(), {
   padding: 0 10px;
   line-height: 22px;
   font-size: 12px;
-  font-weight: 500;
+  font-family: 'myCodeFont', monospace;
   white-space: nowrap;
   transform: translateY(-2px);
 }
