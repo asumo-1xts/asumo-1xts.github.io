@@ -5,7 +5,7 @@ emoji: 🦓
 title: Stripeで簡易なECサイトをサーバーレスに実装する
 
 date: 2026-03-22
-permalink: 'https://asumoranda.com/posts/12-Oxc-VScode.html'
+permalink: 'https://asumoranda.com/posts/Stripe-webhook.html'
 
 prev: false
 next: false
