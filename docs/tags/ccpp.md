@@ -18,7 +18,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# C/C++ (<span class="text-base"><PostCounter tag="ccpp" /></span>)
+# C / C++ (<span class="text-base"><PostCounter tag="ccpp" /></span>)
 
 <TaggedPostList tag="ccpp" />
 

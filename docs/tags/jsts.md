@@ -18,7 +18,7 @@ lastUpdated: false
     import PostCounter      from "../.vitepress/components/PostCounter.vue"
 </script>
 
-# JS/TS (<span class="text-base"><PostCounter tag="jsts" /></span>)
+# JavaScript / TypeScript (<span class="text-base"><PostCounter tag="jsts" /></span>)
 
 <TaggedPostList tag="jsts" />
 
