@@ -17,7 +17,6 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-          ssh-key: ${{ secrets.DEPLOY_KEY }}
 
       - name: Update md files
         env:
