@@ -3,7 +3,7 @@ layout: doc
 
 title: Python
 
-order: 33
+order: 35
 permalink: 'https://asumoranda.com/tags/python.html'
 
 prev: false

@@ -3,7 +3,7 @@ layout: doc
 
 title: JS/TS
 
-order: 35
+order: 33
 permalink: 'https://asumoranda.com/tags/jsts.html'
 
 prev: false
