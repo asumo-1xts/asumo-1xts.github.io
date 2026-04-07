@@ -1,5 +1,2 @@
 docs/.vitepress/**/* linguist-vendored=false
 docs/.vitepress/**/* linguist-documentation=false
-
-docs/snippets/**/* linguist-vendored=false
-docs/snippets/**/* linguist-documentation=false
