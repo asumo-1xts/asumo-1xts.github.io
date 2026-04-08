@@ -1337,7 +1337,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/markdown-it@npm:^14.1.2":
+"@types/markdown-it-footnote@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "@types/markdown-it-footnote@npm:3.0.4"
+  dependencies:
+    "@types/markdown-it": "npm:*"
+  checksum: 10c0/7e7d0f339cc868c4d94299efc4c60a432ac216b92270298a1e61cd0c77e80221df60ab461dce3b44f3fead01891a4ab1cd4bc61f37d7cb59044205631ee35de1
+  languageName: node
+  linkType: hard
+
+"@types/markdown-it@npm:*, @types/markdown-it@npm:^14.1.2":
   version: 14.1.2
   resolution: "@types/markdown-it@npm:14.1.2"
   dependencies:
@@ -1859,6 +1868,7 @@ __metadata:
     "@nolebase/vitepress-plugin-enhanced-mark": "npm:^2.18.2"
     "@nolebase/vitepress-plugin-highlight-targeted-heading": "npm:^2.18.2"
     "@nolebase/vitepress-plugin-thumbnail-hash": "npm:^2.18.2"
+    "@types/markdown-it-footnote": "npm:^3.0.4"
     markdown-it-footnote: "npm:^4.0.0"
     markdown-it-mathjax3: "npm:^4.0.0"
     moment: "npm:^2.30.1"

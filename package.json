@@ -12,6 +12,7 @@
     "@nolebase/vitepress-plugin-enhanced-mark": "^2.18.2",
     "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.18.2",
     "@nolebase/vitepress-plugin-thumbnail-hash": "^2.18.2",
+    "@types/markdown-it-footnote": "^3.0.4",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-mathjax3": "^4.0.0",
     "moment": "^2.30.1",
