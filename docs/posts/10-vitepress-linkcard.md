@@ -21,11 +21,11 @@ tags:
 [<Badge type="tag" text="Web開発" />](../tags/webdev)
 [<Badge type="tag" text="JS/TS" />](../tags/jsts)
 
-## はじめに
-
 ::: info
 二段階認証が上手くいかなくなってnpmjsから締め出されてしまい、`vitepress-linkcard`を更新できなくなりました。仕方なく`vitepress-linkcards`に移行し、それに合わせて本記事も更新しました。
 :::
+
+## はじめに
 
 VitePress用のリンクカード生成プラグインをリリースしたので簡単に紹介します。
 
