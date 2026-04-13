@@ -32,8 +32,7 @@ hidden: true
 
 ## 解決
 
-リポジトリを見に行ったら同じ状況の人が[issueを立てていて](https://github.com/ntdevlabs/tiny11builder/issues/467 'reinstall onedrive #467
-')、コントリビュータの方が解決策を提示してくれていました。
+リポジトリを見に行ったら同じ状況の人が[issueを立てていて](https://github.com/ntdevlabs/tiny11builder/issues/467 'reinstall onedrive #467')、コントリビュータの方が解決策を提示してくれていました。
 
 > インストールしたあと、忘れずに再び有効化してください：
 >

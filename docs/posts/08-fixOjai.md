@@ -41,7 +41,7 @@ tags:
 
 単純に、問題の端子部品を交換します。
 
-調べてみると稀によくある症状らしく、各種SNSで同様の症状が報告されていました。その中でも[こちらのインスタグラムの投稿](https://www.instagram.com/reel/DGAkHUixYnT/)で代替部品が明記されていたので調達。
+調べてみると稀によくある症状らしく、各種SNSで同様の症状が報告されていました。その中でもこちらの[インスタグラムの投稿](https://www.instagram.com/reel/DGAkHUixYnT/ 'aoth1nさんによる投稿')で代替部品が明記されていたので調達。
 
 [マルツオンライン](@:https://www.marutsu.co.jp/pc/i/35627/)
 
