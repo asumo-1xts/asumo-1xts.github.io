@@ -12,12 +12,12 @@
   "https://github.com/g200kg/kicad-lib-arduino": {
     "title": "GitHub - g200kg/kicad-lib-arduino",
     "description": "Contribute to g200kg/kicad-lib-arduino development by creating an account on GitHub.",
-    "logo": "https://opengraph.githubassets.com/5b71bb62b86e46ed663af774d5d5d2ebf2465a498a7e419e65a6da35789cfdd1/g200kg/kicad-lib-arduino"
+    "logo": "https://opengraph.githubassets.com/4279dbb504ecc668e246997cfd3f9ec069dcfd9ecb968210cb76d81718f227ee/g200kg/kicad-lib-arduino"
   },
   "https://github.com/Alarm-Siren/arduino-kicad-library": {
     "title": "GitHub - Alarm-Siren/arduino-kicad-library: KiCad Symbol &amp; Footprint Library for Arduino Modules (Shields, Sockets and Tiles)",
     "description": "KiCad Symbol &amp; Footprint Library for Arduino Modules (Shields, Sockets and Tiles) - Alarm-Siren/arduino-kicad-library",
-    "logo": "https://opengraph.githubassets.com/49005fc4da7c8c13456d055af3a07aa88d5783273a20397fd1d0f5955e2662e3/Alarm-Siren/arduino-kicad-library"
+    "logo": "https://opengraph.githubassets.com/f5d64a9d679d73c5ea38721feecadc3995f0dcbd09611123dc110b661ffe5c57/Alarm-Siren/arduino-kicad-library"
   },
   "https://www.marutsu.co.jp/pc/i/35627/": {
     "title": "DCジャック EIAJ5 基板取付け用(13.5～18V) M05-532A0 マル信無線電機製｜電子部品・半導体通販のマルツ",
@@ -25,9 +25,9 @@
     "logo": "https://www.marutsu.co.jp/contents/shop/marutsu/img/goods/020/35627/35627_2.jpg"
   },
   "https://github.com/asumo-1xts/vitepress-linkcards": {
-    "title": "GitHub - asumo-1xts/vitepress-linkcards: A VitePress plugin to generate a pretty linkcard with OGP.",
-    "description": "A VitePress plugin to generate a pretty linkcard with OGP. - asumo-1xts/vitepress-linkcards",
-    "logo": "https://opengraph.githubassets.com/4226e8ab5b8fda4a9d9cf43b1cc9be8ac751aadbc35547dd7543e2a36058defe/asumo-1xts/vitepress-linkcards"
+    "title": "GitHub - asumo-1xts/vitepress-linkcards: A VitePress plugin to generate pretty linkcards with OGP.",
+    "description": "A VitePress plugin to generate pretty linkcards with OGP. - asumo-1xts/vitepress-linkcards",
+    "logo": "https://opengraph.githubassets.com/55c1e46cdc70688ea8db6833de5eece568825194020b61f4156485a6817842f3/asumo-1xts/vitepress-linkcards"
   },
   "https://qiita.com/hcrane/items/7f612685958be8cc2b03": {
     "title": "Netlify Functions を使って最速でサーバーを作る - Qiita",
@@ -48,10 +48,5 @@
     "title": "自作キーボード設計ガイド Vol1 設計入門編 - 自キ温泉街販売所 - BOOTH",
     "description": "自作キーボードの設計入門本です。 表紙にもなっている分割型のキーボードであるGuide68というキーボードの設計を例にし、方針の決定から実際の設計、ファームウェアの作成までを丁寧に解説しています。 また、手順に直接関係ありませんが、キーボードの構造やファームウェアの種類、果ては自動配線ツールの使い方までも解説しており、自作キーボード設計を趣味として続けるために必要十分な情報を記載しています。 推奨ハッシュタグ：#自キ設計ガイド",
     "logo": "https://booth.pximg.net/c/1200x630_a3_g5_bffffff/1d33594d-0c5f-4f93-baf5-2e89e0d99afc/i/4410329/f600c9aa-bf1d-43d1-b739-6909a65751f9_base_resized.jpg"
-  },
-  "https://salicylic-acid3.booth.pm/items/4982088": {
-    "title": "自作キーボード設計ガイド Vol2 ケース設計編 - 自キ温泉街販売所 - BOOTH",
-    "description": "自作キーボードのケース設計入門本です。 キーボードのケース設計というニッチな分野を対象としていますが、板材を積み重ねる方式と本格的に3D CADを使ってケースを作る方式について、各種ツールの操作方法から考え方まで解説しています。 また、表面処理方法や業者の選定方法など、ケース製造における筆者の経験や工夫なども解説しているので、初心者から上級者まで役に立つ本となっています。 推奨ハッシュタグ：#自キ設計ガイド",
-    "logo": "https://booth.pximg.net/c/1200x630_a3_g5_bffffff/1d33594d-0c5f-4f93-baf5-2e89e0d99afc/i/4982088/8586e5c0-41c7-48cc-8d30-951a9de6efa5_base_resized.jpg"
   }
 }
