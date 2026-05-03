@@ -48,5 +48,10 @@
     "title": "自作キーボード設計ガイド Vol1 設計入門編 - 自キ温泉街販売所 - BOOTH",
     "description": "自作キーボードの設計入門本です。 表紙にもなっている分割型のキーボードであるGuide68というキーボードの設計を例にし、方針の決定から実際の設計、ファームウェアの作成までを丁寧に解説しています。 また、手順に直接関係ありませんが、キーボードの構造やファームウェアの種類、果ては自動配線ツールの使い方までも解説しており、自作キーボード設計を趣味として続けるために必要十分な情報を記載しています。 推奨ハッシュタグ：#自キ設計ガイド",
     "logo": "https://booth.pximg.net/c/1200x630_a3_g5_bffffff/1d33594d-0c5f-4f93-baf5-2e89e0d99afc/i/4410329/f600c9aa-bf1d-43d1-b739-6909a65751f9_base_resized.jpg"
+  },
+  "https://github.com/koktoh/BrownSugar_KBD_KiCad_Library": {
+    "title": "GitHub - koktoh/BrownSugar_KBD_KiCad_Library",
+    "description": "Contribute to koktoh/BrownSugar_KBD_KiCad_Library development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/44f1d4538ae532359d4cdfaa4c86e9e050ed44f83c05815ae7ce3a23e33c5a66/koktoh/BrownSugar_KBD_KiCad_Library"
   }
 }
