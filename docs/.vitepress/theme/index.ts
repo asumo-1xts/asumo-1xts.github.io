@@ -10,6 +10,7 @@ import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue'
 import { ImageGroup } from '@miletorix/vitepress-image-group'
 import '@miletorix/vitepress-image-group/style.css'
 
+import CustomFeature from '../components/CustomFeature.vue'
 import CustomBadge from '../components/CustomBadge.vue'
 import Custom404 from './404.vue'
 
@@ -38,6 +39,7 @@ const CustomTheme: ThemeConfig = {
   enhanceApp: (ctx) => {
     ctx.app.component('vImageViewer', vImageViewer)
     ctx.app.component('ImageGroup', ImageGroup)
+    ctx.app.component('CustomFeature', CustomFeature)
     ctx.app.component('CustomBadge', CustomBadge)
     ctx.app.component('NolebaseUnlazyImg', NolebaseUnlazyImg)
   },
