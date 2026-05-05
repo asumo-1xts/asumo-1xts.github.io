@@ -32,13 +32,12 @@ lastUpdated: false
 
 浜松市で会社員をやっています。
 
-| SNS等                                    | `ID`                             |
-| ---------------------------------------- | -------------------------------- |
-| Email                                    | `1xtelescope@gmail.com`          |
-| Discord                                  | `@asumo_1xts` お気軽にどうぞ     |
-| [X](https://x.com/asumo_1xts)            | `@asumo_1xts` DMは気付かないかも |
-| [mixi2](https://mixi.social/@asumo_1xts) | `@asumo_1xts` 実質的なサブ垢     |
-| [GitHub](https://github.com/asumo-1xts)  | `@asumo-1xts` ハイフンにご注意！ |
+| SNS等                                   | `ID`                             |
+| --------------------------------------- | -------------------------------- |
+| Email                                   | `1xtelescope@gmail.com`          |
+| Discord                                 | `@asumo_1xts` お気軽にどうぞ     |
+| [X](https://x.com/asumo_1xts)           | `@asumo_1xts` DMは気付かないかも |
+| [GitHub](https://github.com/asumo-1xts) | `@asumo-1xts` ハイフンにご注意！ |
 
 ::: details さらなる自己開示
 
