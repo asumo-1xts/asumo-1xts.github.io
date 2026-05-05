@@ -199,7 +199,7 @@ const normalizeBadge = (b: string | Badge): Badge =>
 }
 .icon {
   flex-shrink: 0;
-  font-size: x-large;
+  font-size: xx-large;
   line-height: 1;
 }
 .content {

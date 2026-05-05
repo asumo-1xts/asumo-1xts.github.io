@@ -2,7 +2,7 @@
 layout: doc
 
 emoji: 🦓
-title: Stripeで簡易なECサイトを実装する
+title: Stripeで簡易なECサイトを実装
 
 date: 2026-03-22
 permalink: 'https://asumoranda.com/posts/15-Stripe-webhook.html'
@@ -17,7 +17,7 @@ tags:
   - jsts
 ---
 
-# StripeでECサイトを実装する
+# Stripeで簡易なECサイトを実装
 
 [<Badge type="tag" text="Web開発" />](../tags/webdev)
 [<Badge type="tag" text="JS/TS" />](../tags/jsts)
