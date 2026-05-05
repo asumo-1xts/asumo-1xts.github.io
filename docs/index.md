@@ -33,7 +33,7 @@ const tagMap: Record<string, string> = {
   otherdiy: 'その他の工作',
   pic: 'PIC',
   python: 'Python',
-  trouble: 'トラブルシューティング',
+  trouble: 'トラブルシュート',
   webdev: 'Web開発',
 }
 
@@ -51,5 +51,11 @@ const features = posts
     date: p.frontmatter.date
   }))
 </script>
+
+::: info
+現在お伝えしたいことはありません。
+:::
+
+---
 
 <CustomFeature :features="features" />
