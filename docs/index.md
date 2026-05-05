@@ -13,60 +13,43 @@ hero:
 permalink: 'https://asumoranda.com/'
 ---
 
-<CustomFeature :features="[
-  { 
-    icon: '🕰️', 
-    title: 'KiCadで偽タイムラプスを生成', 
-    link: '/posts/13-KiCad-timelapse',
-    badges: [
-      { text: 'KiCad', link: '/tags/kicad' },
-      { text: 'Python', link: '/tags/python' }
-    ],
-  },
-    { 
-    icon: '🎴', 
-    title: 'VitePressでリンクカードを貼る', 
-    link: './posts/10-vitepress-linkcard',
-    badges: [
-      { text: 'Web開発', link: '/tags/webdev' },
-      { text: 'JS/TS', link: '/tags/jsts' }
-    ],
-  },
-    { 
-    icon: '🔨', 
-    title: 'DOD FX96のトレイルバイパス化', 
-    link: './posts/05-trailMod',
-    badges: [
-      { text: 'エフェクター改造', link: '/tags/modpedals' },
-      { text: 'PIC', link: '/tags/pic' },
-      { text: 'C/C++', link: '/tags/ccpp' },
-    ],
-  },
-    { 
-    icon: '📚', 
-    title: '2025年に読んだものとその感想', 
-    link: '/posts/04-books2025',
-    badges: [
-      { text: '雑記', link: '/tags/justnote' },
-    ],
-  },
-    { 
-    icon: '📇', 
-    title: 'BibLaTeXで欧文と和文を混ぜる', 
-    link: '/posts/03-BibLaTeXJP',
-    badges: [
-      { text: 'LaTeX', link: '/tags/latex' }
-    ],
-  },
-  { 
-    icon: '🎛️', 
-    title: '理想のMIDIコントローラを自作', 
-    link: '/posts/02-HeartLand',
-    badges: [
-      { text: 'その他の工作', link: '/tags/otherdiy' },
-      { text: 'MIDI', link: '/tags/midi' },
-      { text: 'Arduino', link: '/tags/arduino' },
-      { text: 'C/C++', link: '/tags/ccpp' }
-    ],
-  },
-]" />
+<script setup lang="ts">
+import { data as posts } from '/.vitepress/posts.data'
+import CustomFeature from '/.vitepress/components/CustomFeature.vue'
+
+const tagMap: Record<string, string> = {
+  appdev: 'アプリ開発',
+  arduino: 'Arduino',
+  ccpp: 'C/C++',
+  environment: '環境構築',
+  fixpedals: 'エフェクター修理',
+  jsts: 'JS/TS',
+  justnote: '雑記',
+  kicad: 'KiCad',
+  latex: 'LaTeX',
+  makepedals: 'エフェクター自作',
+  midi: 'MIDI',
+  modpedals: 'エフェクター改造',
+  otherdiy: 'その他の工作',
+  pic: 'PIC',
+  python: 'Python',
+  trouble: 'トラブルシューティング',
+  webdev: 'Web開発',
+}
+
+const features = posts
+  .map(p => ({
+    icon: p.frontmatter.emoji,
+    title: p.frontmatter.title,
+    link: p.url,
+    badges: (p.frontmatter.tags)
+      .filter((t: string) => !t.startsWith('post'))
+      .map((t: string) => ({
+        text: tagMap[t] || t,
+        link: `/tags/${t}`
+      })),
+    date: p.frontmatter.date
+  }))
+</script>
+
+<CustomFeature :features="features" />

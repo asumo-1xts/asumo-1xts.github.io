@@ -13,6 +13,7 @@ interface Feature {
   badges?: (string | Badge)[]
   target?: string
   rel?: string
+  date: string
 }
 
 const props = defineProps<{
@@ -124,6 +125,11 @@ const normalizeBadge = (b: string | Badge): Badge =>
                   </template>
                 </div>
               </div>
+              <div class="date-line">
+                <span class="date">{{
+                  feature.date?.replace(/T.*/, '') || feature.date
+                }}</span>
+              </div>
             </div>
           </div>
         </div>
@@ -233,7 +239,7 @@ const normalizeBadge = (b: string | Badge): Badge =>
   position: relative;
   z-index: 2;
   pointer-events: none;
-  min-height: 60px;
+  min-height: 64px;
 }
 .badge-list {
   margin-top: 8px;
@@ -247,5 +253,14 @@ const normalizeBadge = (b: string | Badge): Badge =>
 }
 .VPBadge.has-link {
   pointer-events: auto;
+}
+
+/* Date */
+.date-line {
+  width: 100%;
+  text-align: right;
+  margin: 0 0.33rem 0 0 !important;
+  font-size: small;
+  color: var(--vp-c-text-2);
 }
 </style>
