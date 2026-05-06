@@ -5,7 +5,7 @@ emoji: 🎴
 title: VitePressでリンクカードを貼る
 
 date: 2025-11-06
-permalink: 'https://asumoranda.com/posts/10-vitepress-linkcard.html'
+permalink: 'https://asumoranda.com/posts/10-vitepress-linkcards.html'
 
 prev: false
 next: false
