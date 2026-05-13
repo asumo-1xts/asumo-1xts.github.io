@@ -10,31 +10,52 @@ hero:
     src: cover01.webp
     alt: aSumoranda
 
-features:
-  - icon: 🕰️
-    title: KiCadで偽タイムラプスを生成
-    details: KiCad | Python
-    link: ./posts/13-KiCad-timelapse
-  - icon: 🎴
-    title: VitePressでリンクカードを貼る
-    details: Web開発 | TypeScript
-    link: ./posts/10-vitepress-linkcard
-  - icon: 🔨
-    title: DOD FX96のトレイルバイパス化
-    details: エフェクター改造 | PIC | C/C++
-    link: ./posts/05-trailMod
-  - icon: 📚
-    title: 2025年に読んだものとその感想
-    details: 雑記
-    link: ./posts/04-books2025
-  - icon: 📇
-    title: BibLaTeXで欧文と和文を混ぜる
-    details: LaTeX
-    link: ./posts/03-BibLaTeXJP
-  - icon: 🎛️
-    title: 理想のMIDIコントローラを自作
-    details: その他の工作 | MIDI | Arduino | C/C++
-    link: ./posts/02-HeartLand
-
 permalink: 'https://asumoranda.com/'
 ---
+
+<script setup lang="ts">
+import { data as posts } from '/.vitepress/posts.data'
+import CustomFeature from '/.vitepress/components/CustomFeature.vue'
+
+const tagMap: Record<string, string> = {
+  appdev: 'アプリ開発',
+  arduino: 'Arduino',
+  ccpp: 'C/C++',
+  environment: '環境構築',
+  fixpedals: 'エフェクター修理',
+  jsts: 'JS/TS',
+  justnote: '雑記',
+  kicad: 'KiCad',
+  latex: 'LaTeX',
+  makepedals: 'エフェクター自作',
+  midi: 'MIDI',
+  modpedals: 'エフェクター改造',
+  otherdiy: 'その他の工作',
+  pic: 'PIC',
+  python: 'Python',
+  trouble: 'トラブルシュート',
+  webdev: 'Web開発',
+}
+
+const features = posts
+  .map(p => ({
+    icon: p.frontmatter.emoji,
+    title: p.frontmatter.title,
+    link: p.url,
+    badges: (p.frontmatter.tags)
+      .filter((t: string) => !t.startsWith('post'))
+      .map((t: string) => ({
+        text: tagMap[t] || t,
+        link: `/tags/${t}`
+      })),
+    date: p.frontmatter.date
+  }))
+</script>
+
+::: info
+急いでお伝えしたいことは特にありません。
+:::
+
+---
+
+<CustomFeature :features="features" />
