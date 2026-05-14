@@ -114,3 +114,7 @@ python3 main.py B_Cu awesome.kicad_pcb awesome_timelapse
 無事にMP4動画とGIF画像が出力されたでしょうか？
 
 そのままだと空白部分が大きすぎるのでクロップしたいところですが、GIF画像をアニメーションのままクロップする方法は意外と限られていて少し不便です。私は[EZgif](https://ezgif.com/ 'EZgif')を利用しました。
+
+<br/>
+
+---
