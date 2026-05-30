@@ -24,19 +24,7 @@ uint8_t enc_multi = 5;      //!< 汎用エンコーダの係数
 uint8_t util01 = 2;  //!< 余りその1
 uint8_t util02 = 3;  //!< 余りその2
 
-CCAbsoluteEncoder enc[] = {
-  { {26, 28}, {3, Channel::createChannel(ch[0])}, BPM_multi },  // enc01
-  { {29, 31}, {4, Channel::createChannel(ch[0])}, enc_multi },  // enc02
-  { {32, 34}, {5, Channel::createChannel(ch[0])}, enc_multi },  // enc03
-  { {35, 37}, {6, Channel::createChannel(ch[0])}, enc_multi },  // enc04
-};
-
 CCButton sw[] = {
-  { 27, {7, Channel::createChannel(ch[0])} },   // enc_sw01
-  { 30, {8, Channel::createChannel(ch[0])} },   // enc_sw02
-  { 33, {9, Channel::createChannel(ch[0])} },   // enc_sw03
-  { 36, {10, Channel::createChannel(ch[0])} },  // enc_sw04
-
   { 4, {11, Channel::createChannel(ch[0])} },   // ary01
   { 5, {12, Channel::createChannel(ch[0])} },   // ary02
   { 6, {13, Channel::createChannel(ch[0])} },   // ary03

@@ -28,39 +28,40 @@ uint8_t maxPWM = 255;       //!< LED最明値
 uint8_t LEDpin[2] = {3, 5};  //!< indicator
 
 CCButton sw[] = {
-    { 10, {1, Channel::createChannel(ch[1])} },  // Solo01
-    { 14, {2, Channel::createChannel(ch[1])} },  // Solo02
-    { 15, {1, Channel::createChannel(ch[2])} },  // Solo03
-    { 16, {2, Channel::createChannel(ch[2])} },  // Solo04
+    {10, {1, Channel::createChannel(ch[1])}}, // Solo01
+    {14, {2, Channel::createChannel(ch[1])}}, // Solo02
+    {15, {1, Channel::createChannel(ch[2])}}, // Solo03
+    {16, {2, Channel::createChannel(ch[2])}}, // Solo04
+};
+
+CCPotentiometer fader[] = {
+    {A0, {3, Channel::createChannel(ch[1])}}, // Vol01
+    {A1, {4, Channel::createChannel(ch[1])}}, // Vol02
+    {A2, {3, Channel::createChannel(ch[2])}}, // Vol03
+    {A3, {4, Channel::createChannel(ch[2])}}, // Vol04
 };
 
 CCPotentiometer pot[] = {
-    { A8, {1, Channel::createChannel(ch[0])} },  // A x B
-    { A9, {2, Channel::createChannel(ch[0])} },  // Master
-    { A0, {3, Channel::createChannel(ch[1])} },  // Vol01
-    { A1, {4, Channel::createChannel(ch[1])} },  // Vol02
-    { A6, {5, Channel::createChannel(ch[1])} },  // FX_A
-    { A2, {3, Channel::createChannel(ch[2])} },  // Vol03
-    { A3, {4, Channel::createChannel(ch[2])} },  // Vol04
-    { A7, {5, Channel::createChannel(ch[2])} },  // FX_B
+    {A8, {1, Channel::createChannel(ch[0])}}, // A x B
+    {A9, {2, Channel::createChannel(ch[0])}}, // Master
+    {A6, {5, Channel::createChannel(ch[1])}}, // FX_A
+    {A7, {5, Channel::createChannel(ch[2])}}, // FX_B
 };
 
-//! @brief setup関数
-void setup() {
-  Control_Surface | pipes | midi_usb;
-  Control_Surface | pipes | midi_ser;
+/**
+ * @brief   可変抵抗をLive上で対数的にマッピングする関数
+ * @details Ableton Liveの各トラックの縦フェーダーに適用
+ * @param   raw 可変抵抗から読み取った値
+ */
+analog_t map2log(analog_t raw) {
+  raw = constrain(raw, minimumValue, maximumValue);
+  float x = (float)(raw - minimumValue) / (maximumValue - minimumValue);
+  float p = 1.5f; // y=x^pのp。大きくすると終端が急峻になる
 
-  midi_ser | pipes | midi_usb;  // Manually route Serial to USB / USB to Serial
-  MIDI_Interface::beginAll();   // Initialize the MIDI interfaces
+  float x_calibrated = powf(x, p);
 
-  Control_Surface.begin();
-
-  Control_Surface.setMIDIInputCallbacks(nullptr, nullptr, nullptr,
-                                        realTimeMessageCallback);
+  return (analog_t)(x_calibrated * maxRawValue);
 }
-
-//! @brief loop関数
-void loop() { Control_Surface.loop(); }
 
 float BPM = 0;           //!< グローバルBPM
 uint8_t ppqn = 0;        //!< 24 Pulses Per Quarter Note
@@ -93,3 +94,24 @@ bool realTimeMessageCallback(RealTimeMessage rt) {
 
   return true;
 }
+
+//! @brief setup関数
+void setup() {
+  for (auto &p : fader) {
+    p.map(map2log);
+  }
+
+  Control_Surface | pipes | midi_usb;
+  Control_Surface | pipes | midi_ser;
+
+  midi_ser | pipes | midi_usb;  // Manually route Serial to USB / USB to Serial
+  MIDI_Interface::beginAll();   // Initialize the MIDI interfaces
+
+  Control_Surface.begin();
+
+  Control_Surface.setMIDIInputCallbacks(nullptr, nullptr, nullptr,
+                                        realTimeMessageCallback);
+}
+
+//! @brief loop関数
+void loop() { Control_Surface.loop(); }
