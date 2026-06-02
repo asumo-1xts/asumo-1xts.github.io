@@ -1,0 +1,54 @@
+/about.html https://blog.asumo.dev/about.html 301!
+/ https://blog.asumo.dev/ 301!
+/posts.html https://blog.asumo.dev/posts.html 301!
+/tags.html https://blog.asumo.dev/tags.html 301!
+
+/404.html https://blog.asumo.dev/404.html 301!
+
+/posts/01-BPMfromDAWfromdaw.html https://blog.asumo.dev/posts/01-BPMfromDAW.html 301!
+/posts/02-HeartLand.html https://blog.asumo.dev/posts/02-HeartLand.html 301!
+/posts/03-BibLaTeXJP.html https://blog.asumo.dev/posts/03-BibLaTeXJP.html 301!
+/posts/04-books2025.html https://blog.asumo.dev/posts/04-books2025.html 301!
+/posts/05-trailMod.html https://blog.asumo.dev/posts/05-trailMod.html 301!
+/posts/06-MPLAB-VScode.html https://blog.asumo.dev/posts/06-MPLAB-VScode.html 301!
+/posts/08-fixOjai.html https://blog.asumo.dev/posts/08-fixOjai.html 301!
+/posts/09-tiny11-onedrive.html https://blog.asumo.dev/posts/09-tiny11-onedrive.html 301!
+/posts/10-vitepress-linkcards.html https://blog.asumo.dev/posts/10-vitepress-linkcards.html 301!
+/posts/11-setHXstomp.html https://blog.asumo.dev/posts/11-setHXstomp.html 301!
+/posts/12-Oxc-VScode.html https://blog.asumo.dev/posts/12-Oxc-VScode.html 301!
+/posts/13-KiCad-timelapse.html https://blog.asumo.dev/posts/13-KiCad-timelapse.html 301!
+/posts/14-books2026.html https://blog.asumo.dev/posts/14-books2026.html 301!
+/posts/15-Stripe-webhook.html https://blog.asumo.dev/posts/15-Stripe-webhook.html 301!
+
+/posts/01-bpmfromdawfromdaw https://blog.asumo.dev/posts/01-bpmfromdaw.html 301!
+/posts/02-heartland https://blog.asumo.dev/posts/02-heartland.html 301!
+/posts/03-biblatexjp https://blog.asumo.dev/posts/03-biblatexjp.html 301!
+/posts/04-books2025 https://blog.asumo.dev/posts/04-books2025.html 301!
+/posts/05-trailmod https://blog.asumo.dev/posts/05-trailmod.html 301!
+/posts/06-mplab-vscode https://blog.asumo.dev/posts/06-mplab-vscode.html 301!
+/posts/08-fixojai https://blog.asumo.dev/posts/08-fixojai.html 301!
+/posts/09-tiny11-onedrive https://blog.asumo.dev/posts/09-tiny11-onedrive.html 301!
+/posts/10-vitepress-linkcards https://blog.asumo.dev/posts/10-vitepress-linkcards.html 301!
+/posts/11-sethxstomp https://blog.asumo.dev/posts/11-sethxstomp.html 301!
+/posts/12-oxc-vscode https://blog.asumo.dev/posts/12-oxc-vscode.html 301!
+/posts/13-kicad-timelapse https://blog.asumo.dev/posts/13-kicad-timelapse.html 301!
+/posts/14-books2026 https://blog.asumo.dev/posts/14-books2026.html 301!
+/posts/15-stripe-webhook https://blog.asumo.dev/posts/15-stripe-webhook.html 301!
+
+/tags/appdev.html https://blog.asumo.dev/tags/appdev.html 301!
+/tags/arduino.html https://blog.asumo.dev/tags/arduino.html 301!
+/tags/ccpp.html https://blog.asumo.dev/tags/ccpp.html 301!
+/tags/environment.html https://blog.asumo.dev/tags/environment.html 301!
+/tags/fixpedals.html https://blog.asumo.dev/tags/fixpedals.html 301!
+/tags/jsts.html https://blog.asumo.dev/tags/jsts.html 301!
+/tags/justnote.html https://blog.asumo.dev/tags/justnote.html 301!
+/tags/kicad.html https://blog.asumo.dev/tags/kicad.html 301!
+/tags/latex.html https://blog.asumo.dev/tags/latex.html 301!
+/tags/makepedals.html https://blog.asumo.dev/tags/makepedals.html 301!
+/tags/midi.html https://blog.asumo.dev/tags/midi.html 301!
+/tags/modpedals.html https://blog.asumo.dev/tags/modpedals.html 301!
+/tags/otherdiy.html https://blog.asumo.dev/tags/otherdiy.html 301!
+/tags/pic.html https://blog.asumo.dev/tags/pic.html 301!
+/tags/python.html https://blog.asumo.dev/tags/python.html 301!
+/tags/trouble.html https://blog.asumo.dev/tags/trouble.html 301!
+/tags/webdev.html https://blog.asumo.dev/tags/webdev.html 301!

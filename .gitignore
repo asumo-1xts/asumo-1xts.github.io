@@ -13,7 +13,7 @@
 #!.yarn/cache
 .pnp.*
 
-docs/.vitepress/dist
+# docs/.vitepress/dist
 docs/.vitepress/cache
 node_modules/
 
